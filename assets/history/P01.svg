@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img">
+<defs>
+<radialGradient id="vig" cx="50%" cy="45%" r="72%"><stop offset="60%" stop-color="#ffffff" stop-opacity="0"/><stop offset="100%" stop-color="#8a7f63" stop-opacity=".22"/></radialGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f2e5"/><stop offset="1" stop-color="#f2ecdd"/></linearGradient>
+</defs>
+<rect width="1600" height="1200" fill="url(#sky)"/>
+<path d="M120 900 C 420 780 700 860 980 760 C 1200 682 1400 720 1520 660 L1520 1080 L120 1080 Z" fill="#cfd7c6" opacity=".45"/>
+<path d="M60 980 C 380 900 660 960 940 900 C 1180 848 1400 880 1540 840 L1540 1140 L60 1140 Z" fill="#b9c6b0" opacity=".35"/>
+<path d="M 1330,520 L 1128,452 L 918,700 L 762,772 L 476,812 L 292,430 L 486,348" fill="none" stroke="#b08246" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 16"/>
+<path d="M 486,348 C 780,170 1180,196 1330,470" fill="none" stroke="#a2b49a" stroke-width="6" stroke-dasharray="14 12" opacity=".85"/>
+<path d="M 1298,448 L 1334,474 L 1296,494" fill="none" stroke="#a2b49a" stroke-width="6" opacity=".85"/>
+<text x="900" y="164" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="26" fill="#6f8266" text-anchor="middle" letter-spacing="2">1946 复员回杭州</text>
+<circle cx="1330" cy="520" r="18" fill="#f2ecdd" stroke="#b08246" stroke-width="5"/>
+<circle cx="1330" cy="520" r="6" fill="#b08246"/>
+<text x="1330" y="482" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="56" font-weight="700" fill="#3c4438" text-anchor="middle" letter-spacing="3">杭州</text>
+<text x="1330" y="582" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#b08246" text-anchor="middle" letter-spacing="1">1937.11 出发</text>
+<circle cx="1128" cy="452" r="18" fill="#f2ecdd" stroke="#b08246" stroke-width="5"/>
+<circle cx="1128" cy="452" r="6" fill="#b08246"/>
+<text x="1128" y="414" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="56" font-weight="700" fill="#3c4438" text-anchor="middle" letter-spacing="3">建德</text>
+<text x="1128" y="514" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#b08246" text-anchor="middle" letter-spacing="1">1937.11</text>
+<circle cx="918" cy="700" r="18" fill="#f2ecdd" stroke="#b08246" stroke-width="5"/>
+<circle cx="918" cy="700" r="6" fill="#b08246"/>
+<text x="918" y="662" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="56" font-weight="700" fill="#3c4438" text-anchor="middle" letter-spacing="3">吉安</text>
+<text x="918" y="762" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#b08246" text-anchor="middle" letter-spacing="1">1938</text>
+<circle cx="762" cy="772" r="18" fill="#f2ecdd" stroke="#b08246" stroke-width="5"/>
+<circle cx="762" cy="772" r="6" fill="#b08246"/>
+<text x="762" y="734" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="56" font-weight="700" fill="#3c4438" text-anchor="middle" letter-spacing="3">泰和</text>
+<text x="762" y="834" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#b08246" text-anchor="middle" letter-spacing="1">1938</text>
+<circle cx="476" cy="812" r="18" fill="#f2ecdd" stroke="#b08246" stroke-width="5"/>
+<circle cx="476" cy="812" r="6" fill="#b08246"/>
+<text x="476" y="774" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="56" font-weight="700" fill="#3c4438" text-anchor="middle" letter-spacing="3">宜山</text>
+<text x="476" y="874" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#b08246" text-anchor="middle" letter-spacing="1">1939</text>
+<circle cx="292" cy="430" r="18" fill="#f2ecdd" stroke="#b08246" stroke-width="5"/>
+<circle cx="292" cy="430" r="6" fill="#b08246"/>
+<text x="292" y="392" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="56" font-weight="700" fill="#3c4438" text-anchor="middle" letter-spacing="3">遵义</text>
+<text x="292" y="492" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#b08246" text-anchor="middle" letter-spacing="1">1940</text>
+<circle cx="486" cy="348" r="18" fill="#f2ecdd" stroke="#b08246" stroke-width="5"/>
+<circle cx="486" cy="348" r="6" fill="#b08246"/>
+<text x="486" y="310" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="56" font-weight="700" fill="#3c4438" text-anchor="middle" letter-spacing="3">湄潭</text>
+<text x="486" y="410" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#b08246" text-anchor="middle" letter-spacing="1">1940—1946</text>
+<text x="110" y="130" font-family="'Songti SC', 'Source Han Serif SC', 'SimSun', serif" font-size="58" font-weight="700" fill="#3c4438" letter-spacing="6">文军长征</text>
+<text x="112" y="182" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#5d6657" letter-spacing="2">浙江大学 1937—1946 年西迁路线示意</text>
+<rect width="1600" height="1200" fill="url(#vig)"/>
+</svg>

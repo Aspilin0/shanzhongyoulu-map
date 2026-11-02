@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>山中有路 · 浙江大学西迁文化双时空互动地图</title>
+<meta name="description" content="以浙江大学紫金港校区北山西迁文化园为入口的互动地图：沿游步道地砖与六座西迁主题雕塑，重走 1937—1946 年的浙大西迁之路。">
+<meta name="theme-color" content="#f8f5ec">
+<meta property="og:title" content="山中有路 · 浙大西迁文化双时空互动地图">
+<meta property="og:description" content="以今日之景，重走昔日之路。">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23173729'/%3E%3Cpath d='M6 22 L13 12 L18 18 L22 13 L26 22 Z' fill='%23f6e4bf'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/atlas.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a class="brand" href="#/map">山中有路</a>
+    <nav class="nav" id="nav" aria-label="主导航">
+      <a href="#/map" data-route="map">园区地图</a>
+      <a href="#/timeline" data-route="timeline">西迁时间轴</a>
+      <a href="#/finale" data-route="finale">终章</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="view" id="view-home" aria-labelledby="homeTitle">
+    <div class="first-visit">
+      <div class="first-visit__copy">
+        <h1 id="homeTitle">以今日之景，<br>重走昔日之路。</h1>
+        <p>沿北山的林间小径，读一代人带着书本向西走的故事。</p>
+        <button class="btn btn--primary" id="enterMap" type="button">进入地图</button>
+      </div>
+      <img class="first-visit__map" src="assets/map/beishan-map.svg" alt="北山西迁文化园手绘地图" width="1870" height="1540">
+    </div>
+  </section>
+
+  <section class="view" id="view-map" aria-labelledby="mapTitle">
+    <div class="atlas-wrap">
+      <div class="map-shell">
+        <div class="map-head">
+          <h1 id="mapTitle">北山 · 西迁文化园</h1>
+          <div class="map-layers" role="group" aria-label="点位图层">
+            <button type="button" data-layer="all" aria-pressed="true">景点</button>
+            <button type="button" data-layer="chapter" aria-pressed="false">故事</button>
+            <button type="button" data-layer="sculpture" aria-pressed="false">雕塑</button>
+            <button type="button" data-layer="stone" aria-pressed="false">石刻</button>
+          </div>
+        </div>
+        <div class="map-stage">
+          <div class="map-scroll" id="mapScroll" tabindex="0" role="region" aria-label="可缩放和滚动的北山地图">
+            <div class="map-frame" id="mapFrame">
+              <img class="map-frame__img" src="assets/map/beishan-map.svg" alt="按新提供的清晰地图重绘：北部环路、西侧入口、求是巢广场与南侧纪念碑亭，通过自然弯曲的园路连接。" width="1870" height="1540">
+              <div class="poi-layer" id="poiLayer"></div>
+            </div>
+          </div>
+          <div class="map-tools" role="group" aria-label="地图缩放">
+            <button type="button" id="zoomIn" aria-label="放大地图">＋</button>
+            <button type="button" id="zoomOut" aria-label="缩小地图">−</button>
+            <button type="button" id="zoomFit" aria-label="显示完整地图">全图</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================== 时间轴 -->
+  <section class="view" id="view-timeline" aria-labelledby="tlTitle">
+    <div class="wrap section">
+      <h2 class="h2" id="tlTitle">西迁时间轴</h2>
+      <p class="lede">
+        1937 年离开杭州，1946 年复员归来。
+      </p>
+      <div class="tl" id="timeline"></div>
+
+      <div class="section--tight">
+        <hr class="rule" style="margin-bottom:34px">
+        <h3 class="h3">北山与校友林沿革</h3>
+        <div class="tl" id="parkTimeline"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================== 终章 -->
+  <section class="view" id="view-finale" aria-labelledby="fnTitle">
+    <div class="finale">
+      <div class="wrap">
+        <div class="finale__inner" id="finaleBody"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="view" id="view-about" aria-labelledby="abTitle">
+    <div class="wrap section about-reading">
+      <h2 id="abTitle">资料与说明</h2>
+      <p>这张地图以浙江大学紫金港校区北山西迁文化园的纪念景观，连接 1937—1946 年的西迁故事。</p>
+      <h3>地图依据</h3>
+      <p>路网依 2026 年 11 月补充的三张清晰地图重绘；景观点位由此前的现场标注配准转绘。碑亭与求是巢在新图中有明确标识，其余景观及石刻对应仍需实地复核。本图为导览示意，不是测绘成果。</p>
+      <p>画风参考<a href="https://yun.chinasinew.com/mob/html/schoolmap.html" target="_blank" rel="noopener noreferrer">浙江大学常用生活地图</a>。地图几何参考图含 OpenStreetMap 数据，© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap 贡献者</a>。</p>
+      <h3>图像与历史</h3>
+      <p>今日图像为园区实拍；历史画面为依据文献绘制的原创示意图，不能作为历史影像或史料证据使用。各章保留所依据的来源编号。</p>
+      <details><summary>查看章节与雕塑对应</summary><ul class="kv" id="mapTable"></ul></details>
+      <h3>资料来源</h3>
+      <div class="src-table" id="sourceTable"></div>
+      <details class="site-settings"><summary>浏览设置</summary><button class="ghost-btn" id="animToggle" type="button" aria-pressed="true">动画 开</button><button class="ghost-btn" id="resetProgress" type="button">重置进度</button></details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer"><div class="footer__inner"><span id="progressText" aria-live="polite">已探索 0 / 5</span><a href="#/about">资料与说明</a></div></footer>
+
+<!-- ============================================================ 节点卡片 -->
+<div class="dialog" id="nodeDialog" role="dialog" aria-modal="true" aria-labelledby="dlgTitle" hidden>
+  <div class="dialog__scrim" data-close></div>
+  <div class="dialog__panel" role="document">
+    <button class="dialog__close" type="button" data-close aria-label="关闭卡片">✕</button>
+    <div class="card__head">
+      <span class="card__no" id="dlgNo"></span>
+      <h2 class="card__title" id="dlgTitle"></h2>
+      <p class="card__sub" id="dlgSub"></p>
+      <ul class="card__facts" id="dlgFacts"></ul>
+    </div>
+    <div class="card__body" id="dlgBody"></div>
+    <div class="card__nav" id="dlgNav"></div>
+  </div>
+</div>
+
+<script src="js/geometry.js"></script>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
