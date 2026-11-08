@@ -286,8 +286,6 @@
         var row = el('div', 'src-row' + (s.u || s.local ? '' : ' src-row--nolink'));
         row.appendChild(el('span', 'src-row__id', id));
         var title = el('span', 'src-row__title');
-        var badge = el('span', 'badge-lv badge-lv--' + s.lv, s.lv);
-        title.appendChild(badge);
         title.appendChild(document.createTextNode(s.t));
         row.appendChild(title);
         var meta = el('span', 'src-row__meta');

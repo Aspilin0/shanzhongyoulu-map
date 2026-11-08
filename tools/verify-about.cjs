@@ -5,6 +5,10 @@ run('about-return', async ({page,shot,assert}) => {
   await page.getByRole('link',{name:'资料与说明',exact:true}).click();
   const back=page.locator('#aboutBack');
   assert.ok(await back.isVisible());
+  assert.equal(await page.locator('.badge-lv').count(),0,'No ABC source-grade badges');
+  const rows=await page.locator('#sourceTable .src-row').count();
+  assert.equal(rows,await page.evaluate(()=>Object.keys(SITE.sources).length),'Keep every source');
+  assert.ok(await page.locator('#sourceTable a[href]').count()>0,'Keep source links');
   await shot('top');
   await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));
   const box=await back.boundingBox();

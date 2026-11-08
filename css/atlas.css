@@ -61,7 +61,7 @@ h1,h2,h3,h4{letter-spacing:0}button,a{touch-action:manipulation}
 .sub-item__tag{display:none}.sub-item__name{font:20px var(--hand)}.sub-item__meta{font-size:12px}.src-chip,.src-chip sup{font-size:12px}.src-chip{border-radius:3px;background:none;white-space:normal}
 .card__nav{padding:16px 32px;background:#eef0e4}.card__nav .btn,.card__nav .ghost-btn{font-size:14px!important}
 .section{padding-block:42px}.h2,#abTitle{font:32px var(--hand);margin-bottom:18px}.h3,.about-reading h3,.about-block h3{font:20px var(--hand)}
-.lede,.about-reading p,.kv li,.tl__text{font-size:14px;line-height:2}.lede{margin-top:14px}.note,.kv b,.tl__src,.src-row__meta,.src-row a,.badge-lv{font-size:12px}
+.lede,.about-reading p,.kv li,.tl__text{font-size:14px;line-height:2}.lede{margin-top:14px}.note,.kv b,.tl__src,.src-row__meta,.src-row a{font-size:12px}
 .about-reading{max-width:960px}.about-reading h3{margin:32px 0 12px}.about-reading details{margin:26px 0}.about-reading summary{font-size:14px;cursor:pointer}.about-reading .kv{margin-top:16px}.site-settings .ghost-btn{margin:14px 10px 0 0}
 .src-row{font-size:14px;grid-template-columns:4em 1fr auto}.src-row__id{font-size:12px}.src-row__meta{white-space:normal}
 .tl__date{font:20px var(--hand)}.finale{background:none;padding:52px 0}.finale__title{font:32px var(--hand)}.finale p{font-size:14px;letter-spacing:0}.finale .finale__closing{font-size:20px}.finale__rule{display:none}
