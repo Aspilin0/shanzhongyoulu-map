@@ -145,7 +145,7 @@
 
     /* --- 五、资料来源 --- */
     var srcBox = document.createElement('div');
-    srcBox.appendChild(citeList(c.src));
+    srcBox.appendChild(citeList(c.src.concat(['R01'])));
     var sourceDetails = el('details', 'source-details');
     sourceDetails.appendChild(el('summary', null, '资料来源'));
     sourceDetails.appendChild(srcBox);
@@ -255,7 +255,7 @@
     body.appendChild(layer('回到今日', t));
 
     var sb = document.createElement('div');
-    sb.appendChild(citeList(s.src));
+    sb.appendChild(citeList(s.src.concat(['R01'])));
     body.appendChild(layer('资料来源', sb));
 
     var nav = $('#dlgNav');
@@ -284,30 +284,20 @@
     if (!s) return;
     currentCardChapter = null;
 
-    $('#dlgNo').textContent = '西迁之路 · 地名石刻　第 ' + (idx + 1) + ' / ' + D.stones.length + ' 站';
+    var content = window.PARK_CONTENT.stone(s);
+    $('#dlgNo').textContent = '西迁之路 · 地名石刻';
     $('#dlgTitle').textContent = s.n;
-    $('#dlgSub').textContent = '北山游步道 · 地面石刻';
-
-    var facts = $('#dlgFacts');
-    facts.innerHTML = '';
-    [
-      ['所在', '北山游步道沿线（西迁之路文化园）'],
-      ['形制', '地面石刻 / 二维码铜牌'],
-      ['资料来源', 'S5、S12']
-    ].forEach(function (pair) {
-      var li = document.createElement('li');
-      li.appendChild(el('b', null, pair[0]));
-      li.appendChild(el('span', null, pair[1]));
-      facts.appendChild(li);
-    });
+    $('#dlgSub').textContent = content.category;
+    $('#dlgFacts').innerHTML = '';
 
     var body = $('#dlgBody');
     body.innerHTML = '';
 
-    body.appendChild(para(window.PARK_CONTENT.stone(s).event));
+    body.appendChild(para(content.intro || content.event));
+    if (content.detail) body.appendChild(para(content.detail));
     var sourceDetails = el('details', 'source-details');
     sourceDetails.appendChild(el('summary', null, '资料来源'));
-    sourceDetails.appendChild(citeList(['S5', 'S12']));
+    sourceDetails.appendChild(citeList(content.sources));
     body.appendChild(sourceDetails);
 
     var nav = $('#dlgNav');
@@ -327,7 +317,13 @@
     $('#dlgSub').textContent = '今日北山 · 园区纪念景观';
     $('#dlgFacts').innerHTML = '';
     var body = $('#dlgBody'); body.innerHTML = '';
-    body.appendChild(layer('沿路看见', para(window.PARK_CONTENT.describe(p).event)));
+    var content = window.PARK_CONTENT.describe(p);
+    body.appendChild(para(content.intro || content.event));
+    if (content.detail) body.appendChild(para(content.detail));
+    var sources = el('details', 'source-details');
+    sources.appendChild(el('summary', null, '资料来源'));
+    sources.appendChild(citeList(content.sources));
+    body.appendChild(sources);
     $('#dlgNav').innerHTML = '<button type="button" class="btn btn--primary" data-return-map>回到地图</button>';
     $('[data-return-map]').addEventListener('click', closeDialog);
     openDialog();

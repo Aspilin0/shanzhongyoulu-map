@@ -74,7 +74,7 @@
     ids.forEach(function (id) {
       var s = D.sources[id];
       if (!s) return;
-      var row = el('div', 'src-row' + (s.u ? '' : ' src-row--nolink'));
+      var row = el('div', 'src-row' + (s.u || s.local ? '' : ' src-row--nolink'));
       row.appendChild(el('span', 'src-row__id', id));
       var body = el('span', 'src-row__title');
       body.textContent = s.t;
@@ -145,66 +145,13 @@
   function para(text) { var p = el('p'); p.textContent = text; return p; }
 
   /* ================================================================ 地图 */
-  function buildPoi() {
-    var host = $('#poiLayer');
-    if (!host) return;
-    host.innerHTML = '';
-    D.poi.filter(function (p) { return p.kind !== 'sculpture'; }).forEach(function (p) {
-      var btn = el('button', 'poi poi--' + p.kind);
-      btn.type = 'button';
-      btn.style.left = p.x + '%';
-      btn.style.top = p.y + '%';
-      btn.dataset.id = p.id;
-      btn.dataset.kind = p.kind;
-
-      if (p.kind === 'chapter') {
-        var c = chapterById[p.id];
-        btn.dataset.parent = p.id;
-        btn.setAttribute('aria-label', D.sculptureIndex[c.primary].name + ' · ' + c.key);
-        var dot = el('span', 'poi__dot');
-        dot.textContent = '';
-        btn.appendChild(dot);
-        btn.appendChild(el('span', 'poi__label', D.sculptureIndex[c.primary].name));
-      } else if (p.kind === 'site') {
-        btn.dataset.parent = '';
-        btn.setAttribute('aria-label', p.label);
-        btn.appendChild(el('span', 'poi__dot'));
-        btn.appendChild(el('span', 'poi__label', p.label));
-      } else {
-        btn.dataset.parent = '';
-        btn.setAttribute('aria-label', p.label);
-        btn.appendChild(el('span', 'poi__dot'));
-        btn.appendChild(el('span', 'poi__label', '纪念碑亭'));
-      }
-
-      btn.addEventListener('click', function () { onPoiClick(p); });
-      window.PARK_PREVIEW.bind(btn, window.PARK_CONTENT.describe(p), function () { onPoiClick(p); });
-      host.appendChild(btn);
-    });
-
-    /* Stone order and positions are generated from the shared trail geometry. */
-    (D.stones || []).forEach(function (s, i) {
-      var b = el('button', 'poi poi--stone');
-      b.type = 'button';
-      b.style.left = s.x + '%';
-      b.style.top = s.y + '%';
-      b.dataset.kind = 'stone';
-      b.dataset.stoneIndex = String(i);
-      b.setAttribute('aria-label', '西迁之路地名石刻第 ' + (i + 1) + ' 站：' + s.n);
-      b.appendChild(el('span', 'poi__dot'));
-      b.appendChild(el('span', 'poi__label', s.n));
-      b.addEventListener('click', function () { openStone(i); });
-      window.PARK_PREVIEW.bind(b, window.PARK_CONTENT.stone(s), function () { openStone(i); });
-      host.appendChild(b);
-    });
-
-  }
+  function buildPoi() { window.PARK_PINS({D:D,$:$,el:el,onPoiClick:onPoiClick,openStone:openStone}); }
 
   function onPoiClick(p) {
     if (p.kind === 'chapter') openChapter(p.id);
     else if (p.kind === 'sculpture') openSculpture(p.id);
     else if (p.kind === 'site') openSite(p);
-    else openChapter(D.prologue ? D.prologue.id : 'N01');
+    else openSite(p);
   }
 
   /* Scale the whole coordinate plane, so the SVG and buttons cannot drift. */
@@ -334,7 +281,7 @@
         return parseInt(a.slice(1), 10) - parseInt(b.slice(1), 10);
       }).forEach(function (id) {
         var s = D.sources[id];
-        var row = el('div', 'src-row' + (s.u ? '' : ' src-row--nolink'));
+        var row = el('div', 'src-row' + (s.u || s.local ? '' : ' src-row--nolink'));
         row.appendChild(el('span', 'src-row__id', id));
         var title = el('span', 'src-row__title');
         var badge = el('span', 'badge-lv badge-lv--' + s.lv, s.lv);

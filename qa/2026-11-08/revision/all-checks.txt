@@ -1,0 +1,35 @@
+PASS --check js/app.js 
+PASS --check js/cards.js 
+PASS --check js/content-sources.js 
+PASS --check js/data-sources.js 
+PASS --check js/data.js 
+PASS --check js/geometry.js 
+PASS --check js/journey.js 
+PASS --check js/map-pins.js 
+PASS --check js/place-content.js 
+PASS --check js/poi-content.js 
+PASS --check js/preview.js 
+PASS --check js/sculptures.js 
+PASS --check js/stone-content.js 
+PASS --check js/timeline-data.js 
+PASS tools/verify-map.py OK
+PASS tools/verify-stones.py OK
+PASS tools/verify-tour.py OK
+PASS tools/verify-content.cjs Content: 28 distinct sourced stone introductions and 11 landmark introductions passed; names and fact types checked.
+PASS tools/verify-size-hook.cjs PASS: split files commit successfully; generated QA and lockfiles exempt
+PASS tools/verify-photos.cjs Photos: passed 10, failed 0
+PASS tools/verify-map-view.cjs map-view: passed 2, failed 0
+PASS tools/verify-stones.cjs stones: passed 2, failed 0
+PASS tools/verify-preview.cjs preview: passed 2, failed 0
+PASS tools/verify-journey.cjs branch-journey: passed 2, failed 0
+PASS tools/verify-tidy.cjs tidy: passed 2, failed 0
+PASS tools/verify-unified.cjs unified: passed 2, failed 0
+PASS tools/verify-content-ui.cjs content: passed 2, failed 0
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/revision/map-view/font-audit.json Rendered-text audit: 6 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/revision/stones/font-audit.json Rendered-text audit: 4 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/revision/preview/font-audit.json Rendered-text audit: 8 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/revision/branch-journey/font-audit.json Rendered-text audit: 332 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/revision/tidy/font-audit.json Rendered-text audit: 4 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/revision/unified/font-audit.json Rendered-text audit: 6 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/revision/content/font-audit.json Rendered-text audit: 12 cases, 0 violations.
+All checks passed: geometry 15; browser suites 8 at desktop and mobile widths; all 39 place introductions sourced; hook checks 2; syntax and fonts clean.

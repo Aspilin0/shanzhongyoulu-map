@@ -55,6 +55,7 @@
             <button type="button" id="previewClose" class="poi-preview__close" aria-label="关闭简介">×</button>
             <h2 id="poiPreviewTitle"></h2>
             <p id="poiPreviewEvent"></p>
+            <div id="previewRelated" class="preview-related"></div>
             <button type="button" id="previewDetails" class="ghost-btn">查看详情</button>
           </aside>
           <div class="map-tools" role="group" aria-label="地图缩放">
@@ -95,6 +96,7 @@
       <h3>地图依据</h3>
       <p>路网依 2026 年 11 月补充的三张清晰地图重绘；景观点位由此前的现场标注配准转绘。碑亭与求是巢在新图中有明确标识，其余景观仍需实地复核。石刻中的樟树、衡阳、宜山、湄潭依现场标注放在交叉口，其余点位沿园路均匀示意分布，不代表精确实测位置。本图为导览示意，不是测绘成果。</p>
       <p>画风参考<a href="https://yun.chinasinew.com/mob/html/schoolmap.html" target="_blank" rel="noopener noreferrer">浙江大学常用生活地图</a>。地图几何参考图含 OpenStreetMap 数据，© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap 贡献者</a>。</p>
+      <p>地点简介区分“西迁史实”和“地理背景”：前者对应可核对的校史记载，后者用于认识途经地，不表示浙大曾在该地办学。详情中的资料来源可展开查看。</p>
       <h3>图像与历史</h3>
       <p>今日图像为园区实拍；历史画面为依据文献绘制的原创示意图，不能作为历史影像或史料证据使用。各章保留所依据的来源编号。</p>
       <details><summary>查看章节与雕塑对应</summary><ul class="kv" id="mapTable"></ul></details>
@@ -131,11 +133,18 @@
 </div>
 
 <script src="js/geometry.js"></script>
+<script src="js/data-sources.js"></script>
+<script src="js/sculptures.js"></script>
+<script src="js/timeline-data.js"></script>
 <script src="js/data.js"></script>
+<script src="js/content-sources.js"></script>
+<script src="js/stone-content.js"></script>
+<script src="js/place-content.js"></script>
 <script src="js/poi-content.js"></script>
 <script src="js/preview.js"></script>
 <script src="js/journey.js"></script>
 <script src="js/cards.js"></script>
+<script src="js/map-pins.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

@@ -29,11 +29,6 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
           "text": "手摇发电亮灯",
           "size": 14,
           "selector": "SPAN.poi__label"
@@ -45,6 +40,21 @@
         },
         {
           "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
@@ -79,7 +89,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -134,11 +144,6 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
           "text": "手摇发电亮灯",
           "size": 14,
           "selector": "SPAN.poi__label"
@@ -150,6 +155,21 @@
         },
         {
           "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
@@ -184,7 +204,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -214,7 +234,7 @@
           "selector": "BUTTON.dialog__close"
         },
         {
-          "text": "西迁之路 · 地名石刻　第 23 / 28 站",
+          "text": "西迁之路 · 地名石刻",
           "size": 12,
           "selector": "#dlgNo"
         },
@@ -224,42 +244,17 @@
           "selector": "#dlgTitle"
         },
         {
-          "text": "北山游步道 · 地面石刻",
+          "text": "西迁史实",
           "size": 20,
           "selector": "#dlgSub"
         },
         {
-          "text": "所在",
-          "size": 12,
-          "selector": "B."
+          "text": "在广西宜山办学期间，学校于 1938 年正式确立“求是”校训；师生也在艰难环境中坚持教学。",
+          "size": 14,
+          "selector": "P."
         },
         {
-          "text": "北山游步道沿线（西迁之路文化园）",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "形制",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "地面石刻 / 二维码铜牌",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "资料来源",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "S5、S12",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "1938.11.01 · 竺可桢在广西宜山开学典礼上发表《王阳明与大学生的典范》演讲。",
+          "text": "1939 年 2 月，宜山临时校舍遭轰炸。已有防空准备，师生及时撤离，教学设施却蒙受严重损失。",
           "size": 14,
           "selector": "P."
         },
@@ -269,32 +264,32 @@
           "selector": "SUMMARY."
         },
         {
-          "text": "S5",
+          "text": "R01",
           "size": 12,
           "selector": "SPAN.src-row__id"
         },
         {
-          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "text": "为心仪的西迁故事雕塑方案点赞",
           "size": 14,
           "selector": "SPAN.src-row__title"
         },
         {
-          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "text": "浙江大学 · 核对于 2026-11-08",
           "size": 12,
-          "selector": "SPAN.src-row__meta"
+          "selector": "A."
         },
         {
-          "text": "S12",
+          "text": "R05",
           "size": 12,
           "selector": "SPAN.src-row__id"
         },
         {
-          "text": "《去“北山”校友林看西迁文化图片展》",
+          "text": "追溯传承求是魂 参观广西宜州西迁文化广场",
           "size": 14,
           "selector": "SPAN.src-row__title"
         },
         {
-          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "text": "浙江大学材料科学与工程学院 · 核对于 2026-11-08",
           "size": 12,
           "selector": "A."
         },
@@ -322,6 +317,21 @@
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
         },
         {
           "text": "杭州",
@@ -354,7 +364,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -399,6 +409,21 @@
           "selector": "#mapTitle"
         },
         {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
           "text": "杭州",
           "size": 14,
           "selector": "SPAN."
@@ -429,7 +454,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -459,7 +484,7 @@
           "selector": "BUTTON.dialog__close"
         },
         {
-          "text": "西迁之路 · 地名石刻　第 23 / 28 站",
+          "text": "西迁之路 · 地名石刻",
           "size": 12,
           "selector": "#dlgNo"
         },
@@ -469,42 +494,17 @@
           "selector": "#dlgTitle"
         },
         {
-          "text": "北山游步道 · 地面石刻",
+          "text": "西迁史实",
           "size": 20,
           "selector": "#dlgSub"
         },
         {
-          "text": "所在",
-          "size": 12,
-          "selector": "B."
+          "text": "在广西宜山办学期间，学校于 1938 年正式确立“求是”校训；师生也在艰难环境中坚持教学。",
+          "size": 14,
+          "selector": "P."
         },
         {
-          "text": "北山游步道沿线（西迁之路文化园）",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "形制",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "地面石刻 / 二维码铜牌",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "资料来源",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "S5、S12",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "1938.11.01 · 竺可桢在广西宜山开学典礼上发表《王阳明与大学生的典范》演讲。",
+          "text": "1939 年 2 月，宜山临时校舍遭轰炸。已有防空准备，师生及时撤离，教学设施却蒙受严重损失。",
           "size": 14,
           "selector": "P."
         },
@@ -514,32 +514,32 @@
           "selector": "SUMMARY."
         },
         {
-          "text": "S5",
+          "text": "R01",
           "size": 12,
           "selector": "SPAN.src-row__id"
         },
         {
-          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "text": "为心仪的西迁故事雕塑方案点赞",
           "size": 14,
           "selector": "SPAN.src-row__title"
         },
         {
-          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "text": "浙江大学 · 核对于 2026-11-08",
           "size": 12,
-          "selector": "SPAN.src-row__meta"
+          "selector": "A."
         },
         {
-          "text": "S12",
+          "text": "R05",
           "size": 12,
           "selector": "SPAN.src-row__id"
         },
         {
-          "text": "《去“北山”校友林看西迁文化图片展》",
+          "text": "追溯传承求是魂 参观广西宜州西迁文化广场",
           "size": 14,
           "selector": "SPAN.src-row__title"
         },
         {
-          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "text": "浙江大学材料科学与工程学院 · 核对于 2026-11-08",
           "size": 12,
           "selector": "A."
         },

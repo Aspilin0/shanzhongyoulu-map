@@ -29,11 +29,6 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
           "text": "手摇发电亮灯",
           "size": 14,
           "selector": "SPAN.poi__label"
@@ -45,6 +40,21 @@
         },
         {
           "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
@@ -74,14 +84,19 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
         },
         {
           "text": "上一站",
@@ -89,7 +104,7 @@
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -129,11 +144,6 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
           "text": "手摇发电亮灯",
           "size": 14,
           "selector": "SPAN.poi__label"
@@ -149,7 +159,22 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "衡阳",
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
           "size": 14,
           "selector": "SPAN."
         },
@@ -169,27 +194,32 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "衡阳",
+          "text": "杭州",
           "size": 20,
           "selector": "#journeyTitle"
         },
         {
-          "text": "17 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
         {
-          "text": "西迁之路地名石刻，沿园路串联西迁途中的地名。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
         {
-          "text": "上一站 桂林",
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 衡山",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -204,7 +234,7 @@
           "selector": "BUTTON.dialog__close"
         },
         {
-          "text": "西迁之路 · 地名石刻　第 17 / 28 站",
+          "text": "西迁之路 · 地名石刻",
           "size": 12,
           "selector": "#dlgNo"
         },
@@ -214,42 +244,12 @@
           "selector": "#dlgTitle"
         },
         {
-          "text": "北山游步道 · 地面石刻",
+          "text": "西迁史实",
           "size": 20,
           "selector": "#dlgSub"
         },
         {
-          "text": "所在",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "北山游步道沿线（西迁之路文化园）",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "形制",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "地面石刻 / 二维码铜牌",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "资料来源",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "S5、S12",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "西迁之路地名石刻，沿园路串联西迁途中的地名。",
+          "text": "校史回忆记载，农学院师生曾押运图书、仪器和药品，绕道衡阳入桂，运往广西宜山。",
           "size": 14,
           "selector": "P."
         },
@@ -259,32 +259,17 @@
           "selector": "SUMMARY."
         },
         {
-          "text": "S5",
+          "text": "R03",
           "size": 12,
           "selector": "SPAN.src-row__id"
         },
         {
-          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "text": "西迁岁月 一路走来",
           "size": 14,
           "selector": "SPAN.src-row__title"
         },
         {
-          "text": "浙江大学求是新闻网 · 2017-05-22",
-          "size": 12,
-          "selector": "SPAN.src-row__meta"
-        },
-        {
-          "text": "S12",
-          "size": 12,
-          "selector": "SPAN.src-row__id"
-        },
-        {
-          "text": "《去“北山”校友林看西迁文化图片展》",
-          "size": 14,
-          "selector": "SPAN.src-row__title"
-        },
-        {
-          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "text": "浙江大学 · 核对于 2026-11-08",
           "size": 12,
           "selector": "A."
         },
@@ -314,6 +299,21 @@
           "selector": "#mapTitle"
         },
         {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
           "text": "杭州",
           "size": 14,
           "selector": "SPAN."
@@ -339,14 +339,19 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
         },
         {
           "text": "上一站",
@@ -354,7 +359,7 @@
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -384,37 +389,22 @@
           "selector": "#mapTitle"
         },
         {
-          "text": "抢运校产",
+          "text": "建德 · 西迁文化园石碑",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "保护四库全书",
+          "text": "金华 · 西迁之路铜牌",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
+          "text": "宜山 · 费巩明灯",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "手摇发电亮灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "百鸟归林",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "纪念碑亭",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "衡阳",
+          "text": "杭州",
           "size": 14,
           "selector": "SPAN."
         },
@@ -434,27 +424,32 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "衡阳",
+          "text": "杭州",
           "size": 20,
           "selector": "#journeyTitle"
         },
         {
-          "text": "17 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
         {
-          "text": "西迁之路地名石刻，沿园路串联西迁途中的地名。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
         {
-          "text": "上一站 桂林",
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 衡山",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -469,7 +464,7 @@
           "selector": "BUTTON.dialog__close"
         },
         {
-          "text": "西迁之路 · 地名石刻　第 17 / 28 站",
+          "text": "西迁之路 · 地名石刻",
           "size": 12,
           "selector": "#dlgNo"
         },
@@ -479,42 +474,12 @@
           "selector": "#dlgTitle"
         },
         {
-          "text": "北山游步道 · 地面石刻",
+          "text": "西迁史实",
           "size": 20,
           "selector": "#dlgSub"
         },
         {
-          "text": "所在",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "北山游步道沿线（西迁之路文化园）",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "形制",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "地面石刻 / 二维码铜牌",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "资料来源",
-          "size": 12,
-          "selector": "B."
-        },
-        {
-          "text": "S5、S12",
-          "size": 12,
-          "selector": "SPAN."
-        },
-        {
-          "text": "西迁之路地名石刻，沿园路串联西迁途中的地名。",
+          "text": "校史回忆记载，农学院师生曾押运图书、仪器和药品，绕道衡阳入桂，运往广西宜山。",
           "size": 14,
           "selector": "P."
         },
@@ -524,32 +489,17 @@
           "selector": "SUMMARY."
         },
         {
-          "text": "S5",
+          "text": "R03",
           "size": 12,
           "selector": "SPAN.src-row__id"
         },
         {
-          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "text": "西迁岁月 一路走来",
           "size": 14,
           "selector": "SPAN.src-row__title"
         },
         {
-          "text": "浙江大学求是新闻网 · 2017-05-22",
-          "size": 12,
-          "selector": "SPAN.src-row__meta"
-        },
-        {
-          "text": "S12",
-          "size": 12,
-          "selector": "SPAN.src-row__id"
-        },
-        {
-          "text": "《去“北山”校友林看西迁文化图片展》",
-          "size": 14,
-          "selector": "SPAN.src-row__title"
-        },
-        {
-          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "text": "浙江大学 · 核对于 2026-11-08",
           "size": 12,
           "selector": "A."
         },

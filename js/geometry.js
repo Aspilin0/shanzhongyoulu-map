@@ -138,7 +138,7 @@ window.PARK_MAP = {
       "y": 34.40057
     },
     {
-      "n": "西江",
+      "n": "曲江",
       "x": 55.34777,
       "y": 35.94118
     },
@@ -173,17 +173,17 @@ window.PARK_MAP = {
       "y": 23.03452
     },
     {
-      "n": "泰和",
+      "n": "耒阳",
       "x": 63.15083,
       "y": 24.29455
     },
     {
-      "n": "崇陵",
+      "n": "茶陵",
       "x": 69.29482,
       "y": 24.33759
     },
     {
-      "n": "茶陵",
+      "n": "永丰",
       "x": 75.30528,
       "y": 24.99716
     },
@@ -305,12 +305,12 @@ window.PARK_MAP = {
         "stoneIndex": 11,
         "title": "南雄"
       },
-      "stone:西江": {
+      "stone:曲江": {
         "x": 55.34777,
         "y": 35.94118,
         "kind": "stone",
         "stoneIndex": 12,
-        "title": "西江"
+        "title": "曲江"
       },
       "stone:三水": {
         "x": 52.15382,
@@ -354,26 +354,26 @@ window.PARK_MAP = {
         "stoneIndex": 18,
         "title": "攸县"
       },
-      "stone:泰和": {
+      "stone:耒阳": {
         "x": 63.15083,
         "y": 24.29455,
         "kind": "stone",
         "stoneIndex": 19,
-        "title": "泰和"
+        "title": "耒阳"
       },
-      "stone:崇陵": {
+      "stone:茶陵": {
         "x": 69.29482,
         "y": 24.33759,
         "kind": "stone",
         "stoneIndex": 20,
-        "title": "崇陵"
+        "title": "茶陵"
       },
-      "stone:茶陵": {
+      "stone:永丰": {
         "x": 75.30528,
         "y": 24.99716,
         "kind": "stone",
         "stoneIndex": 21,
-        "title": "茶陵"
+        "title": "永丰"
       },
       "stone:宜山": {
         "x": 48.36066,
@@ -476,25 +476,25 @@ window.PARK_MAP = {
         "x": 19.67213,
         "y": 88.88889,
         "kind": "junction",
-        "title": "西南出口"
+        "title": "南侧步道西端"
       },
       "southeast-exit": {
         "x": 40.81967,
         "y": 89.34641,
         "kind": "junction",
-        "title": "东南出口"
+        "title": "南侧步道东端"
       },
       "river-south-exit": {
         "x": 47.39777,
         "y": 96.09441,
         "kind": "junction",
-        "title": "滨水南侧出口"
+        "title": "滨水步道南段"
       },
       "river-east-exit": {
         "x": 88.36066,
         "y": 57.38562,
         "kind": "junction",
-        "title": "滨水东侧出口"
+        "title": "滨水步道东段"
       },
       "place:F01": {
         "x": 92.2217,
@@ -609,7 +609,7 @@ window.PARK_MAP = {
       ],
       "stone:樟树": [
         {
-          "to": "stone:茶陵",
+          "to": "stone:永丰",
           "label": "北侧山脊 · 四库全书",
           "edge": "ridge"
         },
@@ -642,12 +642,12 @@ window.PARK_MAP = {
       ],
       "stone:南雄": [
         {
-          "to": "stone:西江",
+          "to": "stone:曲江",
           "label": "东侧园路 · 抢运校产",
           "edge": "east"
         }
       ],
-      "stone:西江": [
+      "stone:曲江": [
         {
           "to": "stone:三水",
           "label": "东侧园路 · 抢运校产",
@@ -701,23 +701,23 @@ window.PARK_MAP = {
           "edge": "ridge"
         }
       ],
-      "stone:泰和": [
+      "stone:耒阳": [
         {
           "to": "place:N02",
           "label": "北侧山脊 · 四库全书",
           "edge": "ridge"
         }
       ],
-      "stone:崇陵": [
+      "stone:茶陵": [
         {
-          "to": "stone:泰和",
+          "to": "stone:耒阳",
           "label": "北侧山脊 · 四库全书",
           "edge": "ridge"
         }
       ],
-      "stone:茶陵": [
+      "stone:永丰": [
         {
-          "to": "stone:崇陵",
+          "to": "stone:茶陵",
           "label": "北侧山脊 · 四库全书",
           "edge": "ridge"
         }
@@ -817,24 +817,24 @@ window.PARK_MAP = {
       "south-fork": [
         {
           "to": "place:F05",
-          "label": "周年纪念雕塑 · 西南出口",
+          "label": "周年纪念雕塑 · 步道西端",
           "edge": "southwest"
         },
         {
           "to": "southeast-exit",
-          "label": "东南出口",
+          "label": "南侧步道东端",
           "edge": "southeast"
         }
       ],
       "riverside": [
         {
           "to": "river-south-exit",
-          "label": "沿河向南 · 南侧出口",
+          "label": "沿河向南",
           "edge": "river-south"
         },
         {
           "to": "river-east-exit",
-          "label": "沿河向东 · 东侧出口",
+          "label": "沿河向东",
           "edge": "river-east"
         }
       ],
@@ -910,7 +910,7 @@ window.PARK_MAP = {
       "place:F05": [
         {
           "to": "southwest-exit",
-          "label": "周年纪念雕塑 · 西南出口",
+          "label": "周年纪念雕塑 · 步道西端",
           "edge": "southwest"
         }
       ]
@@ -1231,9 +1231,9 @@ window.PARK_MAP = {
         "end": "stone:衡阳",
         "stops": [
           "stone:樟树",
+          "stone:永丰",
           "stone:茶陵",
-          "stone:崇陵",
-          "stone:泰和",
+          "stone:耒阳",
           "place:N02",
           "stone:攸县",
           "stone:衡山",
@@ -1885,7 +1885,7 @@ window.PARK_MAP = {
           "stone:赣州",
           "stone:大庾",
           "stone:南雄",
-          "stone:西江",
+          "stone:曲江",
           "stone:三水",
           "stone:宜山"
         ],

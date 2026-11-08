@@ -18,7 +18,7 @@
     if (stop.kind === 'stone') return window.PARK_CONTENT.stone(window.SITE.stones[stop.stoneIndex]);
     if (stop.kind === 'place') return window.PARK_CONTENT.describe(window.SITE.poi.find(function (p) { return p.id === stop.poiId; }));
     var options = graph.next[currentId()];
-    return { title: stop.title, event: options.length ? '前方可前往' + options.map(function (o) { return o.label; }).join('，或') + '。' : '抵达这条游览路线的出口。' };
+    return { title: stop.title, event: options.length ? '前方可前往' + options.map(function (o) { return o.label; }).join('，或') + '。' : '抵达这条游览路线的终点。' };
   }
   function paint() {
     var stop = current(), summary = content(stop), options = graph.next[currentId()];
@@ -47,7 +47,7 @@
     marker.setAttribute('aria-label', '当前位置：' + summary.title);
     marker.querySelector('span').textContent = summary.title;
     document.querySelectorAll('.poi').forEach(function (button) {
-      var selected = stop.kind === 'stone' ? button.dataset.stoneIndex === String(stop.stoneIndex) : button.dataset.id === stop.poiId;
+      var selected = stop.kind === 'stone' ? button.dataset.stoneIndex === String(stop.stoneIndex) : button.dataset.id === stop.poiId || (button.dataset.relatedIds || '').split(',').indexOf(stop.poiId)!==-1;
       if (selected) button.setAttribute('aria-current', 'step');
       else button.removeAttribute('aria-current');
     });

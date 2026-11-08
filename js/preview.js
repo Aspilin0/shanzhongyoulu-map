@@ -5,12 +5,18 @@
   var active = null;
   var timer;
   function hide() { clearTimeout(timer); panel.hidden = true; active = null; }
-  function show(button, content, open) {
+  function show(button, content, open, related) {
     clearTimeout(timer);
     active = button;
     document.getElementById('poiPreviewTitle').textContent = content.title;
     document.getElementById('poiPreviewEvent').textContent = content.event;
     document.getElementById('previewDetails').onclick = function () { hide(); open(); };
+    var links=document.getElementById('previewRelated');
+    links.replaceChildren();
+    (related || []).forEach(function(item){
+      var link=document.createElement('button'); link.type='button';link.className='ghost-btn';link.textContent=item.title;
+      link.addEventListener('click',function(){hide();item.open();}); links.appendChild(link);
+    });
     panel.hidden = false;
     var point = button.getBoundingClientRect(), bounds = stage.getBoundingClientRect();
     var left = point.right - bounds.left + 12;
@@ -28,17 +34,17 @@
       if (!panel.matches(':hover') && !panel.contains(document.activeElement) && active !== document.activeElement) hide();
     }, 180);
   }
-  function bind(button, content, open) {
+  function bind(button, content, open, related) {
     button.addEventListener('mouseenter', function () {
-      if (innerWidth > 760 && !matchMedia('(pointer: coarse)').matches) show(button, content, open);
+      if (innerWidth > 760 && !matchMedia('(pointer: coarse)').matches) show(button, content, open, related);
     });
-    button.addEventListener('focus', function () { show(button, content, open); });
+    button.addEventListener('focus', function () { show(button, content, open, related); });
     button.addEventListener('mouseleave', leave);
     button.addEventListener('blur', leave);
     button.addEventListener('click', function (event) {
       if (innerWidth <= 760 || matchMedia('(pointer: coarse)').matches) {
         event.stopImmediatePropagation();
-        show(button, content, open);
+        show(button, content, open, related);
       }
     }, true);
   }

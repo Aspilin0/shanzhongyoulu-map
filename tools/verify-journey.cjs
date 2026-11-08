@@ -19,6 +19,11 @@ run('branch-journey', async ({ page, shot, assert }) => {
       const id=await page.locator('#journeyTitle').getAttribute('data-stop');
       assert.ok(!visited.includes(id),'Forced return to '+id);
       visited.push(id); titles.push(await page.locator('#journeyTitle').innerText());
+      if(id!=='stone:杭州') await page.waitForFunction(() => {
+        const p=document.querySelector('#journeyMarker').getBoundingClientRect();
+        const v=document.querySelector('#mapScroll').getBoundingClientRect();
+        return Math.abs(p.x+p.width/2-v.x-v.width/2)<3 && Math.abs(p.y+p.height/2-v.y-v.height/2)<3;
+      },null,{timeout:3000});
       await shot(`route-${route+1}-step-${String(step+1).padStart(2,'0')}`);
       if (await page.locator('#journeyNext').innerText()==='重新游览') break;
       const buttons=page.locator('#journeyChoices button');
@@ -48,6 +53,6 @@ run('branch-journey', async ({ page, shot, assert }) => {
   await page.locator('#journeyPrev').click();
   assert.equal(await page.locator('#journeyTitle').innerText(),'樟树');
   await page.locator('[data-edge="east"]').click();
-  assert.notEqual(await page.locator('#journeyTitle').getAttribute('data-stop'),'stone:茶陵');
+  assert.notEqual(await page.locator('#journeyTitle').getAttribute('data-stop'),'stone:永丰');
   await shot('changed-branch');
 }).catch(e=>{console.error(e);process.exitCode=1;});

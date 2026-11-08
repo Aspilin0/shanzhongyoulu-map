@@ -5,8 +5,8 @@ const { readFileSync, mkdirSync } = require('node:fs');
 const path = require('node:path');
 
 async function main() {
-  const out = path.resolve('qa/2026-11-08/photos');
-  const expected = JSON.parse(readFileSync(path.join(out, 'expected.json'), 'utf8'));
+  const out = path.resolve(process.env.QA_ROOT || 'qa/2026-11-08', 'photos');
+  const expected = JSON.parse(readFileSync(path.resolve('qa/2026-11-08/photos/expected.json'), 'utf8'));
   const browser = await chromium.launch({ channel: 'chrome', headless: true });
   let passed = 0;
   try {

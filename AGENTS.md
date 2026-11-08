@@ -11,7 +11,7 @@
 - 道路、广场、园区范围、避树模型：`tools/atlas_layout.py`。
 - 景观配准与底图绘制：`tools/build-atlas.py`。
 - 石刻顺序与道路弧长均布：`tools/stone_layout.py`；樟树、衡阳、宜山、湄潭固定在参考交叉口。
-- 简介内容与资料关联：`js/poi-content.js`；悬停、导览与详情复用它。
+- 简介读取入口：`js/poi-content.js`；资料分别在 `js/stone-content.js`、`js/place-content.js`，来源链接在 `js/content-sources.js`。
 - 分支步行图与景点沿路投影：`tools/tour_layout.py`，每条前进路线不得重复经过同一节点。
 - 逐站状态与终章时机：`js/journey.js`；详情渲染与弹窗状态：`js/cards.js`。
 
@@ -24,6 +24,7 @@
 | 石刻在路上、四交叉口准确、其余按区间弧长均布 | `tools/verify-stones.py`，含旧版路外点反例 |
 | 照片正确，悬停/触控可用，28 站移动、前后导航、自动终章正常 | `node tools/verify-all.cjs` 的真实 Chrome 场景，含错误照片/跳站反例 |
 | 可见改动附桌面和手机截图，点位改动附原图叠线 | `qa/2026-11-08/` 截图和各项 `REVIEW.md` |
+| 地点介绍逐条有来源、区分史实与地理背景，禁止通用句兜底；原图地名不得录错 | `node tools/verify-content.cjs`，含缺资料/通用句/错地名检查；来源审阅见 `docs/content-audit.md` |
 | 字号与文案遵循 `DESIGN.md` | 真实可见 DOM 记录 + `tools/audit-small-text.mjs` |
 | 暂存源码单文件不超过约 5,000 token | `.githooks/pre-commit` → `tools/check-file-size.cjs`；真实提交拦截与放行由 `tools/verify-size-hook.cjs` 验证 |
 

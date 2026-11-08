@@ -1,19 +1,19 @@
 const { run } = require('./browser-qa.cjs');
 run('preview', async ({ page, width, shot, assert }) => {
   await page.locator('#zoomFit').click();
-  const target = page.locator('.poi--chapter[data-id="N03"]');
+  const target = page.locator('.poi--chapter[data-id="N02"]');
   if (process.env.QA_BEFORE) { await target.hover(); await shot('before'); return; }
   if (width === 390) await target.click(); else await target.hover();
   await page.locator('#poiPreview').waitFor({ state: 'visible' });
-  assert.ok((await page.locator('#poiPreviewTitle').innerText()).includes('费巩明灯'));
-  assert.ok((await page.locator('#poiPreviewEvent').innerText()).includes('八百多'));
+  assert.ok((await page.locator('#poiPreviewTitle').innerText()).includes('四库全书'));
+  assert.ok((await page.locator('#poiPreviewEvent').innerText()).includes('一百三十九箱'));
   assert.equal(await page.locator('#nodeDialog').isVisible(), false);
   const box = await page.locator('#poiPreview').boundingBox();
   const point = await target.boundingBox();
   assert.ok(box.x + box.width <= point.x || point.x + point.width <= box.x || box.y + box.height <= point.y || point.y + point.height <= box.y, 'Preview blocks its trigger');
   await shot('chapter');
   await page.locator('#previewDetails').click();
-  assert.equal(await page.locator('#dlgTitle').innerText(), '灯火');
+  assert.equal(await page.locator('#dlgTitle').innerText(), '守护');
   await shot('details');
   await page.locator('.dialog__close').click();
   const sculpture = page.locator('.poi--chapter[data-id="N05"]');

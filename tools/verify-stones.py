@@ -42,8 +42,8 @@ class StoneTests(unittest.TestCase):
     def test_other_stones_have_even_spacing_along_each_section(self):
         # Along-road distances are independently recovered from the generated points.
         for names, route, reverse in [(['杭州','西天目','建德','兰溪','金华','玉山','南昌'],'east-entrance',True),
-                                      (['吉安','赣州','大庾','南雄','西江','三水'],'east-traverse',True),
-                                      (['衡山','攸县','泰和','崇陵','茶陵'],'north-ridge',False),
+                                      (['吉安','赣州','大庾','南雄','曲江','三水'],'east-traverse',True),
+                                      (['衡山','攸县','耒阳','茶陵','永丰'],'north-ridge',False),
                                       (['青岩','贵阳','遵义'],'south-story',False)]:
             ps = sample_path(next(r['d'] for r in ROUTES if r['id'] == route))
             if reverse: ps.reverse()

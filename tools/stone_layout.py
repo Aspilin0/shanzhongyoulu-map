@@ -28,10 +28,10 @@ def distribute(names, route_id, reverse=False):
 STONES = (
     distribute(['杭州', '西天目', '建德', '兰溪', '金华', '玉山', '南昌'], 'east-entrance', True)
     + [('樟树', *EAST)]
-    + distribute(['吉安', '赣州', '大庾', '南雄', '西江', '三水'], 'east-traverse', True)
+    + distribute(['吉安', '赣州', '大庾', '南雄', '曲江', '三水'], 'east-traverse', True)
     + distribute(['荔浦', '桂林'], 'north-spine', True)
     + [('衡阳', *NORTH)]
-    + distribute(['衡山', '攸县', '泰和', '崇陵', '茶陵'], 'north-ridge')
+    + distribute(['衡山', '攸县', '耒阳', '茶陵', '永丰'], 'north-ridge')
     + [('宜山', *CENTER)]
     + distribute(['青岩', '贵阳', '遵义'], 'south-story')
     + [('湄潭', *SOUTH)]

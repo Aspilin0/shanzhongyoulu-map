@@ -29,11 +29,6 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
           "text": "手摇发电亮灯",
           "size": 14,
           "selector": "SPAN.poi__label"
@@ -45,6 +40,21 @@
         },
         {
           "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
@@ -79,7 +89,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -134,11 +144,6 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
           "text": "手摇发电亮灯",
           "size": 14,
           "selector": "SPAN.poi__label"
@@ -154,6 +159,21 @@
           "selector": "SPAN.poi__label"
         },
         {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
           "text": "杭州",
           "size": 14,
           "selector": "SPAN."
@@ -164,14 +184,19 @@
           "selector": "#previewClose"
         },
         {
-          "text": "费巩明灯",
+          "text": "宜山",
           "size": 20,
           "selector": "#poiPreviewTitle"
         },
         {
-          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "text": "在广西宜山办学期间，学校于 1938 年正式确立“求是”校训；师生也在艰难环境中坚持教学。",
           "size": 14,
           "selector": "#poiPreviewEvent"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
         },
         {
           "text": "查看详情",
@@ -204,7 +229,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -259,11 +284,6 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
           "text": "手摇发电亮灯",
           "size": 14,
           "selector": "SPAN.poi__label"
@@ -275,6 +295,21 @@
         },
         {
           "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
           "size": 14,
           "selector": "SPAN.poi__label"
         },
@@ -309,7 +344,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -554,6 +589,21 @@
           "selector": "SPAN.src-row__meta"
         },
         {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
           "text": "第 2 章 守护",
           "size": 14,
           "selector": "BUTTON.ghost-btn"
@@ -582,6 +632,21 @@
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
         },
         {
           "text": "杭州",
@@ -614,7 +679,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -659,6 +724,21 @@
           "selector": "#mapTitle"
         },
         {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
           "text": "杭州",
           "size": 14,
           "selector": "SPAN."
@@ -669,14 +749,19 @@
           "selector": "#previewClose"
         },
         {
-          "text": "费巩明灯",
+          "text": "宜山",
           "size": 20,
           "selector": "#poiPreviewTitle"
         },
         {
-          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "text": "在广西宜山办学期间，学校于 1938 年正式确立“求是”校训；师生也在艰难环境中坚持教学。",
           "size": 14,
           "selector": "#poiPreviewEvent"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
         },
         {
           "text": "查看详情",
@@ -709,7 +794,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -754,6 +839,21 @@
           "selector": "#mapTitle"
         },
         {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
           "text": "杭州",
           "size": 14,
           "selector": "SPAN."
@@ -784,7 +884,7 @@
           "selector": "#journeyCount"
         },
         {
-          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "text": "1937 年 11 月，浙大师生分批从杭州江干码头出发，携图书仪器迁往建德。",
           "size": 14,
           "selector": "#journeyEvent"
         },
@@ -1027,6 +1127,21 @@
           "text": "浙江大学求是新闻网 · 2017-05-22",
           "size": 12,
           "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
         },
         {
           "text": "第 2 章 守护",
