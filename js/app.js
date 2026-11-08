@@ -250,11 +250,13 @@
     });
     var actions = el('div');
     actions.style.cssText = 'display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:40px';
-    var a1 = el('a', 'btn btn--primary', '返回地图');
-    a1.href = '#/map';
+    var a1 = el('a', 'btn btn--primary', '自由探索');
+    a1.href = '#/explore';
     var a2 = el('a', 'btn btn--ghost', '看资料来源');
     a2.href = '#/about';
-    actions.appendChild(a1); actions.appendChild(a2);
+    var restart = el('a', 'btn btn--ghost', '重新游览主线');
+    restart.href = '#/restart';
+    actions.appendChild(a1); actions.appendChild(restart); actions.appendChild(a2);
     host.appendChild(actions);
   }
 
@@ -322,6 +324,10 @@
     document.body.classList.toggle('is-intro', !introSeen);
     if (!introSeen) { showView('home'); return; }
     var h = location.hash.replace(/^#\/?/, '');
+    if (h === 'explore') { window.PARK_JOURNEY.explore(); showView('map'); return; }
+    if (h === 'restart') {
+      window.PARK_JOURNEY.restart(); history.replaceState(null, '', '#/map'); showView('map'); return;
+    }
     if (h.indexOf('node/') === 0) {
       var id = h.slice(5);
       if (chapterById[id]) {
@@ -352,6 +358,7 @@
     paintProgress();
     window.PARK_JOURNEY.init({
       focus: focusStone,
+      mapRoute: function () { history.replaceState(null, '', '#/map'); },
       open: function (stop) {
         if (stop.kind === 'stone') openStone(stop.stoneIndex);
         else onPoiClick(D.poi.find(function (p) { return p.id === stop.poiId; }));

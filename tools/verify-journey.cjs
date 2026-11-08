@@ -1,5 +1,5 @@
 const { run } = require('./browser-qa.cjs');
-run('mainline-journey', async ({ page, shot, assert }) => {
+run('mainline-journey', async ({ page, width, shot, assert }) => {
   const title=page.locator('#journeyTitle'), next=page.locator('#journeyNext'), prev=page.locator('#journeyPrev');
   assert.equal(await title.innerText(),'杭州');
   assert.ok(await prev.isDisabled());
@@ -17,7 +17,7 @@ run('mainline-journey', async ({ page, shot, assert }) => {
     const nav=await next.boundingBox();
     assert.ok(nav.y+nav.height<=page.viewportSize().height,'Next button must stay on screen');
     await shot('step-'+String(step+1).padStart(2,'0'));
-    if(await next.innerText()==='重新游览') break;
+    if(await next.innerText()==='播放终章') break;
     if(await title.innerText()==='费巩明灯') {
       await page.locator('#journeyDetails').click();
       assert.equal(await page.locator('#dlgTitle').innerText(),'灯火');
@@ -27,18 +27,38 @@ run('mainline-journey', async ({ page, shot, assert }) => {
     }
     await next.click();
   }
-  assert.equal(visited.length,27);
+  assert.equal(visited.length,26);
   assert.ok(titles.indexOf('宜山')<titles.indexOf('费巩明灯') && titles.indexOf('费巩明灯')<titles.indexOf('青岩'));
   for(const branch of ['衡阳','衡山','攸县','耒阳','茶陵','永丰','桂林','荔浦','西侧岔路','滨水岔路']) assert.ok(!titles.includes(branch),'Branch entered: '+branch);
-  assert.equal(titles.at(-1),'永兴');
+  assert.equal(titles.at(-1),'湄潭');
+  assert.ok(!titles.includes('永兴'),'Finale must not wait until Yongxing');
   await prev.click();
   await page.waitForTimeout(1500);
   assert.ok(await page.locator('#view-map.is-active').isVisible(),'Previous cancels the pending finale');
   await next.click();
   await page.locator('#view-finale.is-active').waitFor({state:'visible'});
   await shot('finale');
-  await page.getByRole('link',{name:'返回地图',exact:true}).click();
+  await page.getByRole('link',{name:'自由探索',exact:true}).click();
+  assert.ok(await page.locator('#exploreControls').isVisible());
+  await page.waitForFunction(()=>document.querySelector('#zoomFit').getAttribute('aria-pressed')==='true');
+  assert.equal(await page.locator('.journey').isVisible(),false);
+  assert.equal(await page.locator('#journeyMarker').isVisible(),false);
+  await page.waitForTimeout(1600);
+  assert.ok(await page.locator('#view-map.is-active').isVisible());
+  await shot('free-explore');
+  await page.getByRole('button',{name:/地名石刻.*永兴/}).click();
+  if(width===390) await page.locator('#previewDetails').click();
+  assert.equal(await page.locator('#dlgTitle').innerText(),'永兴');
+  await shot('free-yongxing');
+  await page.locator('.dialog__close').click();
+  await page.locator('#resumeJourney').click();
+  assert.equal(await title.innerText(),'湄潭');
+  assert.ok(await page.locator('.journey').isVisible());
+  await page.waitForTimeout(1600);
+  assert.ok(await page.locator('#view-map.is-active').isVisible());
   await next.click();
+  await page.locator('#view-finale.is-active').waitFor({state:'visible'});
+  await page.getByRole('link',{name:'重新游览主线',exact:true}).click();
   assert.equal(await title.innerText(),'杭州');
   assert.ok(await prev.isDisabled());
   // Branches remain freely readable, without entering the Next-stop sequence.

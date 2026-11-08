@@ -49,6 +49,5 @@ def build_tour(pins):
     section(trail('south-story'), ['青岩','贵阳','遵义'], ['N03','N04'])
     section([(522,1015),(530,1040),(480,1057)], places=['F04'])
     section([(480,1057),(515,1080)]+trail('plaza-exit')[1:], ['湄潭'])
-    section(trail('south-spine'), ['永兴'])
     start = next(i for i, stop in enumerate(stops) if stop['id']=='stone:杭州')
     return dict(stops=stops[start:])

@@ -420,14 +420,6 @@ window.PARK_MAP = {
         "kind": "stone",
         "stoneIndex": 26,
         "title": "湄潭"
-      },
-      {
-        "id": "stone:永兴",
-        "x": 34.5166,
-        "y": 79.01265,
-        "kind": "stone",
-        "stoneIndex": 27,
-        "title": "永兴"
       }
     ]
   }

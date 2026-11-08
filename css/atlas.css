@@ -100,3 +100,5 @@ h1,h2,h3,h4{letter-spacing:0}button,a{touch-action:manipulation}
 
 .poi--stone.has-place .poi__label{display:block;left:12px;top:-8px}.poi[aria-current="step"] .poi__label{display:none}.preview-related{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}.preview-related:empty{display:none}
 .poi,.poi:hover,.poi:focus-visible{transform:none;z-index:auto;margin-left:-15px;margin-top:-15px}.poi--chapter,.poi--chapter:hover,.poi--chapter:focus-visible{margin-left:-7px;margin-top:-7px}.poi--site,.poi--site:hover,.poi--site:focus-visible{margin-left:-5px;margin-top:-5px}.poi--stone,.poi--stone:hover,.poi--stone:focus-visible{margin-left:-4px;margin-top:-4px}.poi .poi__dot{position:relative;z-index:2}.poi .poi__label{z-index:1}
+
+.journey[hidden],.explore-controls[hidden]{display:none}.explore-controls{display:flex;flex:none;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding:14px 0 8px;margin-top:12px;font-size:14px}

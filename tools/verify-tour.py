@@ -9,7 +9,7 @@ data = json.loads((ROOT/'js/geometry.js').read_text(encoding='utf-8').split(' = 
 tour = data['tour']
 
 
-MAIN_STONES = ['杭州','西天目','建德','兰溪','金华','玉山','南昌','樟树','吉安','赣州','大庾','南雄','曲江','三水','宜山','青岩','贵阳','遵义','湄潭','永兴']
+MAIN_STONES = ['杭州','西天目','建德','兰溪','金华','玉山','南昌','樟树','吉安','赣州','大庾','南雄','曲江','三水','宜山','青岩','贵阳','遵义','湄潭']
 
 
 def assert_mainline(stops):
@@ -32,8 +32,8 @@ class TourTests(unittest.TestCase):
     def test_start_end_and_no_repeated_stops(self):
         stops=tour['stops']
         self.assertEqual(stops[0]['id'],'stone:杭州')
-        self.assertEqual(stops[-1]['id'],'stone:永兴')
-        self.assertEqual(len(stops),27)
+        self.assertEqual(stops[-1]['id'],'stone:湄潭')
+        self.assertEqual(len(stops),26)
         self.assertEqual(len({s['id'] for s in stops}),len(stops))
 
     def test_mainline_also_stops_at_its_landmarks(self):
