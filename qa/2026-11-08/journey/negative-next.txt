@@ -1,0 +1,13 @@
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+'建德' !== '西天目'
+
+    at D:\aaaaa\homework\地图作业\site\tools\verify-journey.cjs:12:10
+    at async exports.run (D:\aaaaa\homework\地图作业\site\tools\browser-qa.cjs:28:7) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '建德',
+  expected: '西天目',
+  operator: 'strictEqual',
+  diff: 'simple'
+}

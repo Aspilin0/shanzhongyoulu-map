@@ -8,8 +8,9 @@
     F04: '「求是巢」木构位于园区西南部。园区沿革资料记录了建筑学专业同学于 2024 年搭建木构的故事。',
     F05: '建校 120 周年、西迁 80 周年纪念雕塑位于园区西南侧。'
   };
+  var stoneEvents = { '杭州':'1937.11.11', '建德':'1937.12.01', '金华':'1937.12.26', '玉山':'1938.01.06', '泰和':'1938.07', '宜山':'1938.11.01', '遵义':'1940', '湄潭':'1940', '永兴':'1943' };
   function stone(s) {
-    var event = D.timeline.find(function (t) { return t.t.indexOf(s.n) !== -1 && t.d !== '1946'; });
+    var event = D.timeline.find(function (t) { return t.d === stoneEvents[s.n]; });
     return { title: s.n, event: event ? event.d + ' · ' + event.t : '西迁之路地名石刻，沿园路串联西迁途中的地名。' };
   }
   function describe(p) {

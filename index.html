@@ -21,8 +21,6 @@
     <a class="brand" href="#/map">山中有路</a>
     <nav class="nav" id="nav" aria-label="主导航">
       <a href="#/map" data-route="map">园区地图</a>
-      <a href="#/timeline" data-route="timeline">西迁时间轴</a>
-      <a href="#/finale" data-route="finale">终章</a>
     </nav>
   </div>
 </header>
@@ -54,9 +52,12 @@
         </div>
         <div class="map-stage">
           <div class="map-scroll" id="mapScroll" tabindex="0" role="region" aria-label="可缩放和滚动的北山地图">
+            <div class="map-canvas" id="mapCanvas">
             <div class="map-frame" id="mapFrame">
               <img class="map-frame__img" src="assets/map/beishan-map.svg" alt="按新提供的清晰地图重绘：北部环路、西侧入口、求是巢广场与南侧纪念碑亭，通过自然弯曲的园路连接。" width="1220" height="1530">
               <div class="poi-layer" id="poiLayer"></div>
+              <span class="journey-marker" id="journeyMarker" role="img" aria-label="当前位置" hidden><span></span></span>
+            </div>
             </div>
           </div>
           <aside class="poi-preview" id="poiPreview" aria-labelledby="poiPreviewTitle" hidden>
@@ -71,23 +72,16 @@
             <button type="button" id="zoomFit" aria-label="显示完整地图">全图</button>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========================================================== 时间轴 -->
-  <section class="view" id="view-timeline" aria-labelledby="tlTitle">
-    <div class="wrap section">
-      <h2 class="h2" id="tlTitle">西迁时间轴</h2>
-      <p class="lede">
-        1937 年离开杭州，1946 年复员归来。
-      </p>
-      <div class="tl" id="timeline"></div>
-
-      <div class="section--tight">
-        <hr class="rule" style="margin-bottom:34px">
-        <h3 class="h3">北山与校友林沿革</h3>
-        <div class="tl" id="parkTimeline"></div>
+        <section class="journey" aria-label="石刻路线导览">
+          <div class="journey__content" aria-live="polite" aria-atomic="true">
+            <div class="journey__heading"><h2 id="journeyTitle">杭州</h2><span id="journeyCount"></span></div>
+            <p id="journeyEvent"></p>
+          </div>
+          <div class="journey__nav">
+            <button type="button" class="ghost-btn" id="journeyPrev" disabled>上一站</button>
+            <button type="button" class="btn btn--primary" id="journeyNext">下一站</button>
+          </div>
+        </section>
       </div>
     </div>
   </section>
@@ -111,6 +105,12 @@
       <h3>图像与历史</h3>
       <p>今日图像为园区实拍；历史画面为依据文献绘制的原创示意图，不能作为历史影像或史料证据使用。各章保留所依据的来源编号。</p>
       <details><summary>查看章节与雕塑对应</summary><ul class="kv" id="mapTable"></ul></details>
+      <details id="historyDetails"><summary>西迁时间轴</summary>
+        <p>1937 年离开杭州，1946 年复员归来。</p>
+        <div class="tl" id="timeline"></div>
+        <h3>北山与校友林沿革</h3>
+        <div class="tl" id="parkTimeline"></div>
+      </details>
       <h3>资料来源</h3>
       <div class="src-table" id="sourceTable"></div>
       <details class="site-settings"><summary>浏览设置</summary><button class="ghost-btn" id="animToggle" type="button" aria-pressed="true">动画 开</button><button class="ghost-btn" id="resetProgress" type="button">重置进度</button></details>
@@ -119,7 +119,7 @@
 
 </main>
 
-<footer class="footer"><div class="footer__inner"><span id="progressText" aria-live="polite">已探索 0 / 5</span><a href="#/about">资料与说明</a></div></footer>
+<footer class="footer"><div class="footer__inner"><a href="#/about">资料与说明</a></div></footer>
 
 <!-- ============================================================ 节点卡片 -->
 <div class="dialog" id="nodeDialog" role="dialog" aria-modal="true" aria-labelledby="dlgTitle" hidden>
@@ -141,6 +141,7 @@
 <script src="js/data.js"></script>
 <script src="js/poi-content.js"></script>
 <script src="js/preview.js"></script>
+<script src="js/journey.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

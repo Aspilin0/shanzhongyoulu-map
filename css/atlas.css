@@ -83,3 +83,12 @@ h1,h2,h3,h4{letter-spacing:0}button,a{touch-action:manipulation}
 body:not([data-view="map"]) #progressText{visibility:hidden}
 .poi-preview{position:absolute;z-index:20;width:280px;max-width:calc(100% - 24px);padding:18px;background:var(--paper-2);border:1px solid var(--line);border-radius:var(--r-sm)}
 .poi-preview[hidden]{display:none}.poi-preview h2{font:20px var(--hand);margin:0 24px 10px 0}.poi-preview p{font-size:14px;line-height:1.8;margin:0 0 14px}.poi-preview__close{position:absolute;right:8px;top:8px;border:0;background:none;color:var(--muted);font-size:20px;cursor:pointer}
+
+/* The map takes the space above the current stop and its two navigation actions. */
+.atlas-wrap{height:calc(100dvh - 104px);display:flex}.map-shell{width:100%;height:100%;display:flex;flex-direction:column}.map-head{flex:none}.map-stage{height:auto;min-height:240px;flex:1}
+.journey{display:flex;align-items:center;gap:32px;flex:none;border-top:1px solid var(--line);padding:14px 0 8px;margin-top:12px}.journey__content{flex:1;min-width:0}.journey__heading{display:flex;gap:16px;align-items:center}.journey h2{font:20px var(--hand);margin:0}.journey__heading span{font-size:12px;color:var(--muted)}.journey p{font-size:14px;line-height:1.8;margin:6px 0 0;max-width:70em}.journey__nav{display:flex;gap:12px;flex:none;align-items:center}.journey__nav button{font-size:14px;white-space:nowrap}.journey__nav button:disabled{opacity:.5;cursor:default}
+.journey-marker{position:absolute;transform:translate(-50%,-50%);width:20px;height:20px;border:3px solid var(--paper-2);outline:2px solid var(--green);background:var(--green);border-radius:50%;pointer-events:none;z-index:11}.journey-marker[hidden]{display:none}.journey-marker span{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);font-size:14px;white-space:nowrap;padding:1px 8px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--paper-2);color:var(--ink)}
+.footer__inner{justify-content:flex-end}
+.map-canvas{width:max-content;min-width:100%;box-sizing:border-box}
+.journey-marker.is-east span{left:auto;right:-8px;transform:none}
+@media(max-width:760px){.atlas-wrap{height:calc(100dvh - 138px)}.journey{display:block;padding:12px 0 8px;margin-top:10px}.journey__nav{margin-top:12px;justify-content:space-between;gap:12px}.journey__nav button{padding:9px 14px}.map-stage{min-height:240px}}

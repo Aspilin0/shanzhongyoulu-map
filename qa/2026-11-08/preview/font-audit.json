@@ -19,16 +19,6 @@
           "selector": "A."
         },
         {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -107,6 +97,11 @@
           "text": "纪念碑亭",
           "size": 14,
           "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
         },
         {
           "text": "×",
@@ -144,9 +139,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 0 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",
@@ -170,16 +185,6 @@
         },
         {
           "text": "园区地图",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
           "size": 14,
           "selector": "A."
         },
@@ -264,6 +269,11 @@
           "selector": "SPAN.poi__label"
         },
         {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
           "text": "＋",
           "size": 20,
           "selector": "#zoomIn"
@@ -279,9 +289,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 1 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",
@@ -539,16 +569,6 @@
           "selector": "A."
         },
         {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -599,6 +619,11 @@
           "selector": "SPAN.poi__label"
         },
         {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
           "text": "×",
           "size": 20,
           "selector": "#previewClose"
@@ -634,9 +659,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 1 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",
@@ -664,16 +709,6 @@
           "selector": "A."
         },
         {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -697,6 +732,11 @@
           "text": "石刻",
           "size": 14,
           "selector": "BUTTON."
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
         },
         {
           "text": "×",
@@ -734,9 +774,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 1 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",
@@ -760,16 +820,6 @@
         },
         {
           "text": "园区地图",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
           "size": 14,
           "selector": "A."
         },
@@ -822,6 +872,11 @@
           "text": "5",
           "size": 14,
           "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
         },
         {
           "text": "×",
@@ -859,9 +914,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 0 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",
@@ -885,16 +960,6 @@
         },
         {
           "text": "园区地图",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
           "size": 14,
           "selector": "A."
         },
@@ -949,6 +1014,11 @@
           "selector": "SPAN.poi__dot"
         },
         {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
           "text": "＋",
           "size": 20,
           "selector": "#zoomIn"
@@ -964,9 +1034,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 1 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",
@@ -1224,16 +1314,6 @@
           "selector": "A."
         },
         {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -1257,6 +1337,11 @@
           "text": "石刻",
           "size": 14,
           "selector": "BUTTON."
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
         },
         {
           "text": "×",
@@ -1294,9 +1379,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 1 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",
@@ -1324,16 +1429,6 @@
           "selector": "A."
         },
         {
-          "text": "西迁时间轴",
-          "size": 14,
-          "selector": "A."
-        },
-        {
-          "text": "终章",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -1357,6 +1452,11 @@
           "text": "石刻",
           "size": 14,
           "selector": "BUTTON."
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
         },
         {
           "text": "×",
@@ -1394,9 +1494,29 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "已探索 1 / 5",
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 28 站",
           "size": 12,
-          "selector": "#progressText"
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站 西天目",
+          "size": 14,
+          "selector": "#journeyNext"
         },
         {
           "text": "资料与说明",

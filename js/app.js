@@ -221,7 +221,7 @@
       var k = btn.dataset.kind;
       var show;
       if (mapLayer === 'all') {
-        show = (k === 'chapter' || k === 'anchor' || k === 'site');
+        show = (k === 'chapter' || k === 'anchor' || k === 'site' || k === 'stone');
       } else if (mapLayer === 'chapter') {
         show = (k === 'chapter' || k === 'anchor');
       } else if (mapLayer === 'sculpture') {
@@ -260,18 +260,36 @@
     var scroll = $('#mapScroll'); var frame = $('#mapFrame');
     if (!scroll || !scroll.clientWidth) return;
     var oldWidth = frame.offsetWidth || 1;
-    var mid = center ? .44 : (scroll.scrollLeft + scroll.clientWidth / 2) / oldWidth;
+    var bounds = scroll.getBoundingClientRect(), rect = frame.getBoundingClientRect();
+    var mid = center ? .5 : (bounds.left + scroll.clientWidth / 2 - rect.left) / oldWidth;
+    var midY = center ? .5 : (bounds.top + scroll.clientHeight / 2 - rect.top) / (frame.offsetHeight || 1);
     var extent = window.PARK_MAP.extent;
     var ratio = extent[2] / extent[3];
     var fitWidth = Math.min(scroll.clientWidth, scroll.clientHeight * ratio);
-    var base = Math.max(fitWidth, window.innerWidth <= 760 ? 620 : fitWidth);
+    var base = Math.max(fitWidth, window.innerWidth <= 760 ? 620 : scroll.clientWidth * .9);
     frame.style.aspectRatio = extent[2] + ' / ' + extent[3];
     frame.style.width = (mapFit ? fitWidth : base * mapZoom) + 'px';
+    $('#mapCanvas').style.padding = mapFit ? '0' : scroll.clientHeight / 2 + 'px ' + scroll.clientWidth / 2 + 'px';
     frame.classList.toggle('is-overview', mapFit);
-    scroll.scrollLeft = Math.max(0, mid * frame.offsetWidth - scroll.clientWidth / 2);
+    rect = frame.getBoundingClientRect();
+    scroll.scrollLeft = mapFit ? 0 : scroll.scrollLeft + rect.left - bounds.left + mid * frame.offsetWidth - scroll.clientWidth / 2;
+    scroll.scrollTop = mapFit ? 0 : scroll.scrollTop + rect.top - bounds.top + midY * frame.offsetHeight - scroll.clientHeight / 2;
     $('#zoomIn').disabled = !mapFit && mapZoom >= 2.25;
     $('#zoomOut').disabled = mapFit;
     $('#zoomFit').setAttribute('aria-pressed', String(mapFit));
+  }
+
+  function focusStone(stone, instant) {
+    mapFit = false;
+    mapZoom = Math.max(mapZoom, 1.25);
+    resizeMap(false);
+    var scroll = $('#mapScroll'), frame = $('#mapFrame');
+    var bounds = scroll.getBoundingClientRect(), rect = frame.getBoundingClientRect();
+    scroll.scrollTo({
+      left: scroll.scrollLeft + rect.left - bounds.left + stone.x / 100 * frame.offsetWidth - scroll.clientWidth / 2,
+      top: scroll.scrollTop + rect.top - bounds.top + stone.y / 100 * frame.offsetHeight - scroll.clientHeight / 2,
+      behavior: instant || matchMedia('(prefers-reduced-motion: reduce)').matches || document.body.classList.contains('no-anim') ? 'auto' : 'smooth'
+    });
   }
 
   /* ============================================================ 节点卡片 */
@@ -551,6 +569,7 @@
   function openStone(idx) {
     var s = D.stones[idx];
     if (!s) return;
+    window.PARK_JOURNEY.select(idx, false);
     currentCardChapter = null;
 
     $('#dlgNo').textContent = '西迁之路 · 地名石刻　第 ' + (idx + 1) + ' / ' + D.stones.length + ' 站';
@@ -718,7 +737,7 @@
   }
 
   /* ============================================================== 路由 */
-  var ROUTES = ['home', 'map', 'timeline', 'finale', 'about'];
+  var ROUTES = ['home', 'map', 'finale', 'about'];
 
   function showView(name) {
     window.PARK_PREVIEW.hide();
@@ -733,7 +752,8 @@
       else a.removeAttribute('aria-current');
     });
     window.scrollTo({ top: 0, behavior: 'auto' });
-    if (name === 'map') requestAnimationFrame(function () { resizeMap(true); });
+    if (name === 'map') window.PARK_JOURNEY.enter();
+    else window.PARK_JOURNEY.cancel();
   }
 
   function route() {
@@ -754,7 +774,8 @@
       }
     }
     if (h === 'node') { showView('map'); return; }
-    var name = ROUTES.indexOf(h) !== -1 && h !== 'home' ? h : 'map';
+    var name = h === 'timeline' ? 'about' : ROUTES.indexOf(h) !== -1 && h !== 'home' ? h : 'map';
+    if (h === 'timeline') $('#historyDetails').open = true;
     if (dialog && !dialog.hidden) closeDialog();
     showView(name);
   }
@@ -767,6 +788,11 @@
     buildFinale();
     buildAbout();
     paintProgress();
+    window.PARK_JOURNEY.init({
+      focus: focusStone,
+      overview: function () { mapFit = true; resizeMap(true); },
+      finish: function () { closeDialog(); location.hash = '#/finale'; }
+    });
 
     $('#enterMap').addEventListener('click', function () {
       introSeen = true;

@@ -1,0 +1,65 @@
+const { run } = require('./browser-qa.cjs');
+run('journey', async ({ page, context, width, shot, assert }) => {
+  if (process.env.QA_BEFORE) { await shot('before'); return; }
+  const title = page.locator('#journeyTitle');
+  const prev = page.locator('#journeyPrev'), next = page.locator('#journeyNext');
+  assert.equal(await title.innerText(), '杭州');
+  assert.ok((await page.locator('#journeyEvent').innerText()).includes('江干码头'));
+  assert.ok(await prev.isDisabled());
+  const nextBox = await next.boundingBox();
+  assert.ok(nextBox.y + nextBox.height <= page.viewportSize().height, 'Next stop is below the screen');
+  await shot('start');
+  const startScroll = await page.locator('#mapScroll').evaluate(n => [n.scrollLeft,n.scrollTop]);
+  await next.click();
+  assert.equal(await title.innerText(), '西天目');
+  await page.waitForTimeout(400);
+  assert.notDeepEqual(await page.locator('#mapScroll').evaluate(n => [n.scrollLeft,n.scrollTop]), startScroll);
+  await shot('next');
+  await prev.click();
+  assert.equal(await title.innerText(), '杭州');
+  await page.reload();
+  assert.equal(await title.innerText(), '杭州');
+  assert.equal(await page.locator('#nav a[href="#/timeline"],#nav a[href="#/finale"]').count(), 0);
+  const names = await page.evaluate(() => SITE.stones.map(s => s.n));
+  for (let i = 1; i < names.length; i++) {
+    await next.click();
+    assert.equal(await title.innerText(), names[i]);
+    assert.equal(await page.locator('#journeyMarker').getAttribute('aria-label'), '当前位置：' + names[i]);
+    assert.ok((await page.locator('#journeyEvent').innerText()).length > 0);
+    await page.waitForFunction(() => {
+      const point = document.querySelector('#journeyMarker').getBoundingClientRect();
+      const view = document.querySelector('#mapScroll').getBoundingClientRect();
+      return Math.abs(point.x + point.width / 2 - view.x - view.width / 2) < 3 && Math.abs(point.y + point.height / 2 - view.y - view.height / 2) < 3;
+    }, null, { timeout: 5000 });
+    await shot(`station-${String(i+1).padStart(2,'0')}`);
+  }
+  await prev.click();
+  await page.waitForTimeout(1500);
+  assert.ok(await page.locator('#view-map.is-active').isVisible(), 'Previous stop must cancel the pending finale');
+  await next.click();
+  await page.locator('#view-finale.is-active').waitFor({ state: 'visible' });
+  assert.equal(await page.locator('#nodeDialog').isVisible(), false);
+  await shot('finale');
+  await page.getByRole('link', { name: '返回地图', exact: true }).click();
+  assert.equal(await title.innerText(), '永兴');
+  await next.click();
+  assert.equal(await title.innerText(), '杭州');
+  assert.ok(await prev.isDisabled());
+  await page.getByRole('link', { name: '资料与说明', exact: true }).click();
+  assert.equal(await page.locator('#historyDetails').getAttribute('open'), null);
+  await page.locator('#historyDetails summary').click();
+  assert.ok(await page.locator('#timeline').isVisible());
+  await shot('timeline-expanded');
+  await page.goto(page.url().split('#')[0] + '#/timeline');
+  assert.ok(await page.locator('#view-about.is-active #timeline').isVisible());
+  const fresh = await context.browser().newContext({ viewport: page.viewportSize() });
+  const firstVisit = await fresh.newPage();
+  await firstVisit.goto(page.url().split('#')[0] + '#/map');
+  await firstVisit.locator('#view-home.is-active').waitFor({ state: 'visible' });
+  await firstVisit.screenshot({ path: require('node:path').resolve(`qa/2026-11-08/journey/${width}-first-visit.png`) });
+  await firstVisit.locator('#enterMap').click();
+  assert.equal(await firstVisit.locator('#journeyTitle').innerText(), '杭州');
+  await firstVisit.reload();
+  assert.ok(await firstVisit.locator('#view-map.is-active').isVisible());
+  await fresh.close();
+}).catch(e => { console.error(e); process.exitCode = 1; });
