@@ -82,10 +82,8 @@
       then: true, badge: c.history.type,
       sources: ['assets/history/' + c.id + '.svg', 'assets/history/' + c.id + '.jpg'],
       alt: c.history.desc,
-      caption: c.history.desc,
-      meta: '依据：' + c.history.basis,
-      missingTitle: '历史示意图待生成',
-      missing: '请将画面命名为 ' + c.id + '.svg 或 ' + c.id + '.jpg 放入 assets/history/ 目录，并在图注标注依据史料与核查人。'
+      caption: c.history.desc,      missingTitle: '历史示意图待生成',
+      missing: '请将画面命名为 ' + c.id + '.svg 或 ' + c.id + '.jpg 放入 assets/history/ 目录。'
     }));
     body.appendChild(dual);
 
@@ -227,9 +225,7 @@
         then: true, badge: owner.history.type,
         sources: ['assets/history/' + owner.id + '.svg', 'assets/history/' + owner.id + '.jpg'],
         alt: owner.history.desc,
-        caption: '与本章同一张历史示意图：' + owner.history.desc,
-        meta: '依据：' + owner.history.basis,
-        missingTitle: '历史示意图待生成',
+        caption: owner.history.desc,        missingTitle: '历史示意图待生成',
         missing: '请将画面命名为 ' + owner.id + '.svg 或 ' + owner.id + '.jpg 放入 assets/history/ 目录。'
       }));
     }

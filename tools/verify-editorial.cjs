@@ -5,6 +5,9 @@ run('editorial', async ({ page, shot, assert }) => {
     await page.goto((process.env.BASE_URL || 'http://127.0.0.1:8813') + '/#/node/' + id);
     const dialog = page.locator('#nodeDialog');
     await dialog.waitFor({ state:'visible' });
+    await page.locator('#dlgBody img').evaluateAll(imgs=>Promise.all(imgs.map(async img=>{
+      img.loading='eager'; await img.decode();
+    })));
     const text = await dialog.innerText();
     if (stage >= 1) {
       assert.doesNotMatch(text,/第\s*\d+\s*章|所属章节|资料底本|SCULPTURE/,'Remove chapter labels and technical eyebrows from '+id);

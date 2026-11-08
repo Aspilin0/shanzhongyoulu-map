@@ -122,13 +122,6 @@
     var cap = el('figcaption', 'figure__cap');
     var span = el('span', null, opts.caption || '');
     cap.appendChild(span);
-    if (opts.meta) {
-      var m = el('div', null, opts.meta);
-      m.style.marginTop = '4px';
-      m.style.color = 'var(--muted)';
-      m.style.fontSize = '12px';
-      cap.appendChild(m);
-    }
     fig.appendChild(cap);
     return fig;
   }
