@@ -1,0 +1,23 @@
+const { run } = require('./browser-qa.cjs');
+run('about-return', async ({page,shot,assert}) => {
+  await page.locator('#journeyNext').click();
+  const stop=await page.locator('#journeyTitle').innerText();
+  await page.getByRole('link',{name:'资料与说明',exact:true}).click();
+  const back=page.locator('#aboutBack');
+  assert.ok(await back.isVisible());
+  await shot('top');
+  await page.evaluate(()=>window.scrollTo(0,document.body.scrollHeight));
+  const box=await back.boundingBox();
+  assert.ok(box.y>=0 && box.y+box.height<=page.viewportSize().height,'Return link must remain on screen');
+  await shot('bottom');
+  await back.click();
+  assert.ok(await page.locator('#view-map.is-active').isVisible());
+  assert.equal(await page.locator('#journeyTitle').innerText(),stop);
+  await page.goto(page.url().split('#')[0]+'#/explore');
+  await page.locator('#exploreControls').waitFor({state:'visible'});
+  await page.getByRole('link',{name:'资料与说明',exact:true}).click();
+  await back.click();
+  assert.ok(await page.locator('#exploreControls').isVisible());
+  assert.equal(await page.locator('.journey').isVisible(),false);
+  await shot('returned-free-mode');
+}).catch(e=>{console.error(e);process.exitCode=1;});
