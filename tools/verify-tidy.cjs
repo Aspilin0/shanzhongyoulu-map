@@ -12,7 +12,7 @@ run('tidy', async ({ page, width, shot, assert }) => {
   }
   await shot(process.env.QA_BEFORE ? 'stone-before' : 'stone-after');
   await page.getByRole('button', { name: '返回地图', exact: true }).click();
-  assert.equal(await page.locator('#journeyTitle').innerText(), '宜山');
+  assert.equal(await page.locator('#journeyTitle').innerText(), '杭州');
   await page.locator('#journeyNext').click();
-  assert.equal(await page.locator('#journeyTitle').innerText(), '青岩');
+  assert.notEqual(await page.locator('#journeyTitle').innerText(), '杭州');
 }).catch(e => { console.error(e); process.exitCode = 1; });

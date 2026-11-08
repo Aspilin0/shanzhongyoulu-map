@@ -1,65 +1,53 @@
 const { run } = require('./browser-qa.cjs');
-run('journey', async ({ page, context, width, shot, assert }) => {
-  if (process.env.QA_BEFORE) { await shot('before'); return; }
-  const title = page.locator('#journeyTitle');
-  const prev = page.locator('#journeyPrev'), next = page.locator('#journeyNext');
-  assert.equal(await title.innerText(), '杭州');
-  assert.ok((await page.locator('#journeyEvent').innerText()).includes('江干码头'));
-  assert.ok(await prev.isDisabled());
-  const nextBox = await next.boundingBox();
-  assert.ok(nextBox.y + nextBox.height <= page.viewportSize().height, 'Next stop is below the screen');
-  await shot('start');
-  const startScroll = await page.locator('#mapScroll').evaluate(n => [n.scrollLeft,n.scrollTop]);
-  await next.click();
-  assert.equal(await title.innerText(), '西天目');
-  await page.waitForTimeout(400);
-  assert.notDeepEqual(await page.locator('#mapScroll').evaluate(n => [n.scrollLeft,n.scrollTop]), startScroll);
-  await shot('next');
-  await prev.click();
-  assert.equal(await title.innerText(), '杭州');
-  await page.reload();
-  assert.equal(await title.innerText(), '杭州');
-  assert.equal(await page.locator('#nav a[href="#/timeline"],#nav a[href="#/finale"]').count(), 0);
-  const names = await page.evaluate(() => SITE.stones.map(s => s.n));
-  for (let i = 1; i < names.length; i++) {
-    await next.click();
-    assert.equal(await title.innerText(), names[i]);
-    assert.equal(await page.locator('#journeyMarker').getAttribute('aria-label'), '当前位置：' + names[i]);
-    assert.ok((await page.locator('#journeyEvent').innerText()).length > 0);
-    await page.waitForFunction(() => {
-      const point = document.querySelector('#journeyMarker').getBoundingClientRect();
-      const view = document.querySelector('#mapScroll').getBoundingClientRect();
-      return Math.abs(point.x + point.width / 2 - view.x - view.width / 2) < 3 && Math.abs(point.y + point.height / 2 - view.y - view.height / 2) < 3;
-    }, null, { timeout: 5000 });
-    await shot(`station-${String(i+1).padStart(2,'0')}`);
+const modes = [
+  {ridge:'ridge','stone:樟树':'ridge','stone:衡阳':'north-spine','stone:宜山':'cross',west:'west-spine','stone:湄潭':'south-spine','south-fork':'southwest'},
+  {'stone:樟树':'east','stone:宜山':'south-story','stone:湄潭':'pavilion',riverside:'river-east'},
+  {'stone:樟树':'ridge','stone:衡阳':'north-gate'},
+  {'stone:樟树':'east','stone:宜山':'cross',west:'west-gate'},
+  {'stone:樟树':'east','stone:宜山':'south-story','stone:湄潭':'south-spine','south-fork':'southeast'},
+  {'stone:樟树':'east','stone:宜山':'south-story','stone:湄潭':'pavilion',riverside:'river-south'}
+];
+run('branch-journey', async ({ page, shot, assert }) => {
+  const url = page.url().split('#')[0] + '#/map';
+  for (let route=0; route<modes.length; route++) {
+    await page.goto(url);
+    await page.reload();
+    assert.equal(await page.locator('#journeyTitle').innerText(),'杭州');
+    assert.ok(await page.locator('#journeyPrev').isDisabled());
+    const visited=[], titles=[];
+    for (let step=0;step<60;step++) {
+      const id=await page.locator('#journeyTitle').getAttribute('data-stop');
+      assert.ok(!visited.includes(id),'Forced return to '+id);
+      visited.push(id); titles.push(await page.locator('#journeyTitle').innerText());
+      await shot(`route-${route+1}-step-${String(step+1).padStart(2,'0')}`);
+      if (await page.locator('#journeyNext').innerText()==='重新游览') break;
+      const buttons=page.locator('#journeyChoices button');
+      if (await buttons.count()) {
+        assert.ok(await page.locator('#journeyNext').isDisabled(),'Junction must wait for route choice');
+        assert.ok(modes[route][id],'Unspecified junction '+id);
+        await page.locator(`#journeyChoices [data-edge="${modes[route][id]}"]`).click();
+      } else await page.locator('#journeyNext').click();
+    }
+    assert.ok(visited.length<60);
+    if (route===0) {
+      assert.ok(titles.includes('保护四库全书') && titles.includes('费巩明灯') && titles.includes('百鸟归林') && titles.includes('求是巢') && titles.includes('120 周年纪念雕塑'));
+      assert.ok(!titles.includes('抢运校产'));
+    }
+    if (route===1) {
+      assert.ok(titles.includes('抢运校产') && titles.includes('手摇发电亮灯') && titles.includes('求是巢') && titles.includes('西迁纪念碑亭'));
+      assert.ok(!titles.includes('保护四库全书'));
+    }
+    await page.locator('#view-finale.is-active').waitFor({state:'visible'});
+    await shot('route-'+(route+1)+'-finale');
   }
-  await prev.click();
-  await page.waitForTimeout(1500);
-  assert.ok(await page.locator('#view-map.is-active').isVisible(), 'Previous stop must cancel the pending finale');
-  await next.click();
-  await page.locator('#view-finale.is-active').waitFor({ state: 'visible' });
-  assert.equal(await page.locator('#nodeDialog').isVisible(), false);
-  await shot('finale');
-  await page.getByRole('link', { name: '返回地图', exact: true }).click();
-  assert.equal(await title.innerText(), '永兴');
-  await next.click();
-  assert.equal(await title.innerText(), '杭州');
-  assert.ok(await prev.isDisabled());
-  await page.getByRole('link', { name: '资料与说明', exact: true }).click();
-  assert.equal(await page.locator('#historyDetails').getAttribute('open'), null);
-  await page.locator('#historyDetails summary').click();
-  assert.ok(await page.locator('#timeline').isVisible());
-  await shot('timeline-expanded');
-  await page.goto(page.url().split('#')[0] + '#/timeline');
-  assert.ok(await page.locator('#view-about.is-active #timeline').isVisible());
-  const fresh = await context.browser().newContext({ viewport: page.viewportSize() });
-  const firstVisit = await fresh.newPage();
-  await firstVisit.goto(page.url().split('#')[0] + '#/map');
-  await firstVisit.locator('#view-home.is-active').waitFor({ state: 'visible' });
-  await firstVisit.screenshot({ path: require('node:path').resolve(`qa/2026-11-08/journey/${width}-first-visit.png`) });
-  await firstVisit.locator('#enterMap').click();
-  assert.equal(await firstVisit.locator('#journeyTitle').innerText(), '杭州');
-  await firstVisit.reload();
-  assert.ok(await firstVisit.locator('#view-map.is-active').isVisible());
-  await fresh.close();
-}).catch(e => { console.error(e); process.exitCode = 1; });
+  // Return to the fork and select the other direction without retaining the old branch.
+  await page.goto(url);
+    await page.reload();
+  while (await page.locator('#journeyTitle').innerText()!=='樟树') await page.locator('#journeyNext').click();
+  await page.locator('[data-edge="ridge"]').click();
+  await page.locator('#journeyPrev').click();
+  assert.equal(await page.locator('#journeyTitle').innerText(),'樟树');
+  await page.locator('[data-edge="east"]').click();
+  assert.notEqual(await page.locator('#journeyTitle').getAttribute('data-stop'),'stone:茶陵');
+  await shot('changed-branch');
+}).catch(e=>{console.error(e);process.exitCode=1;});

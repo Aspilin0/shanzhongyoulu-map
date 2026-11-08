@@ -74,7 +74,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -84,12 +84,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -149,7 +154,7 @@
           "selector": "SPAN.poi__label"
         },
         {
-          "text": "宜山",
+          "text": "杭州",
           "size": 14,
           "selector": "SPAN."
         },
@@ -169,27 +174,32 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "宜山",
+          "text": "杭州",
           "size": 20,
           "selector": "#journeyTitle"
         },
         {
-          "text": "23 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
         {
-          "text": "1938.11.01 · 竺可桢在广西宜山开学典礼上发表《王阳明与大学生的典范》演讲。",
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
           "size": 14,
           "selector": "#journeyEvent"
         },
         {
-          "text": "上一站 茶陵",
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 青岩",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -339,7 +349,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -349,12 +359,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -384,37 +399,7 @@
           "selector": "#mapTitle"
         },
         {
-          "text": "抢运校产",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "保护四库全书",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "费巩明灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "手摇发电亮灯",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "百鸟归林",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "纪念碑亭",
-          "size": 14,
-          "selector": "SPAN.poi__label"
-        },
-        {
-          "text": "宜山",
+          "text": "杭州",
           "size": 14,
           "selector": "SPAN."
         },
@@ -434,27 +419,32 @@
           "selector": "#zoomFit"
         },
         {
-          "text": "宜山",
+          "text": "杭州",
           "size": 20,
           "selector": "#journeyTitle"
         },
         {
-          "text": "23 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
         {
-          "text": "1938.11.01 · 竺可桢在广西宜山开学典礼上发表《王阳明与大学生的典范》演讲。",
+          "text": "1937.11.11 · 浙大师生一千多人分三批自杭州江干码头乘乌篷船，沿钱塘江、富春江迁往建德，随行图书仪器七百多箱、二百余吨。",
           "size": 14,
           "selector": "#journeyEvent"
         },
         {
-          "text": "上一站 茶陵",
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 青岩",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },

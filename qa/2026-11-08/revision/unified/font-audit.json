@@ -74,7 +74,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -84,12 +84,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -194,7 +199,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -204,12 +209,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -294,7 +304,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -304,12 +314,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -594,7 +609,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -604,12 +619,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -684,7 +704,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -694,12 +714,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },
@@ -754,7 +779,7 @@
           "selector": "#journeyTitle"
         },
         {
-          "text": "1 / 28 站",
+          "text": "已行 1 站",
           "size": 12,
           "selector": "#journeyCount"
         },
@@ -764,12 +789,17 @@
           "selector": "#journeyEvent"
         },
         {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
           "text": "上一站",
           "size": 14,
           "selector": "#journeyPrev"
         },
         {
-          "text": "下一站 西天目",
+          "text": "下一站",
           "size": 14,
           "selector": "#journeyNext"
         },

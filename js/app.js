@@ -189,6 +189,7 @@
       b.style.left = s.x + '%';
       b.style.top = s.y + '%';
       b.dataset.kind = 'stone';
+      b.dataset.stoneIndex = String(i);
       b.setAttribute('aria-label', '西迁之路地名石刻第 ' + (i + 1) + ' 站：' + s.n);
       b.appendChild(el('span', 'poi__dot'));
       b.appendChild(el('span', 'poi__label', s.n));
@@ -404,6 +405,10 @@
     paintProgress();
     window.PARK_JOURNEY.init({
       focus: focusStone,
+      open: function (stop) {
+        if (stop.kind === 'stone') openStone(stop.stoneIndex);
+        else onPoiClick(D.poi.find(function (p) { return p.id === stop.poiId; }));
+      },
       overview: function () { mapFit = true; resizeMap(true); },
       finish: function () { closeDialog(); location.hash = '#/finale'; }
     });

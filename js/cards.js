@@ -282,7 +282,6 @@
   function openStone(idx) {
     var s = D.stones[idx];
     if (!s) return;
-    window.PARK_JOURNEY.select(idx, false);
     currentCardChapter = null;
 
     $('#dlgNo').textContent = '西迁之路 · 地名石刻　第 ' + (idx + 1) + ' / ' + D.stones.length + ' 站';

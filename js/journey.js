@@ -1,62 +1,83 @@
 (function () {
   'use strict';
-  var stones = window.SITE.stones;
-  var index = 0;
-  var hooks;
-  var timer;
+  var graph = window.PARK_MAP.tour;
+  var history = [graph.start];
+  var hooks, timer;
   var title = document.getElementById('journeyTitle');
   var event = document.getElementById('journeyEvent');
   var count = document.getElementById('journeyCount');
   var prev = document.getElementById('journeyPrev');
   var next = document.getElementById('journeyNext');
+  var choices = document.getElementById('journeyChoices');
+  var details = document.getElementById('journeyDetails');
   var marker = document.getElementById('journeyMarker');
+  function currentId() { return history[history.length - 1]; }
+  function current() { return graph.nodes[currentId()]; }
   function cancel() { clearTimeout(timer); }
+  function content(stop) {
+    if (stop.kind === 'stone') return window.PARK_CONTENT.stone(window.SITE.stones[stop.stoneIndex]);
+    if (stop.kind === 'place') return window.PARK_CONTENT.describe(window.SITE.poi.find(function (p) { return p.id === stop.poiId; }));
+    var options = graph.next[currentId()];
+    return { title: stop.title, event: options.length ? '前方可前往' + options.map(function (o) { return o.label; }).join('，或') + '。' : '抵达这条游览路线的出口。' };
+  }
   function paint() {
-    var s = stones[index];
-    var content = window.PARK_CONTENT.stone(s);
-    title.textContent = content.title;
-    event.textContent = content.event;
-    count.textContent = (index + 1) + ' / ' + stones.length + ' 站';
-    prev.disabled = index === 0;
-    prev.textContent = index ? '上一站 ' + stones[index - 1].n : '上一站';
-    next.textContent = index < stones.length - 1 ? '下一站 ' + stones[index + 1].n : '重新游览';
+    var stop = current(), summary = content(stop), options = graph.next[currentId()];
+    title.textContent = summary.title;
+    title.dataset.stop = currentId();
+    event.textContent = summary.event;
+    count.textContent = '已行 ' + history.length + ' 站';
+    prev.disabled = history.length === 1;
+    prev.textContent = '上一站';
+    next.disabled = options.length > 1;
+    next.textContent = options.length > 1 ? '请选择路线' : options.length ? '下一站' : '重新游览';
+    details.hidden = stop.kind === 'junction';
+    choices.replaceChildren();
+    choices.hidden = options.length < 2;
+    options.forEach(function (option) {
+      if (options.length < 2) return;
+      var button = document.createElement('button');
+      button.type = 'button'; button.className = 'ghost-btn';
+      button.textContent = option.label; button.dataset.edge = option.edge;
+      button.addEventListener('click', function () { advance(option); });
+      choices.appendChild(button);
+    });
     marker.hidden = false;
-    marker.style.left = s.x + '%';
-    marker.style.top = s.y + '%';
-    marker.classList.toggle('is-east', s.x > 90);
-    marker.setAttribute('aria-label', '当前位置：' + s.n);
-    marker.querySelector('span').textContent = s.n;
-    document.querySelectorAll('.poi--stone').forEach(function (button, i) {
-      if (i === index) button.setAttribute('aria-current', 'step');
+    marker.style.left = stop.x + '%'; marker.style.top = stop.y + '%';
+    marker.classList.toggle('is-east', stop.x > 90);
+    marker.setAttribute('aria-label', '当前位置：' + summary.title);
+    marker.querySelector('span').textContent = summary.title;
+    document.querySelectorAll('.poi').forEach(function (button) {
+      var selected = stop.kind === 'stone' ? button.dataset.stoneIndex === String(stop.stoneIndex) : button.dataset.id === stop.poiId;
+      if (selected) button.setAttribute('aria-current', 'step');
       else button.removeAttribute('aria-current');
     });
   }
-  function select(i, automatic) {
-    cancel();
-    if (i < 0 || i >= stones.length) return;
-    index = i;
-    paint();
-    window.PARK_PREVIEW.hide();
-    if (index === 0) hooks.overview();
-    else hooks.focus(stones[index]);
-    if (automatic && index === stones.length - 1) {
-      timer = setTimeout(hooks.finish, 1400);
-    }
+  function show(automatic) {
+    cancel(); paint(); window.PARK_PREVIEW.hide();
+    if (history.length === 1) hooks.overview(); else hooks.focus(current());
+    if (automatic && graph.next[currentId()].length === 0) timer = setTimeout(hooks.finish, 1400);
+  }
+  function advance(option) {
+    if (history.indexOf(option.to) !== -1) return;
+    history.push(option.to); show(true);
   }
   function enter() {
     paint();
     requestAnimationFrame(function () {
-      if (document.body.dataset.view === 'map') {
-        if (index === 0) hooks.overview();
-        else hooks.focus(stones[index], true);
-      }
+      if (document.body.dataset.view !== 'map') return;
+      if (history.length === 1) hooks.overview(); else hooks.focus(current(), true);
     });
   }
   function init(options) {
     hooks = options;
-    prev.addEventListener('click', function () { select(index - 1, true); });
-    next.addEventListener('click', function () { select(index === stones.length - 1 ? 0 : index + 1, true); });
+    prev.addEventListener('click', function () { if (history.length > 1) { history.pop(); show(false); } });
+    next.addEventListener('click', function () {
+      var options = graph.next[currentId()];
+      if (options.length === 1) advance(options[0]);
+      else if (!options.length) { history = [graph.start]; show(false); }
+    });
+    details.addEventListener('click', function () { hooks.open(current()); });
     paint();
   }
-  window.PARK_JOURNEY = { init: init, enter: enter, select: select, cancel: cancel };
+  window.PARK_JOURNEY = { init: init, enter: enter, cancel: cancel };
 })();

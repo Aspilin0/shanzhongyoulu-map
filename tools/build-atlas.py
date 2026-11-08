@@ -7,6 +7,7 @@ from pathlib import Path
 import json, random, math
 from html import escape
 from stone_layout import STONES
+from tour_layout import build_tour
 from atlas_layout import ROUTES, PLAZA, TREE_GAP, WATER_PATH, STREAM, FOREST, EXTENT, REFERENCE_SIZE, in_polygon, conflicts, assert_layout, tree_bounds
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -124,7 +125,7 @@ def build():
     def pct(x,y):return {'x':round((x-x0)/w*100,5),'y':round((y-y0)/h*100,5)}
     pins={k:pct(*v) for k,v in PINS.items()}
     for k,v in ALIASES.items():pins[k]=pins[v]
-    geometry={'referenceSize':REFERENCE_SIZE,'extent':EXTENT,'pins':pins,'stones':[dict(n=n,**pct(x,y)) for n,x,y in STONES]}
+    geometry={'referenceSize':REFERENCE_SIZE,'extent':EXTENT,'pins':pins,'stones':[dict(n=n,**pct(x,y)) for n,x,y in STONES], 'tour':build_tour(PINS)}
     (ROOT/'js/geometry.js').write_text('// Generated with the SVG by tools/build-atlas.py.\nwindow.PARK_MAP = '+json.dumps(geometry,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
     print(f'Built {len(ROUTES)} continuous routes; {len(trees)} safe trees, {rejected} unsafe candidates rejected.')
 

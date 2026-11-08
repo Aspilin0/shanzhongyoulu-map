@@ -12,10 +12,11 @@
 - 景观配准与底图绘制：`tools/build-atlas.py`。
 - 石刻顺序与道路弧长均布：`tools/stone_layout.py`；樟树、衡阳、宜山、湄潭固定在参考交叉口。
 - 简介内容与资料关联：`js/poi-content.js`；悬停、导览与详情复用它。
+- 分支步行图与景点沿路投影：`tools/tour_layout.py`，每条前进路线不得重复经过同一节点。
 - 逐站状态与终章时机：`js/journey.js`；详情渲染与弹窗状态：`js/cards.js`。
 
 运行 `D:/Anaconda/python.exe tools/build-map.py` 同步 SVG 和坐标，不手改 `assets/map/` 或 `js/geometry.js`。
-序章仅首次进入确认后记忆，资料从页脚进入，时间轴默认折叠；主导览使用石刻顺序。
+序章仅首次进入确认后记忆，资料从页脚进入，时间轴默认折叠；主导览使用道路分支，石刻和景观按沿路顺序停靠。
 
 | 规则 | 由什么拦住 |
 | --- | --- |
