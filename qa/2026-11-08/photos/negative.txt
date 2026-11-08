@@ -1,0 +1,14 @@
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ '9333c5cfaef37156dc91bfd79e7aa2d3db766a91448d668cdf14452fba9e09ef'
+- '250c16b7cfc1d4e30204c59c0be9c6f58936b616be19d40efe096778eac4113d'
+
+    at main (D:\aaaaa\homework\地图作业\site\tools\verify-photos.cjs:30:16) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '9333c5cfaef37156dc91bfd79e7aa2d3db766a91448d668cdf14452fba9e09ef',
+  expected: '250c16b7cfc1d4e30204c59c0be9c6f58936b616be19d40efe096778eac4113d',
+  operator: 'strictEqual',
+  diff: 'simple'
+}

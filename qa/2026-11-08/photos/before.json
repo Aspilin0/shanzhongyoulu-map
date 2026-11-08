@@ -1,0 +1,18 @@
+[
+  {
+    "name": "mobile-N03",
+    "url": "http://127.0.0.1:8813/#/node/N03",
+    "w": 390,
+    "h": 900,
+    "before": "(async()=>{if(document.body.classList.contains('is-intro')) document.querySelector('#enterMap').click(); location.hash='#/node/N03'; await new Promise(r=>setTimeout(r,500)); const img=document.querySelector('#dlgBody .figure img'); img.loading='eager'; await Promise.race([img.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error('Photo load timeout')),5000))]); if(!img.naturalWidth) throw Error('Photo failed to load'); if(document.querySelector('#nodeDialog').hidden) throw Error('Card did not open');})()",
+    "full": false
+  },
+  {
+    "name": "mobile-N05",
+    "url": "http://127.0.0.1:8813/#/node/N05",
+    "w": 390,
+    "h": 900,
+    "before": "(async()=>{if(document.body.classList.contains('is-intro')) document.querySelector('#enterMap').click(); location.hash='#/node/N05'; await new Promise(r=>setTimeout(r,500)); const img=document.querySelector('#dlgBody .figure img'); img.loading='eager'; await Promise.race([img.decode(),new Promise((_,reject)=>setTimeout(()=>reject(Error('Photo load timeout')),5000))]); if(!img.naturalWidth) throw Error('Photo failed to load'); if(document.querySelector('#nodeDialog').hidden) throw Error('Card did not open');})()",
+    "full": false
+  }
+]
