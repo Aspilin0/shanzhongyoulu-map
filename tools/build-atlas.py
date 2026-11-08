@@ -116,11 +116,7 @@ def build():
     assert_layout(trees)
     for x,y,scale,t in sorted(trees,key=lambda p:p[1]):svg.append(tree(x,y,scale,t))
 
-    # Small architectural volumes replace the former identical floating strips.
-    svg += [building(105,72,310,38,'#b8795f'),building(430,24,245,48,'#bd876b')]
-    for x,y,w,h in [(1430,1260,260,40),(1390,1330,330,40),(1360,1435,300,40)]:
-        svg.append(building(x,y,w,h,'#c48768'))
-    svg.append(building(1480,1275,50,168,'#b47b60'))
+    # Only park landmarks belong in the visitor map; omit peripheral buildings.
     svg.append(building(470,1034,28,23,'#a77550'))
     svg.append(pavilion(*PINS['P01']))
     for k in ['N01','N02','N03','N04','N05']:svg.append(sculpture(*PINS[k],k))

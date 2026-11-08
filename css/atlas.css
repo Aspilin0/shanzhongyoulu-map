@@ -17,7 +17,7 @@ h1,h2,h3,h4{letter-spacing:0}button,a{touch-action:manipulation}
 .map-layers button[aria-pressed="true"]{background:none;color:var(--gold);border-bottom-color:var(--gold)}
 .map-stage{position:relative;height:calc(100dvh - 185px);min-height:440px}
 .map-scroll{height:100%;width:100%;overflow:auto;max-height:none;scrollbar-width:thin;scrollbar-color:#bec7af transparent;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
-.map-frame{position:relative;aspect-ratio:1870/1540;width:100%;max-width:none;margin:0 auto;background:var(--paper);overflow:hidden;touch-action:pan-x pan-y}
+.map-frame{position:relative;aspect-ratio:1220/1530;width:100%;max-width:none;margin:0 auto;background:var(--paper);overflow:hidden;touch-action:pan-x pan-y}
 .map-frame__img{width:100%;height:100%;object-fit:fill;pointer-events:none;user-select:none}
 .poi-layer{pointer-events:none}.poi{pointer-events:auto;position:absolute;width:30px;height:30px;display:block;padding:0;transform:translate(-50%,-50%);border-radius:50%;z-index:3}
 .poi[hidden]{display:none}.poi:hover,.poi:focus-visible{z-index:10;transform:translate(-50%,-50%)}

@@ -1,0 +1,784 @@
+{
+  "cases": [
+    {
+      "name": "1440-after",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "1",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "启程",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "2",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "3",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "4",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "5",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-zoom",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "1",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "启程",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "2",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "3",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "4",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "5",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-fit",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "1",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "启程",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "2",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "3",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "4",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "5",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-after",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "1",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "启程",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "2",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "3",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "4",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "5",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-zoom",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "1",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "启程",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "2",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "3",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "4",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "5",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-fit",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "1",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "2",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "3",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "4",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "5",
+          "size": 14,
+          "selector": "SPAN.poi__dot"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    }
+  ]
+}
