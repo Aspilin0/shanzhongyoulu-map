@@ -2,7 +2,7 @@
   'use strict';
   window.PARK_CARDS = function (ctx) {
     var D = ctx.D, $ = ctx.$, $$ = ctx.$$, el = ctx.el, figure = ctx.figure;
-    var layer = ctx.layer, para = ctx.para, citeList = ctx.citeList;
+    var para = ctx.para, citeList = ctx.citeList;
     var chapterById = ctx.chapterById, navOrder = ctx.navOrder;
     var markVisited = ctx.markVisited, showView = ctx.showView;
   /* ============================================================ 节点卡片 */
@@ -42,11 +42,8 @@
     var isPrologue = !c.no;
     if (!isPrologue) markVisited(c);
 
-    var subIds = c.primary ? [c.primary].concat(c.extra || []) : (c.sculptures || []);
-    var subs = D.sculptures.filter(function (s) { return subIds.indexOf(s.id) !== -1; });
-
     $('#dlgTitle').textContent = c.key;
-    $('#dlgSub').textContent = c.sub;
+    $('#dlgSub').textContent = '';
 
     var facts = $('#dlgFacts');
     facts.innerHTML = '';
@@ -55,9 +52,6 @@
       ['历史地点', c.place],
       ['园区景观', c.relic]
     ];
-    if (subs.length) {
-      rows.push(['对应雕塑', subs.map(function (s) { return s.name; }).join('、')]);
-    }
     rows.forEach(function (pair) {
       var li = document.createElement('li');
       li.appendChild(el('b', null, pair[0]));
@@ -82,61 +76,20 @@
       then: true, badge: c.history.type,
       sources: ['assets/history/' + c.id + '.svg', 'assets/history/' + c.id + '.jpg'],
       alt: c.history.desc,
-      caption: c.history.desc,      missingTitle: '历史示意图待生成',
+      caption: c.history.desc,
+      missingTitle: '历史示意图待生成',
       missing: '请将画面命名为 ' + c.id + '.svg 或 ' + c.id + '.jpg 放入 assets/history/ 目录。'
     }));
     body.appendChild(dual);
 
-    /* --- 一、快速了解 --- */
-    var quick = document.createElement('div');
-    quick.appendChild(para(c.intro));
-    quick.className = 'chapter-intro';
-    body.appendChild(quick);
-
-    /* --- 二、深入历史 --- */
-    var deep = document.createElement('div');
-    c.body.forEach(function (t) { deep.appendChild(para(t)); });
-    body.appendChild(layer('深入历史', deep));
-
-    /* --- 三、参与体验 --- */
-    var play = document.createElement('div');
-    var co = el('div', 'callout');
-    co.textContent = c.interaction;
-    play.appendChild(co);
-
-    var subs = D.sculptures.filter(function (s) { return subIds.indexOf(s.id) !== -1; });
-    if (subs.length) {
-      var list = el('div', 'sub-list');
-      subs.forEach(function (s) {
-        var item = el('div', 'sub-item');
-        var top = el('div', 'sub-item__top');
-        top.appendChild(el('span', 'sub-item__tag', s.id));
-        top.appendChild(el('span', 'sub-item__name', s.name));
-        top.appendChild(el('span', 'sub-item__meta', s.year + '　·　' + s.site));
-        item.appendChild(top);
-        item.appendChild(para(s.brief));
-        item.className += ' sub-item--link';
-        item.style.cursor = 'pointer';
-        item.tabIndex = 0;
-        item.setAttribute('role', 'button');
-        item.addEventListener('click', function () { openSculpture(s.id); });
-        item.addEventListener('keydown', function (e) {
-          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openSculpture(s.id); }
-        });
-        list.appendChild(item);
-      });
-      play.appendChild(list);
-    }
-    if (/P1|预留|当前版本/.test(c.interaction)) {
-      co.remove();
-      if (subs.length) body.appendChild(layer('相关雕塑', play));
-    } else body.appendChild(layer('参与体验', play));
-
-    /* --- 四、回到今日 --- */
-    var today = document.createElement('div');
-    today.className = 'layer--quote';
-    today.appendChild(para(c.today));
-    body.appendChild(layer('回到今日', today));
+    c.body.forEach(function (text) { body.appendChild(para(text)); });
+    (c.extra || []).forEach(function (id) {
+      var sculpture = D.sculptureIndex[id];
+      var button = el('button', 'ghost-btn', '查看' + sculpture.name);
+      button.type = 'button';
+      button.addEventListener('click', function () { openSculpture(id); });
+      body.appendChild(button);
+    });
 
     /* --- 五、资料来源 --- */
     var srcBox = document.createElement('div');
@@ -168,7 +121,7 @@
       b2.addEventListener('click', function () { openChapter(next.id); });
       nav.appendChild(b2);
     } else {
-      var b3 = el('a', 'btn btn--primary', '读终章 · 山外有路');
+      var b3 = el('a', 'btn btn--primary', '查看终章');
       b3.href = '#/finale';
       b3.style.padding = '10px 20px';
       b3.style.fontSize = '14px';
@@ -197,9 +150,8 @@
     var facts = $('#dlgFacts');
     facts.innerHTML = '';
     [
-            ['落成时间', '2017 年 5 月（六座同期完成）'],
-      ['园区位置', s.site],
-      ['资料来源', s.src.join('、')]
+      ['落成时间', '2017 年 5 月（六座同期完成）'],
+      ['园区位置', s.site]
     ].forEach(function (pair) {
       var li = document.createElement('li');
       li.appendChild(el('b', null, pair[0]));
@@ -225,29 +177,18 @@
         then: true, badge: owner.history.type,
         sources: ['assets/history/' + owner.id + '.svg', 'assets/history/' + owner.id + '.jpg'],
         alt: owner.history.desc,
-        caption: owner.history.desc,        missingTitle: '历史示意图待生成',
+        caption: owner.history.desc,
+        missingTitle: '历史示意图待生成',
         missing: '请将画面命名为 ' + owner.id + '.svg 或 ' + owner.id + '.jpg 放入 assets/history/ 目录。'
       }));
     }
     body.appendChild(dual);
 
-    var q = document.createElement('div');
-    q.appendChild(para(s.brief));
-    body.appendChild(layer('快速了解', q));
-
-    var d = document.createElement('div');
-    d.appendChild(para(s.story));
-    body.appendChild(layer('深入历史', d));
-
-    var t = document.createElement('div');
-    var co = el('div', 'callout callout--gold');
-    co.textContent = '这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。';
-    t.appendChild(co);
-    body.appendChild(layer('回到今日', t));
-
-    var sb = document.createElement('div');
-    sb.appendChild(citeList(s.src.concat(['R01'])));
-    body.appendChild(layer('资料来源', sb));
+    body.appendChild(para(s.story));
+    var sources = el('details', 'source-details');
+    sources.appendChild(el('summary', null, '资料来源'));
+    sources.appendChild(citeList(s.src.concat(['R01'])));
+    body.appendChild(sources);
 
     var nav = $('#dlgNav');
     nav.innerHTML = '';

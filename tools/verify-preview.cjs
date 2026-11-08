@@ -13,7 +13,7 @@ run('preview', async ({ page, width, shot, assert }) => {
   assert.ok(box.x + box.width <= point.x || point.x + point.width <= box.x || box.y + box.height <= point.y || point.y + point.height <= box.y, 'Preview blocks its trigger');
   await shot('chapter');
   await page.locator('#previewDetails').click();
-  assert.equal(await page.locator('#dlgTitle').innerText(), '守护');
+  assert.equal(await page.locator('#dlgTitle').innerText(), '保护四库全书');
   await shot('details');
   await page.locator('.dialog__close').click();
   const sculpture = page.locator('.poi--chapter[data-id="N05"]');

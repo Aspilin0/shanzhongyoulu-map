@@ -19,6 +19,7 @@ run('editorial', async ({ page, shot, assert }) => {
     }
     if (stage >= 3) {
       assert.doesNotMatch(text,/回到今日|参与体验|P1 增强|当前版本|那股劲|不是灯本身|全部的「学问」/,'Remove reflections and placeholder copy: '+id);
+      assert.ok(await page.locator('#dlgBody .source-details a[href]').count()>0,'Keep sources available: '+id);
     }
     await shot(id+'-top');
     if (id === 'N04' || id === 'S05') {
@@ -27,15 +28,31 @@ run('editorial', async ({ page, shot, assert }) => {
       await page.locator('#dlgNav').scrollIntoViewIfNeeded();
       await shot(id+'-body');
     }
+    if (stage >= 3 && id === 'N03') {
+      await page.getByRole('button',{name:'查看桐油灯',exact:true}).click();
+      assert.equal(await page.locator('#dlgTitle').innerText(),'桐油灯');
+      await shot('related-oil-lamp');
+    }
     await page.locator('.dialog__close').click();
     assert.equal(await dialog.isVisible(),false);
   }
   if (stage >= 3) {
+    await page.goto((process.env.BASE_URL || 'http://127.0.0.1:8813') + '/#/node/N04');
+    await page.locator('#dlgNav').getByRole('button',{name:'费巩明灯',exact:true}).click();
+    assert.equal(await page.locator('#dlgTitle').innerText(),'费巩明灯');
+    await page.locator('#dlgNav').getByRole('button',{name:'手摇发电亮灯',exact:true}).click();
+    assert.equal(await page.locator('#dlgTitle').innerText(),'手摇发电亮灯');
     await page.goto((process.env.BASE_URL || 'http://127.0.0.1:8813') + '/#/finale');
     const ending = await page.locator('#finaleBody').innerText();
     assert.doesNotMatch(ending,/会创造|路是可以走出来的|有理由相信|一千多名师生走了九年/);
     await shot('finale');
     await page.getByRole('link',{name:'自由探索',exact:true}).click();
     assert.ok(await page.locator('#exploreControls').isVisible());
+    await page.evaluate(()=>localStorage.removeItem('shanyouzhonglu.intro.seen.v2'));
+    await page.goto(page.url().split('#')[0]);
+    assert.equal(await page.locator('#homeTitle').innerText(),'北山西迁文化园');
+    await shot('first-visit');
+    await page.locator('#enterMap').click();
+    assert.ok(await page.locator('#view-map.is-active').isVisible());
   }
 }).catch(e=>{console.error(e);process.exitCode=1;});

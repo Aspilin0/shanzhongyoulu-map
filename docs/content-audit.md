@@ -65,17 +65,17 @@
 
 | 景观 | 介绍与核对范围 | 依据 |
 | --- | --- | --- |
-| 抢运校产 | 1937 年 11 月，杭州江干码头。一千多名师生、七百多箱图书仪器，被分批装上乌篷船，溯江而上。一所大学的流亡，就这样开始了。 | S5；S6；[S11](https://www.zju.edu.cn/5619/listm.htm)；[S12](https://www.zju.edu.cn/2016/0521/c32859a93172/pagem.htm)；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
-| 保护四库全书 | 一所大学在流亡，却把一座图书馆最要紧的一百三十九箱书，扛过了五个省、二千五百多公里。 | S3；S4；S5；S8；[S11](https://www.zju.edu.cn/5619/listm.htm)；[S40](https://blog.sina.com.cn/s/blog_3f144e390102xpfo.html)；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
-| 费巩明灯 | 没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。 | S7；S28；S27；S5；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
-| 手摇发电亮灯 | 一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。 | S5；S10；[S11](https://www.zju.edu.cn/5619/listm.htm)；S28；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
-| 百鸟归林 | 「骊歌一曲别情长……随百鸟，到湄江。」1946 年，他们回来了。 | S5；S9；[S11](https://www.zju.edu.cn/5619/listm.htm)；[S34](https://m.thepaper.cn/newsDetail_forward_22264846)；[S37](http://plant.zju.edu.cn/?c=Index&a=search_area&query=%E5%8C%97%E5%B1%B1)；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
+| 抢运校产 | 1937 年底，浙大迁往江西途中在金华遭遇空袭，师生分批抢运图书仪器，送往玉山。 | S5；S6；[S11](https://www.zju.edu.cn/5619/listm.htm)；[S12](https://www.zju.edu.cn/2016/0521/c32859a93172/pagem.htm)；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
+| 保护四库全书 | 西迁期间，浙大协助浙江图书馆转运一百三十九箱文澜阁《四库全书》，运到贵阳地母洞保存。 | S3；S4；S5；S8；[S11](https://www.zju.edu.cn/5619/listm.htm)；[S40](https://blog.sina.com.cn/s/blog_3f144e390102xpfo.html)；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
+| 费巩明灯 | 1940 年，费巩在遵义自费订做八百多盏油灯，发给学生夜间读书使用。 | S7；S28；S27；S5；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
+| 手摇发电亮灯 | 在遵义何家巷，王国松组织发电，每晚供电三小时，供学生自修。 | S5；S10；[S11](https://www.zju.edu.cn/5619/listm.htm)；S28；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
+| 百鸟归林 | 雕塑取意于《国立浙江大学附属中学毕业歌》，歌词由随校西迁的学生周本湘创作。 | S5；S9；[S11](https://www.zju.edu.cn/5619/listm.htm)；[S34](https://m.thepaper.cn/newsDetail_forward_22264846)；[S37](http://plant.zju.edu.cn/?c=Index&a=search_area&query=%E5%8C%97%E5%B1%B1)；[R01](https://www.zju.edu.cn/2016/0523/c33439a1519579/pagem.htm) |
 | 西迁纪念碑亭 | 浙江大学西迁办学纪念碑亭于 2013 年落成，位于北山南坡。亭中的纪念碑与碑文记录学校西迁办学历史。 | [R22](https://www.zju.edu.cn/2013/0521/c32862a63115/pagem.htm) |
 | 西迁文化园石碑 | 2015 年，学校将北山开辟为西迁文化园，以园路石刻、铜牌与雕塑呈现西迁办学故事。 | [R06](https://www.zju.edu.cn/2017/0531/c33246a1515824/pagem.htm) |
-| 西迁之路铜牌 | 西迁之路沿途的地名节点设有二维码铜牌，扫码可以听西迁故事，让脚下的石刻与历史内容相连。 | [R07](https://www.zju.edu.cn/2016/0521/c32859a93172/pagem.htm)；[R06](https://www.zju.edu.cn/2017/0531/c33246a1515824/pagem.htm) |
-| 校友林石碑 | 校友林凝聚校友与师生共建校园的心意。2004 年“春之约”植树活动中，师生在这里植下首批香樟。 | [S1](http://www.zuef.zju.edu.cn/index.php/webSite/webColumn/showarticle/2966.html)；[S2](http://www.news.zju.edu.cn/2004/0312/c881a556558/page.htm) |
+| 西迁之路铜牌 | 西迁之路沿途的地名节点设有二维码铜牌，扫码可以听西迁故事。 | [R07](https://www.zju.edu.cn/2016/0521/c32859a93172/pagem.htm)；[R06](https://www.zju.edu.cn/2017/0531/c33246a1515824/pagem.htm) |
+| 校友林石碑 | 2004 年“春之约”植树活动中，师生在这里植下首批香樟。 | [S1](http://www.zuef.zju.edu.cn/index.php/webSite/webColumn/showarticle/2966.html)；[S2](http://www.news.zju.edu.cn/2004/0312/c881a556558/page.htm) |
 | 求是巢 | “求是巢”是浙江大学建筑学木构营造课程的构筑物。学生通过实际搭建，把设计图转成可使用的园中空间。 | [R23](http://ccealab.zju.edu.cn/index.php/a/list/893.html) |
-| 120 周年纪念雕塑 | 现场图将这处西南侧景观标为建校 120 周年、西迁 80 周年纪念雕塑，把学校创建与西迁记忆并置。 | R00；[R24](https://www.zju.edu.cn/2017/0521/c41533a510453/pagem.htm) |
+| 120 周年纪念雕塑 | 西南侧的这处雕塑纪念建校 120 周年、西迁 80 周年。 | R00；[R24](https://www.zju.edu.cn/2017/0521/c41533a510453/pagem.htm) |
 
 ## 核对边界
 

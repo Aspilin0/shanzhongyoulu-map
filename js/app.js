@@ -126,15 +126,6 @@
     return fig;
   }
 
-  function layer(label, node) {
-    var s = el('div', 'layer');
-    var l = el('div', 'layer__label');
-    l.appendChild(document.createTextNode(label));
-    s.appendChild(l);
-    s.appendChild(node);
-    return s;
-  }
-
   function para(text) { var p = el('p'); p.textContent = text; return p; }
 
   /* ================================================================ 地图 */
@@ -187,7 +178,7 @@
   }
 
   var cards = window.PARK_CARDS({ D: D, $: $, $$: $$, el: el, figure: figure,
-    layer: layer, para: para, citeList: citeList, chapterById: chapterById,
+    para: para, citeList: citeList, chapterById: chapterById,
     navOrder: navOrder, markVisited: markVisited, showView: showView });
   var dialog = cards.dialog, openChapter = cards.openChapter, openSculpture = cards.openSculpture;
   var openSite = cards.openSite, openStone = cards.openStone, closeDialog = cards.close;
@@ -228,19 +219,7 @@
     if (!host) return;
     host.innerHTML = '';
     host.appendChild(el('h2', 'finale__title', D.finale.title));
-    var lead = el('p');
-    lead.style.textAlign = 'center';
-    lead.style.textIndent = '0';
-    lead.style.fontFamily = 'var(--serif)';
-    lead.style.color = 'var(--gold-2)';
-    lead.style.letterSpacing = '.18em';
-    lead.style.marginBottom = '30px';
-    lead.textContent = D.finale.lead;
-    host.appendChild(lead);
-    D.finale.paras.forEach(function (t, i) {
-      if (i === D.finale.paras.length - 1) { host.appendChild(el('p', 'finale__closing', t)); return; }
-      host.appendChild(el('p', null, t));
-    });
+    D.finale.paras.forEach(function (text) { host.appendChild(el('p', null, text)); });
     var actions = el('div');
     actions.style.cssText = 'display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:40px';
     var a1 = el('a', 'btn btn--primary', '自由探索');

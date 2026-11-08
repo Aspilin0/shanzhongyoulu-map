@@ -11,8 +11,13 @@ exports.run = async function (name, check) {
   const fonts = [];
   try {
     for (const width of [1440, 390]) {
-      const context = await browser.newContext({ viewport: { width, height: 900 }, isMobile: width === 390, hasTouch: width === 390 });
-      await context.addInitScript(() => localStorage.setItem('shanyouzhonglu.intro.seen.v2', 'yes'));
+      const context = await browser.newContext({
+        viewport: { width, height: 900 }, isMobile: width === 390, hasTouch: width === 390,
+        storageState: { cookies: [], origins: [{
+          origin: new URL(process.env.BASE_URL || 'http://127.0.0.1:8813').origin,
+          localStorage: [{name:'shanyouzhonglu.intro.seen.v2',value:'yes'}]
+        }] }
+      });
       const page = await context.newPage();
       const errors = [];
       page.on('pageerror', e => errors.push(e.message));

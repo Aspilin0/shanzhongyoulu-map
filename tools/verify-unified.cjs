@@ -11,7 +11,7 @@ run('unified', async ({ page, width, shot, assert }) => {
   await page.locator('#poiPreview').waitFor({ state: 'visible' });
   await shot('preview');
   await page.locator('#previewRelated').getByRole('button',{name:'费巩明灯',exact:true}).click();
-  assert.equal(await page.locator('#dlgTitle').innerText(), '灯火');
+  assert.equal(await page.locator('#dlgTitle').innerText(), '费巩明灯');
   assert.ok((await page.locator('#dlgBody').innerText()).includes('桐油灯'));
   await shot('details');
 }).catch(e => { console.error(e); process.exitCode = 1; });

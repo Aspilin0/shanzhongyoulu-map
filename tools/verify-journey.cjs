@@ -20,7 +20,7 @@ run('mainline-journey', async ({ page, width, shot, assert }) => {
     if(await next.innerText()==='播放终章') break;
     if(await title.innerText()==='费巩明灯') {
       await page.locator('#journeyDetails').click();
-      assert.equal(await page.locator('#dlgTitle').innerText(),'灯火');
+      assert.equal(await page.locator('#dlgTitle').innerText(),'费巩明灯');
       await shot('lamp-details');
       await page.locator('.dialog__close').click();
       assert.equal(await title.innerText(),'费巩明灯');

@@ -12,10 +12,10 @@ node tools/verify-all.cjs
 ```
 
 Python 默认优先使用 `D:/Anaconda/python.exe`，可用 `PYTHON` 环境变量覆盖。
-完整验收执行 15 个地图/石刻/主线几何测试、9 套桌面/手机浏览器流程、2 个真实提交钩子检查、JS 语法和四级字号检查。
+完整验收执行 15 个地图/石刻/主线几何测试、10 套桌面/手机浏览器流程、2 个真实提交钩子检查、JS 语法和四级字号检查。
 浏览器场景包含全部 28 个石刻的点击与主线从杭州到湄潭的连续前后导航，包含费巩明灯，且不出现分支选择；遇到控制台错误、图片内容不符、横向溢出或按钮不可用即失败。
 
-证据存于 `qa/2026-11-08/finish-explore/`，每项有 `REVIEW.md`、桌面与手机前后截图。
+最新证据存于 `qa/2026-11-08/de-slop/final/`，去修饰前后对照与逐项审核见 `qa/2026-11-08/de-slop/REVIEW.md`。
 `mainline-journey/` 按站保存镜头截图；`qa/2026-11-08/revision/sources/road-and-stops-overlay.png` 对照参考图中的道路和四个交叉口。
 照片错误、旧版路外点、导览跳站和超标文件提交均有失败反例。
 
@@ -35,3 +35,5 @@ git config core.hooksPath .githooks
 地点资料检查：`node tools/verify-content.cjs`；来源审核见 `docs/content-audit.md`。主线检查：`D:/Anaconda/python.exe tools/verify-tour.py`。
 
 终点为湄潭，终章进入自由探索后不自动跳转；资料页返回地图保留模式，ABC来源等级不显示。
+
+文案检查：`node tools/verify-editorial.cjs` 实际打开全部故事与雕塑详情，检查章节编号、冗长图注、回到今日及体验占位文案已移除；点击相关雕塑、前后故事、自由探索和首次进入地图。旧版三类文案已分别触发检查失败，修改后再验证通过。
