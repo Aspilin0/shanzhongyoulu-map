@@ -14,11 +14,6 @@
           "selector": "A.brand"
         },
         {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -182,11 +177,6 @@
           "text": "山中有路",
           "size": 20,
           "selector": "A.brand"
-        },
-        {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
         },
         {
           "text": "北山 · 西迁文化园",
@@ -564,11 +554,6 @@
           "selector": "A.brand"
         },
         {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -704,11 +689,6 @@
           "selector": "A.brand"
         },
         {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -817,11 +797,6 @@
           "text": "山中有路",
           "size": 20,
           "selector": "A.brand"
-        },
-        {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
         },
         {
           "text": "北山 · 西迁文化园",
@@ -957,11 +932,6 @@
           "text": "山中有路",
           "size": 20,
           "selector": "A.brand"
-        },
-        {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
         },
         {
           "text": "北山 · 西迁文化园",
@@ -1309,11 +1279,6 @@
           "selector": "A.brand"
         },
         {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
-        },
-        {
           "text": "北山 · 西迁文化园",
           "size": 20,
           "selector": "#mapTitle"
@@ -1422,11 +1387,6 @@
           "text": "山中有路",
           "size": 20,
           "selector": "A.brand"
-        },
-        {
-          "text": "园区地图",
-          "size": 14,
-          "selector": "A."
         },
         {
           "text": "北山 · 西迁文化园",

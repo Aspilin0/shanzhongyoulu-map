@@ -52,9 +52,6 @@
   }
 
   function paintProgress() {
-    var n = D.chapters.filter(function (c) { return hasVisited(c.id); }).length;
-    var txt = $('#progressText');
-    if (txt) txt.textContent = '已探索 ' + n + ' / ' + D.chapters.length;
     $$('.poi--chapter').forEach(function (el) {
       el.classList.toggle('is-visited', hasVisited(el.dataset.id));
     });
@@ -136,7 +133,7 @@
     return fig;
   }
 
-  function layer(no, label, node) {
+  function layer(label, node) {
     var s = el('div', 'layer');
     var l = el('div', 'layer__label');
     l.appendChild(document.createTextNode(label));
@@ -247,7 +244,7 @@
     $('#dlgSub').textContent = '今日北山 · 园区纪念景观';
     $('#dlgFacts').innerHTML = '';
     var body = $('#dlgBody'); body.innerHTML = '';
-    body.appendChild(layer('一', '沿路看见', para(window.PARK_CONTENT.describe(p).event)));
+    body.appendChild(layer('沿路看见', para(window.PARK_CONTENT.describe(p).event)));
     $('#dlgNav').innerHTML = '<button type="button" class="btn btn--primary" data-return-map>回到地图</button>';
     $('[data-return-map]').addEventListener('click', closeDialog);
     openDialog();
@@ -388,7 +385,7 @@
     /* --- 二、深入历史 --- */
     var deep = document.createElement('div');
     c.body.forEach(function (t) { deep.appendChild(para(t)); });
-    body.appendChild(layer('二', '深入历史', deep));
+    body.appendChild(layer('深入历史', deep));
 
     /* --- 三、参与体验 --- */
     var play = document.createElement('div');
@@ -421,14 +418,14 @@
     }
     if (/P1|预留|当前版本/.test(c.interaction)) {
       co.remove();
-      if (subs.length) body.appendChild(layer('三', '相关雕塑', play));
-    } else body.appendChild(layer('三', '参与体验', play));
+      if (subs.length) body.appendChild(layer('相关雕塑', play));
+    } else body.appendChild(layer('参与体验', play));
 
     /* --- 四、回到今日 --- */
     var today = document.createElement('div');
     today.className = 'layer--quote';
     today.appendChild(para(c.today));
-    body.appendChild(layer('四', '回到今日', today));
+    body.appendChild(layer('回到今日', today));
 
     /* --- 五、资料来源 --- */
     var srcBox = document.createElement('div');
@@ -529,21 +526,21 @@
 
     var q = document.createElement('div');
     q.appendChild(para(s.brief));
-    body.appendChild(layer('一', '快速了解', q));
+    body.appendChild(layer('快速了解', q));
 
     var d = document.createElement('div');
     d.appendChild(para(s.story));
-    body.appendChild(layer('二', '深入历史', d));
+    body.appendChild(layer('深入历史', d));
 
     var t = document.createElement('div');
     var co = el('div', 'callout callout--gold');
     co.textContent = '这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。';
     t.appendChild(co);
-    body.appendChild(layer('三', '回到今日', t));
+    body.appendChild(layer('回到今日', t));
 
     var sb = document.createElement('div');
     sb.appendChild(citeList(s.src));
-    body.appendChild(layer('四', '资料来源', sb));
+    body.appendChild(layer('资料来源', sb));
 
     var nav = $('#dlgNav');
     nav.innerHTML = '';
@@ -592,39 +589,14 @@
     var body = $('#dlgBody');
     body.innerHTML = '';
 
-    var q = document.createElement('div');
-    q.appendChild(para('「' + s.n + '」是浙江大学 1937—1946 年西迁途中经过的一个地方。'
-      + '北山游步道把这些地名刻在地面上，沿路走一遍，等于把那条路线按顺序走过一遍。'));
-    body.appendChild(layer('一', '这是什么', q));
-
-    var n = document.createElement('div');
-    n.className = 'callout callout--gold';
-    n.textContent = '这一页只交代「地名」本身，不替它编排到达时间与事件经过——'
-      + '单个地名的到达年月属于资料组尚未核定的事项（见「项目说明 · 已知的资料缺口」）。'
-      + '要读具体发生了什么，请打开对应的章节卡片。';
-    var nw = document.createElement('div');
-    nw.appendChild(n);
-    body.appendChild(layer('二', '为什么不多写', nw));
-
-    var sb = document.createElement('div');
-    sb.appendChild(citeList(['S5', 'S12']));
-    body.appendChild(layer('三', '资料来源', sb));
+    body.appendChild(para(window.PARK_CONTENT.stone(s).event));
+    var sourceDetails = el('details', 'source-details');
+    sourceDetails.appendChild(el('summary', null, '资料来源'));
+    sourceDetails.appendChild(citeList(['S5', 'S12']));
+    body.appendChild(sourceDetails);
 
     var nav = $('#dlgNav');
     nav.innerHTML = '';
-    var prev = idx > 0 ? el('button', 'ghost-btn', '上一站 ' + D.stones[idx - 1].n) : null;
-    if (prev) {
-      prev.type = 'button';
-      prev.addEventListener('click', function () { openStone(idx - 1); });
-      nav.appendChild(prev);
-    }
-    nav.appendChild(el('span', 'spacer'));
-    if (idx < D.stones.length - 1) {
-      var nx = el('button', 'ghost-btn', '下一站 ' + D.stones[idx + 1].n);
-      nx.type = 'button';
-      nx.addEventListener('click', function () { openStone(idx + 1); });
-      nav.appendChild(nx);
-    }
     var back = el('button', 'ghost-btn', '返回地图');
     back.type = 'button';
     back.addEventListener('click', closeDialog);
@@ -746,10 +718,6 @@
       var v = document.getElementById('view-' + r);
       if (!v) return;
       v.classList.toggle('is-active', r === name);
-    });
-    $$('#nav a').forEach(function (a) {
-      if (a.dataset.route === name) a.setAttribute('aria-current', 'page');
-      else a.removeAttribute('aria-current');
     });
     window.scrollTo({ top: 0, behavior: 'auto' });
     if (name === 'map') window.PARK_JOURNEY.enter();

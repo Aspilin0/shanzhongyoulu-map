@@ -1,0 +1,21 @@
+PASS --check js/app.js 
+PASS --check js/data.js 
+PASS --check js/geometry.js 
+PASS --check js/journey.js 
+PASS --check js/poi-content.js 
+PASS --check js/preview.js 
+PASS tools/verify-map.py OK
+PASS tools/verify-stones.py OK
+PASS tools/verify-size-hook.cjs PASS: split files commit successfully; generated QA and lockfiles exempt
+PASS tools/verify-photos.cjs Photos: passed 10, failed 0
+PASS tools/verify-map-view.cjs map-view: passed 2, failed 0
+PASS tools/verify-stones.cjs stones: passed 2, failed 0
+PASS tools/verify-preview.cjs preview: passed 2, failed 0
+PASS tools/verify-journey.cjs journey: passed 2, failed 0
+PASS tools/verify-tidy.cjs tidy: passed 2, failed 0
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/map-view/font-audit.json Rendered-text audit: 6 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/stones/font-audit.json Rendered-text audit: 4 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/preview/font-audit.json Rendered-text audit: 8 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/journey/font-audit.json Rendered-text audit: 62 cases, 0 violations.
+PASS tools/audit-small-text.mjs --report qa/2026-11-08/tidy/font-audit.json Rendered-text audit: 4 cases, 0 violations.
+All checks passed: geometry 10; browser scenarios 20; hook commit checks 2; syntax and rendered fonts clean.
