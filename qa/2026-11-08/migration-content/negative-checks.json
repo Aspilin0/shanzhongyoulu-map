@@ -1,0 +1,12 @@
+[
+  {
+    "name": "geography-filler",
+    "rejected": true,
+    "message": "兰溪 must describe migration, not geographic filler"
+  },
+  {
+    "name": "missing-transit-date-disclosure",
+    "rejected": true,
+    "message": "赣州 must not invent transit dates"
+  }
+]

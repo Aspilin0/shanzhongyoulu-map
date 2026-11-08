@@ -180,7 +180,7 @@
     $('#zoomFit').setAttribute('aria-pressed', String(mapFit));
   }
 
-  function focusStone(stone, instant) {
+  function focusStone(stone) {
     mapFit = false;
     mapZoom = Math.max(mapZoom, 1.25);
     resizeMap(false);
@@ -189,7 +189,7 @@
     scroll.scrollTo({
       left: scroll.scrollLeft + rect.left - bounds.left + stone.x / 100 * frame.offsetWidth - scroll.clientWidth / 2,
       top: scroll.scrollTop + rect.top - bounds.top + stone.y / 100 * frame.offsetHeight - scroll.clientHeight / 2,
-      behavior: instant || matchMedia('(prefers-reduced-motion: reduce)').matches || document.body.classList.contains('no-anim') ? 'auto' : 'smooth'
+      behavior: 'auto'
     });
   }
 

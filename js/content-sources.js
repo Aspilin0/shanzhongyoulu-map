@@ -9,23 +9,17 @@
     R05: ['追溯传承求是魂 参观广西宜州西迁文化广场','浙江大学材料科学与工程学院','https://mse.zju.edu.cn/2014/0729/c38956a1634940/pagem.htm'],
     R06: ['浙江大学西迁文化园迎来首批客人','浙江大学','https://www.zju.edu.cn/2017/0531/c33246a1515824/pagem.htm'],
     R07: ['去北山校友林看西迁文化图片展','浙江大学','https://www.zju.edu.cn/2016/0521/c32859a93172/pagem.htm'],
-    R08: ['Lanxi 区位介绍','浙江省政府英文网','https://www.ezhejiang.gov.cn/jinhua/2021-07/14/c_642297.htm'],
-    R09: ['地理资源','南昌市人民政府','https://www.nc.gov.cn/ncszf/dlzy/2021_nav_wztt.shtml'],
-    R10: ['自然地理','赣州市文化广电旅游局','https://wlj.ganzhou.gov.cn/whgdxwcblyj/c102810/202012/2b6345827bc147339b337df5f99492a6.shtml'],
     R11: ['丝路明珠 大余','赣州市民政局','https://mzw.ganzhou.gov.cn/gzsmzjy/slmz/common_tt.shtml'],
-    R12: ['南雄概况','南雄市人民政府','https://www.gdnx.gov.cn/zjnx/nxgk/content/post_2827128.html'],
-    R13: ['曲江概况','韶关市曲江区人民政府','https://www.qujiang.gov.cn/sgqjbgs/gkmlpt/content/2/2763/mpost_2763054.html'],
-    R14: ['三水西南 以水兴产','武汉市水务局','https://swj.wuhan.gov.cn/tzdt/hykd/202512/t20251225_2702127.html'],
-    R15: ['荔浦自然地理背景 环境影响报告','广西壮族自治区生态环境厅','https://sthjt.gxzf.gov.cn/zfxxgk/zfxxgkgl/fdzdgknr/hjjccf/xzxk/hjyxslgk/W020160622523625146643.pdf'],
-    R16: ['广西桂林湿地生态保护见成效','国家林业和草原局','https://www.forestry.gov.cn/c/www/sddfdt/566920.jhtml'],
-    R17: ['衡山位置面积','衡山县人民政府','https://www.hengshan.gov.cn/zjhs/zrdl/20200206/i683458.html'],
-    R18: ['攸县区位介绍','湖南省民政厅','https://mzt.hunan.gov.cn/xxgk/mt/201506/t20150601_3716202.html'],
-    R19: ['耒阳概况','耒阳市人民政府','https://www.leiyang.gov.cn/xxgk/bmxxgkml/szfgzbm/stjj/gzjg/jgxx/20200214/i1080368.html'],
-    R20: ['茶陵 湘赣边界的罗霄山脉西麓','湖南省人民政府','https://www.hunan.gov.cn/topic/fdbnlqhxzc/hsxx/202106/t20210616_19571307.html'],
-    R21: ['江西永丰县介绍','上海市农业农村委员会','https://nyncw.sh.gov.cn/xyyw/20230619/cf3fba8bf7a64ab1b299bf7b9f64a7ed.html'],
     R22: ['浙大西迁办学纪念碑亭落成','浙江大学','https://www.zju.edu.cn/2013/0521/c32862a63115/pagem.htm'],
     R23: ['木构营造 小型构筑物求是巢','浙江大学建筑与城规技术科学实验中心','http://ccealab.zju.edu.cn/index.php/a/list/893.html'],
-    R24: ['一批紫金港校区新地标落成','浙江大学','https://www.zju.edu.cn/2017/0521/c41533a510453/pagem.htm']
+    R24: ['一批紫金港校区新地标落成','浙江大学','https://www.zju.edu.cn/2017/0521/c41533a510453/pagem.htm'],
+    R25: ['图书仪器运输近讯（1938-12-05）','国立浙江大学校刊复刊','https://zdjy.zju.edu.cn/review/toReview?dbID=23&dbName=ZHEJIANGDAXUEBAO&sysID=13454'],
+    R27: ['离乱中毕业：于同隐专题','中国科学家博物馆','https://www.mmcs.org.cn/kxjfc/kxjfc/yty/cj8080/art/2023/art_a82e4cc60d134e03bbe6bb92f1424f25.html'],
+    R28: ['浙江大学：烽火炼就求是魂','中国教育报（抗日战争纪念网转载）','https://m.krzzjn.com/show-945-61217.html'],
+    R29: ['程开甲病逝，但他与宜州的情缘永存人间','河池日报客户端（广西新闻网转载）','https://gxxwfb.gxnews.com.cn/article.v2019.php?id=17820078'],
+    R30: ['千年沧桑话宜州：话说龙江','宜州地方文史回顾（搜狐转载）','https://www.sohu.com/a/472803160_121123770'],
+    R31: ['竺可桢在广西的艰难岁月（2020-03-18 第7版）','桂林日报','https://epaper.guilinlife.com/glrb/images/2020-03/18/07/RB07.pdf'],
+    R32: ['胡刚复：浙大西迁总参谋长','人民网教育频道','https://edu.people.com.cn/n/2015/0811/c1053-27442435.html']
   };
   Object.keys(refs).forEach(function (id) {
     var r = refs[id];

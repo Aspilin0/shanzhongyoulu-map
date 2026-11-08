@@ -1,7 +1,7 @@
 const { run } = require('./browser-qa.cjs');
 run('content', async ({ page, width, shot, assert }) => {
   await page.locator('#zoomFit').click();
-  const core = {'樟树':['马一浮','西迁史实'],'兰溪':['钱塘江','地理背景'],'曲江':['韶关','地理背景'],'宜山':['求是','西迁史实'],'湄潭':['谈家桢','西迁史实']};
+  const core = {'樟树':['马一浮','西迁史实'],'兰溪':['折回兰溪','西迁史实'],'曲江':['泰和启运','西迁史实'],'三水':['校产','西迁史实'],'青岩':['开始上课','西迁史实'],'衡山':['不能互换','西迁资料待考'],'永丰':['待考','西迁资料待考'],'宜山':['求是','西迁史实'],'湄潭':['谈家桢','西迁史实']};
   for (const name of await page.evaluate(()=>SITE.stones.map(s=>s.n))) {
     const [text,category]=core[name] || ['',null];
     const point=page.getByRole('button',{name:new RegExp('地名石刻.*'+name)});

@@ -24,7 +24,7 @@
 | 石刻在路上、四交叉口准确、其余按区间弧长均布 | `tools/verify-stones.py`，含旧版路外点反例 |
 | 照片正确，悬停/触控可用，主线含明灯且无需分岔选择，前后导航与终章正常 | `node tools/verify-all.cjs` 的真实 Chrome 场景，含错误照片/跳站反例 |
 | 可见改动附桌面和手机截图，点位改动附原图叠线 | `qa/2026-11-08/` 截图和各项 `REVIEW.md` |
-| 地点介绍逐条有来源、区分史实与地理背景，禁止通用句兜底；原图地名不得录错 | `node tools/verify-content.cjs`，含缺资料/通用句/错地名检查；来源审阅见 `docs/content-audit.md` |
+| 石刻写西迁事件或有依据的时间，不用城市概况兜底；未知到离日期标待考，区分师生批次与校产运输 | `node tools/verify-content.cjs` 拦截地理兜底、日期遗漏；史料与日期范围人工审阅见 `docs/content-audit.md` |
 | 字号与文案遵循 `DESIGN.md` | 真实可见 DOM 记录 + `tools/audit-small-text.mjs` |
 | 暂存源码单文件不超过约 5,000 token | `.githooks/pre-commit` → `tools/check-file-size.cjs`；真实提交拦截与放行由 `tools/verify-size-hook.cjs` 验证 |
 

@@ -4,7 +4,7 @@
   function stone(s) {
     var record = window.STONE_CONTENT[s.n];
     if (!record) return { title:s.n, event:'该点的资料尚未核实。', sources:[], missing:true };
-    return { title:s.n, event:(record.category === '地理背景' ? '地理背景：' : '') + record.intro,
+    return { title:s.n, event:record.intro,
       intro:record.intro, category:record.category, detail:record.detail, sources:record.sources };
   }
   function describe(p) {

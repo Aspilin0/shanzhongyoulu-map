@@ -1,0 +1,7424 @@
+{
+  "cases": [
+    {
+      "name": "1440-step-01",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-02",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "西天目",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "西天目",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "2 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 9 月 21 日起，一年级新生迁往西天目山，在简陋校舍中上课并实行导师制。11 月下旬，因战事迫近，师生分批转往建德。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-03",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "西迁文化园石碑",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "3 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "2015 年，学校将北山开辟为西迁文化园，以园路石刻、铜牌与雕塑呈现西迁办学故事。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-04",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "建德",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "4 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月，师生分批抵达建德，12 月 1 日创办《浙大日报》，向当地传递抗战消息。12 月下旬，学校再次启程，转迁江西。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-05",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "校友林石碑",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "校友林石碑",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "5 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "校友林凝聚校友与师生共建校园的心意。2004 年“春之约”植树活动中，师生在这里植下首批香樟。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-06",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "兰溪",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "兰溪",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "6 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 12 月下旬，迁往江西的师生从建德乘民船到兰溪。于同隐所在的一批曾转往金华，因汽车被扣留，又折回兰溪，改走常山、玉山。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-07",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "西迁之路铜牌",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "7 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "西迁之路沿途的地名节点设有二维码铜牌，扫码可以听西迁故事，让脚下的石刻与历史内容相连。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-08",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "金华",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "8 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 12 月，部分师生与校产在金华遭空袭受困，师生拦截过往车辆，逐箱抢运图书仪器。经抢运的校产于 1938 年 1 月 6 日全部运抵玉山。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-09",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "玉山",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "玉山",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "9 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "经金华抢运出来的图书仪器，于 1938 年 1 月 6 日全部运抵玉山。师生在赴赣途中也经此换乘，竺可桢为争取火车运输奔走多日。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-10",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "南昌",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "南昌",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "10 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年底至 1938 年初，浙大转迁江西。校史回顾记载，师生在玉山争取到火车后，经贵溪、樟树、南昌等地辗转抵达吉安。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-11",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "樟树",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "樟树",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "11 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年 3 月，马一浮一行避战入赣，到达樟树。竺可桢派校车接应，3 月 29 日将他们接到泰和，4 月 1 日开始国学讲座。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-12",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "吉安",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "吉安",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "12 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年 1 月，师生分批抵达吉安。于同隐一批于 1 月 20 日到达；学校在这里完成两周课程和考试，2 月 18 日起再迁泰和。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-13",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "抢运校产",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "13 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月，杭州江干码头。一千多名师生、七百多箱图书仪器，被分批装上乌篷船，溯江而上。一所大学的流亡，就这样开始了。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-14",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "赣州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "赣州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "14 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年 8 月 26 日从泰和出发的一批二百余箱图书仪器，经赣州转往南雄、曲江、三水。12 月 5 日校刊报道，这批校产已抵柳州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-15",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "大庾",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "大庾",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "15 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年浙大由泰和转迁宜山期间，在大庾设运输站，调度车船、接运图书仪器。大庾是今江西大余县的旧称，石刻保留了当时的地名。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-16",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "南雄",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "南雄",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "16 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年迁往宜山时，南雄既是校产运输途经地，也设有车船调度运输站。8 月 26 日从泰和启运的二百余箱图书仪器，曾经南雄继续南运。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-17",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "曲江",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "曲江",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "17 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年，曲江是浙大校产入粤转运的节点。校刊记载，8 月 26 日从泰和启运的一批图书仪器，经南雄、曲江，再赴三水、梧州和柳州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-18",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "三水",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "三水",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "18 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "三水是浙大图书仪器转运入桂的水运节点。1938 年 12 月 5 日校刊报道，8 月 26 日从泰和启运的一批校产已途经三水、梧州，抵达柳州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-19",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "宜山",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "19 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "师生于 1938 年秋分批迁至广西宜山，11 月 19 日正式确立“求是”校训。1939 年 12 月 6 日，首批教职员工又启程前往贵州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-20",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "20 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-lamp-details",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "20 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "第 03 章",
+          "size": 12,
+          "selector": "#dlgNo"
+        },
+        {
+          "text": "灯火",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "战时课堂",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西段 ·《费巩明灯》《桐油灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "费巩明灯、桐油灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西段，《费巩明灯》灯具与桌椅雕塑实拍。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1940 年学校迁到遵义。训导长费巩自掏腰包，请人把废弃的铁皮香烟罐戳上小孔、罩上玻璃、嵌一片导热的铁片，做成油灯，前后订做了八百多盏，发给每一位学生。老师在这盏灯下备课，学生在这盏灯下夜读。后来人们就叫它「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "更早在贵州湄潭，师生点的是当地的桐油灯。桐油比煤油便宜，烟却更重；一晚上读写下来，鼻孔都是黑的。在黔北的乡间，这样的灯就是师生备课、实验、夜读的全部光源。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "今天的浙大新生开学典礼上，仍要传递一盏费巩灯。灯是从老师手上传到学生手上的，七十多年没有断过。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "铁皮香烟罐戳上小孔，加上玻璃罩，嵌一片导热铁片——这就是让八百多名学生在夜里继续读书的「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "桐油灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年代　·　北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "湄潭的夜里，师生点的是当地的桐油灯。烟比煤油重，一晚上读写下来，鼻孔都是黑的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "北山的两座雕塑把「照明」这件小事立成了铜像。它们纪念的不是灯本身，而是灯亮着的时候，还有人在读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S7",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之费巩明灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《铭记西迁历史，打造浙大人精神家园》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 · 2021-03-26",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "第 2 章 守护",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "第 4 章 创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "1440-step-21",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "青岩",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "青岩",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "21 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1940 年 2 月 9 日，暂迁贵阳青岩的一年级和先修班三百六十多名师生开始上课。同年 12 月中旬，这部分师生再迁湄潭永兴。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-22",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "贵阳",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "贵阳",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "22 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "文澜阁《四库全书》在浙大协助下转运到贵阳附近地母洞保存。1940 年浙大迁往遵义、湄潭后，竺可桢仍多次到地母洞检查保管情况。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-23",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "遵义",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "遵义",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "23 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1940 年 2 月 3 日，竺可桢在遵义江公祠开始办公，2 月 22 日二、三、四年级开课。费巩自费制灯，王国松组织发电，帮助学生夜间读书。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-24",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "24 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-25",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "求是巢",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "求是巢",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "25 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "“求是巢”是浙江大学建筑学木构营造课程的构筑物。学生通过实际搭建，把设计图转成可使用的园中空间。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-step-26",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "湄潭",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "湄潭",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "26 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1940 年 5 月起，浙大在湄潭分部办学。谈家桢在唐家祠堂建立实验室，在简陋条件下坚持遗传学研究。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "播放终章",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-finale",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "山外有路",
+          "size": 32,
+          "selector": "H2.finale__title"
+        },
+        {
+          "text": "山中有路，山外亦有路。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "走完北山这一圈，你会发现这条路并不长：从南坡的纪念碑亭出发，沿着游步道绕过六座铜像，再回到原处，用不了半个钟头。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "但八十多年前那条路很长。从杭州的江干码头到贵州的湄潭，一千多名师生走了九年。他们带走的七百多箱书里，有一百三十九箱不属于浙大；他们点的灯，是铁皮香烟罐做的；他们发电，要靠一群学生傍晚跑去拉皮带。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "今天我们从「会读书」谈「会创造」，中间的落差常常被说成能力问题。可那一代人给出的是另一个答案：当条件不够的时候，人是可以自己想办法的——用竹管做导管，用瓦盆做蒸发皿，用地窖代替冰箱。创造从来不是条件齐备之后的奖励，它是条件不齐备时的一种选择",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "北山是 2002 年堆起来的人工山，西迁文化园是 2015 年才开辟的纪念空间。它不在西迁的路上。但它每天都在提醒走过的人：这所学校曾经在没有路的地方走过一次，所以今天站在这里的你我，也有理由相信路是可以走出来的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "山中有路。山外，也有。",
+          "size": 20,
+          "selector": "P.finale__closing"
+        },
+        {
+          "text": "自由探索",
+          "size": 14,
+          "selector": "A.btn btn--primary"
+        },
+        {
+          "text": "重新游览主线",
+          "size": 14,
+          "selector": "A.btn btn--ghost"
+        },
+        {
+          "text": "看资料来源",
+          "size": 14,
+          "selector": "A.btn btn--ghost"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-free-explore",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "自由探索",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "返回主线",
+          "size": 14,
+          "selector": "#resumeJourney"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-free-yongxing",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "自由探索",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "返回主线",
+          "size": 14,
+          "selector": "#resumeJourney"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "西迁之路 · 地名石刻",
+          "size": 12,
+          "selector": "#dlgNo"
+        },
+        {
+          "text": "永兴",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "西迁史实",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "1940 年 12 月中旬，一年级和先修班师生从青岩迁到湄潭永兴。1943 年入学的李政道，也曾在这里的茶楼读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "这里是贵州湄潭永兴，不是湖南同名县；迁入日期目前只能落实到 1940 年 12 月中旬。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "离乱中毕业：于同隐专题",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "中国科学家博物馆 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "1440-free-branch-preview",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "×",
+          "size": 20,
+          "selector": "#previewClose"
+        },
+        {
+          "text": "衡阳",
+          "size": 20,
+          "selector": "#poiPreviewTitle"
+        },
+        {
+          "text": "1938 年转迁宜山时，农学院有人押运九十九箱图书、仪器和药品，绕道衡阳入桂。衡阳也设有运输站，协助迁校途中的车船调度。",
+          "size": 14,
+          "selector": "#poiPreviewEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#previewDetails"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-01",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-02",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "西天目",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "西天目",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "2 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 9 月 21 日起，一年级新生迁往西天目山，在简陋校舍中上课并实行导师制。11 月下旬，因战事迫近，师生分批转往建德。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-03",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "西迁文化园石碑",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "3 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "2015 年，学校将北山开辟为西迁文化园，以园路石刻、铜牌与雕塑呈现西迁办学故事。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-04",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "建德",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "4 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月，师生分批抵达建德，12 月 1 日创办《浙大日报》，向当地传递抗战消息。12 月下旬，学校再次启程，转迁江西。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-05",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "校友林石碑",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "校友林石碑",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "5 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "校友林凝聚校友与师生共建校园的心意。2004 年“春之约”植树活动中，师生在这里植下首批香樟。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-06",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "兰溪",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "兰溪",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "6 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 12 月下旬，迁往江西的师生从建德乘民船到兰溪。于同隐所在的一批曾转往金华，因汽车被扣留，又折回兰溪，改走常山、玉山。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-07",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "西迁之路铜牌",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "7 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "西迁之路沿途的地名节点设有二维码铜牌，扫码可以听西迁故事，让脚下的石刻与历史内容相连。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-08",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "金华",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "8 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 12 月，部分师生与校产在金华遭空袭受困，师生拦截过往车辆，逐箱抢运图书仪器。经抢运的校产于 1938 年 1 月 6 日全部运抵玉山。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-09",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "玉山",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "玉山",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "9 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "经金华抢运出来的图书仪器，于 1938 年 1 月 6 日全部运抵玉山。师生在赴赣途中也经此换乘，竺可桢为争取火车运输奔走多日。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-10",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "南昌",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "南昌",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "10 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年底至 1938 年初，浙大转迁江西。校史回顾记载，师生在玉山争取到火车后，经贵溪、樟树、南昌等地辗转抵达吉安。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-11",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "樟树",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "樟树",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "11 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年 3 月，马一浮一行避战入赣，到达樟树。竺可桢派校车接应，3 月 29 日将他们接到泰和，4 月 1 日开始国学讲座。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-12",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "吉安",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "吉安",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "12 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年 1 月，师生分批抵达吉安。于同隐一批于 1 月 20 日到达；学校在这里完成两周课程和考试，2 月 18 日起再迁泰和。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-13",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "抢运校产",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "13 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月，杭州江干码头。一千多名师生、七百多箱图书仪器，被分批装上乌篷船，溯江而上。一所大学的流亡，就这样开始了。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-14",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "赣州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "赣州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "14 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年 8 月 26 日从泰和出发的一批二百余箱图书仪器，经赣州转往南雄、曲江、三水。12 月 5 日校刊报道，这批校产已抵柳州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-15",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "大庾",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "大庾",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "15 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年浙大由泰和转迁宜山期间，在大庾设运输站，调度车船、接运图书仪器。大庾是今江西大余县的旧称，石刻保留了当时的地名。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-16",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "南雄",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "南雄",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "16 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年迁往宜山时，南雄既是校产运输途经地，也设有车船调度运输站。8 月 26 日从泰和启运的二百余箱图书仪器，曾经南雄继续南运。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-17",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "曲江",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "曲江",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "17 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1938 年，曲江是浙大校产入粤转运的节点。校刊记载，8 月 26 日从泰和启运的一批图书仪器，经南雄、曲江，再赴三水、梧州和柳州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-18",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "三水",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "三水",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "18 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "三水是浙大图书仪器转运入桂的水运节点。1938 年 12 月 5 日校刊报道，8 月 26 日从泰和启运的一批校产已途经三水、梧州，抵达柳州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-19",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "宜山",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "19 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "师生于 1938 年秋分批迁至广西宜山，11 月 19 日正式确立“求是”校训。1939 年 12 月 6 日，首批教职员工又启程前往贵州。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-20",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "20 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-lamp-details",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "20 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "第 03 章",
+          "size": 12,
+          "selector": "#dlgNo"
+        },
+        {
+          "text": "灯火",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "战时课堂",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西段 ·《费巩明灯》《桐油灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "费巩明灯、桐油灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西段，《费巩明灯》灯具与桌椅雕塑实拍。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1940 年学校迁到遵义。训导长费巩自掏腰包，请人把废弃的铁皮香烟罐戳上小孔、罩上玻璃、嵌一片导热的铁片，做成油灯，前后订做了八百多盏，发给每一位学生。老师在这盏灯下备课，学生在这盏灯下夜读。后来人们就叫它「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "更早在贵州湄潭，师生点的是当地的桐油灯。桐油比煤油便宜，烟却更重；一晚上读写下来，鼻孔都是黑的。在黔北的乡间，这样的灯就是师生备课、实验、夜读的全部光源。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "今天的浙大新生开学典礼上，仍要传递一盏费巩灯。灯是从老师手上传到学生手上的，七十多年没有断过。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "铁皮香烟罐戳上小孔，加上玻璃罩，嵌一片导热铁片——这就是让八百多名学生在夜里继续读书的「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "桐油灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年代　·　北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "湄潭的夜里，师生点的是当地的桐油灯。烟比煤油重，一晚上读写下来，鼻孔都是黑的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "北山的两座雕塑把「照明」这件小事立成了铜像。它们纪念的不是灯本身，而是灯亮着的时候，还有人在读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S7",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之费巩明灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《铭记西迁历史，打造浙大人精神家园》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 · 2021-03-26",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "第 2 章 守护",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "第 4 章 创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "390-step-21",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "青岩",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "青岩",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "21 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1940 年 2 月 9 日，暂迁贵阳青岩的一年级和先修班三百六十多名师生开始上课。同年 12 月中旬，这部分师生再迁湄潭永兴。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-22",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "贵阳",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "贵阳",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "22 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "文澜阁《四库全书》在浙大协助下转运到贵阳附近地母洞保存。1940 年浙大迁往遵义、湄潭后，竺可桢仍多次到地母洞检查保管情况。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-23",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "遵义",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "遵义",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "23 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1940 年 2 月 3 日，竺可桢在遵义江公祠开始办公，2 月 22 日二、三、四年级开课。费巩自费制灯，王国松组织发电，帮助学生夜间读书。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-24",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "24 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-25",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "求是巢",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "求是巢",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "25 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "“求是巢”是浙江大学建筑学木构营造课程的构筑物。学生通过实际搭建，把设计图转成可使用的园中空间。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-step-26",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "湄潭",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "湄潭",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "26 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1940 年 5 月起，浙大在湄潭分部办学。谈家桢在唐家祠堂建立实验室，在简陋条件下坚持遗传学研究。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "播放终章",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-finale",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "山外有路",
+          "size": 32,
+          "selector": "H2.finale__title"
+        },
+        {
+          "text": "山中有路，山外亦有路。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "走完北山这一圈，你会发现这条路并不长：从南坡的纪念碑亭出发，沿着游步道绕过六座铜像，再回到原处，用不了半个钟头。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "但八十多年前那条路很长。从杭州的江干码头到贵州的湄潭，一千多名师生走了九年。他们带走的七百多箱书里，有一百三十九箱不属于浙大；他们点的灯，是铁皮香烟罐做的；他们发电，要靠一群学生傍晚跑去拉皮带。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "今天我们从「会读书」谈「会创造」，中间的落差常常被说成能力问题。可那一代人给出的是另一个答案：当条件不够的时候，人是可以自己想办法的——用竹管做导管，用瓦盆做蒸发皿，用地窖代替冰箱。创造从来不是条件齐备之后的奖励，它是条件不齐备时的一种选择",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "北山是 2002 年堆起来的人工山，西迁文化园是 2015 年才开辟的纪念空间。它不在西迁的路上。但它每天都在提醒走过的人：这所学校曾经在没有路的地方走过一次，所以今天站在这里的你我，也有理由相信路是可以走出来的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "山中有路。山外，也有。",
+          "size": 20,
+          "selector": "P.finale__closing"
+        },
+        {
+          "text": "自由探索",
+          "size": 14,
+          "selector": "A.btn btn--primary"
+        },
+        {
+          "text": "重新游览主线",
+          "size": 14,
+          "selector": "A.btn btn--ghost"
+        },
+        {
+          "text": "看资料来源",
+          "size": 14,
+          "selector": "A.btn btn--ghost"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-free-explore",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "自由探索",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "返回主线",
+          "size": 14,
+          "selector": "#resumeJourney"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-free-yongxing",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "自由探索",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "返回主线",
+          "size": 14,
+          "selector": "#resumeJourney"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "西迁之路 · 地名石刻",
+          "size": 12,
+          "selector": "#dlgNo"
+        },
+        {
+          "text": "永兴",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "西迁史实",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "1940 年 12 月中旬，一年级和先修班师生从青岩迁到湄潭永兴。1943 年入学的李政道，也曾在这里的茶楼读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "这里是贵州湄潭永兴，不是湖南同名县；迁入日期目前只能落实到 1940 年 12 月中旬。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "离乱中毕业：于同隐专题",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "中国科学家博物馆 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-free-branch-preview",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "×",
+          "size": 20,
+          "selector": "#previewClose"
+        },
+        {
+          "text": "衡阳",
+          "size": 20,
+          "selector": "#poiPreviewTitle"
+        },
+        {
+          "text": "1938 年转迁宜山时，农学院有人押运九十九箱图书、仪器和药品，绕道衡阳入桂。衡阳也设有运输站，协助迁校途中的车船调度。",
+          "size": 14,
+          "selector": "#poiPreviewEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#previewDetails"
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    }
+  ]
+}
