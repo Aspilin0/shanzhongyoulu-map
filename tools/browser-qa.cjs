@@ -11,7 +11,7 @@ exports.run = async function (name, check) {
   const fonts = [];
   try {
     for (const width of [1440, 390]) {
-      const context = await browser.newContext({ viewport: { width, height: 900 } });
+      const context = await browser.newContext({ viewport: { width, height: 900 }, isMobile: width === 390, hasTouch: width === 390 });
       await context.addInitScript(() => localStorage.setItem('shanyouzhonglu.intro.seen.v2', 'yes'));
       const page = await context.newPage();
       const errors = [];

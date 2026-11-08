@@ -59,6 +59,12 @@
               <div class="poi-layer" id="poiLayer"></div>
             </div>
           </div>
+          <aside class="poi-preview" id="poiPreview" aria-labelledby="poiPreviewTitle" hidden>
+            <button type="button" id="previewClose" class="poi-preview__close" aria-label="关闭简介">×</button>
+            <h2 id="poiPreviewTitle"></h2>
+            <p id="poiPreviewEvent"></p>
+            <button type="button" id="previewDetails" class="ghost-btn">查看详情</button>
+          </aside>
           <div class="map-tools" role="group" aria-label="地图缩放">
             <button type="button" id="zoomIn" aria-label="放大地图">＋</button>
             <button type="button" id="zoomOut" aria-label="缩小地图">−</button>
@@ -133,6 +139,8 @@
 
 <script src="js/geometry.js"></script>
 <script src="js/data.js"></script>
+<script src="js/poi-content.js"></script>
+<script src="js/preview.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

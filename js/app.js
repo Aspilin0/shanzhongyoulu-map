@@ -192,6 +192,7 @@
       }
 
       btn.addEventListener('click', function () { onPoiClick(p); });
+      window.PARK_PREVIEW.bind(btn, window.PARK_CONTENT.describe(p), function () { onPoiClick(p); });
       host.appendChild(btn);
     });
 
@@ -203,10 +204,10 @@
       b.style.top = s.y + '%';
       b.dataset.kind = 'stone';
       b.setAttribute('aria-label', '西迁之路地名石刻第 ' + (i + 1) + ' 站：' + s.n);
-      b.title = s.n;
       b.appendChild(el('span', 'poi__dot'));
       b.appendChild(el('span', 'poi__label', s.n));
       b.addEventListener('click', function () { openStone(i); });
+      window.PARK_PREVIEW.bind(b, window.PARK_CONTENT.stone(s), function () { openStone(i); });
       host.appendChild(b);
     });
 
@@ -214,6 +215,7 @@
   }
 
   function applyLayer() {
+    window.PARK_PREVIEW.hide();
     $('#mapFrame').dataset.layer = mapLayer;
     $$('.poi').forEach(function (btn) {
       var k = btn.dataset.kind;
@@ -244,15 +246,8 @@
     $('#dlgTitle').textContent = p.label;
     $('#dlgSub').textContent = '今日北山 · 园区纪念景观';
     $('#dlgFacts').innerHTML = '';
-    var notes = {
-      F01: '西迁文化园石碑位于园区东北侧。',
-      F02: '「西迁之路」铜牌邻近东北侧的地名石刻步道。',
-      F03: '校友林石碑位于园区东侧。',
-      F04: '「求是巢」木构位于园区西南部。园区沿革资料记录了建筑学专业同学于 2024 年搭建木构的故事。',
-      F05: '建校 120 周年、西迁 80 周年纪念雕塑位于园区西南侧。'
-    };
     var body = $('#dlgBody'); body.innerHTML = '';
-    body.appendChild(layer('一', '沿路看见', para(notes[p.id] || p.label)));
+    body.appendChild(layer('一', '沿路看见', para(window.PARK_CONTENT.describe(p).event)));
     $('#dlgNav').innerHTML = '<button type="button" class="btn btn--primary" data-return-map>回到地图</button>';
     $('[data-return-map]').addEventListener('click', closeDialog);
     openDialog();
@@ -285,6 +280,7 @@
   var currentCardChapter = null;
 
   function openDialog() {
+    window.PARK_PREVIEW.hide();
     lastFocus = document.activeElement;
     dialog.hidden = false;
     document.body.style.overflow = 'hidden';
@@ -725,6 +721,7 @@
   var ROUTES = ['home', 'map', 'timeline', 'finale', 'about'];
 
   function showView(name) {
+    window.PARK_PREVIEW.hide();
     document.body.dataset.view = name;
     ROUTES.forEach(function (r) {
       var v = document.getElementById('view-' + r);

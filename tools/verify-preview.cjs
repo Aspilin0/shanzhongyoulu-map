@@ -1,0 +1,30 @@
+const { run } = require('./browser-qa.cjs');
+run('preview', async ({ page, width, shot, assert }) => {
+  await page.locator('#zoomFit').click();
+  const target = page.locator('.poi--chapter[data-id="N03"]');
+  if (process.env.QA_BEFORE) { await target.hover(); await shot('before'); return; }
+  if (width === 390) await target.click(); else await target.hover();
+  await page.locator('#poiPreview').waitFor({ state: 'visible' });
+  assert.ok((await page.locator('#poiPreviewTitle').innerText()).includes('费巩明灯'));
+  assert.ok((await page.locator('#poiPreviewEvent').innerText()).includes('八百多'));
+  assert.equal(await page.locator('#nodeDialog').isVisible(), false);
+  const box = await page.locator('#poiPreview').boundingBox();
+  const point = await target.boundingBox();
+  assert.ok(box.x + box.width <= point.x || point.x + point.width <= box.x || box.y + box.height <= point.y || point.y + point.height <= box.y, 'Preview blocks its trigger');
+  await shot('chapter');
+  await page.locator('#previewDetails').click();
+  assert.equal(await page.locator('#dlgTitle').innerText(), '灯火');
+  await shot('details');
+  await page.locator('.dialog__close').click();
+  await page.locator('[data-layer="sculpture"]').click();
+  const sculpture = page.locator('.poi--sculpture[data-id="S04"]');
+  await sculpture.focus();
+  assert.equal(await page.locator('#poiPreviewTitle').innerText(), '百鸟归林');
+  await shot('keyboard');
+  await page.keyboard.press('Escape');
+  assert.equal(await page.locator('#poiPreview').isVisible(), false);
+  await page.locator('[data-layer="stone"]').click();
+  await page.getByRole('button', { name: /地名石刻.*樟树/ }).focus();
+  assert.equal(await page.locator('#poiPreviewTitle').innerText(), '樟树');
+  await shot('stone');
+}).catch(e => { console.error(e); process.exitCode = 1; });
