@@ -1,58 +1,50 @@
 const { run } = require('./browser-qa.cjs');
-const modes = [
-  {ridge:'ridge','stone:樟树':'ridge','stone:衡阳':'north-spine','stone:宜山':'cross',west:'west-spine','stone:湄潭':'south-spine','south-fork':'southwest'},
-  {'stone:樟树':'east','stone:宜山':'south-story','stone:湄潭':'pavilion',riverside:'river-east'},
-  {'stone:樟树':'ridge','stone:衡阳':'north-gate'},
-  {'stone:樟树':'east','stone:宜山':'cross',west:'west-gate'},
-  {'stone:樟树':'east','stone:宜山':'south-story','stone:湄潭':'south-spine','south-fork':'southeast'},
-  {'stone:樟树':'east','stone:宜山':'south-story','stone:湄潭':'pavilion',riverside:'river-south'}
-];
-run('branch-journey', async ({ page, shot, assert }) => {
-  const url = page.url().split('#')[0] + '#/map';
-  for (let route=0; route<modes.length; route++) {
-    await page.goto(url);
-    await page.reload();
-    assert.equal(await page.locator('#journeyTitle').innerText(),'杭州');
-    assert.ok(await page.locator('#journeyPrev').isDisabled());
-    const visited=[], titles=[];
-    for (let step=0;step<60;step++) {
-      const id=await page.locator('#journeyTitle').getAttribute('data-stop');
-      assert.ok(!visited.includes(id),'Forced return to '+id);
-      visited.push(id); titles.push(await page.locator('#journeyTitle').innerText());
-      if(id!=='stone:杭州') await page.waitForFunction(() => {
-        const p=document.querySelector('#journeyMarker').getBoundingClientRect();
-        const v=document.querySelector('#mapScroll').getBoundingClientRect();
-        return Math.abs(p.x+p.width/2-v.x-v.width/2)<3 && Math.abs(p.y+p.height/2-v.y-v.height/2)<3;
-      },null,{timeout:3000});
-      await shot(`route-${route+1}-step-${String(step+1).padStart(2,'0')}`);
-      if (await page.locator('#journeyNext').innerText()==='重新游览') break;
-      const buttons=page.locator('#journeyChoices button');
-      if (await buttons.count()) {
-        assert.ok(await page.locator('#journeyNext').isDisabled(),'Junction must wait for route choice');
-        assert.ok(modes[route][id],'Unspecified junction '+id);
-        await page.locator(`#journeyChoices [data-edge="${modes[route][id]}"]`).click();
-      } else await page.locator('#journeyNext').click();
+run('mainline-journey', async ({ page, shot, assert }) => {
+  const title=page.locator('#journeyTitle'), next=page.locator('#journeyNext'), prev=page.locator('#journeyPrev');
+  assert.equal(await title.innerText(),'杭州');
+  assert.ok(await prev.isDisabled());
+  assert.equal(await page.locator('#journeyChoices,[data-edge]').count(),0);
+  const visited=[], titles=[];
+  for(let step=0;step<40;step++) {
+    const id=await title.getAttribute('data-stop');
+    assert.ok(!visited.includes(id),'Mainline loops back to '+id);
+    visited.push(id);titles.push(await title.innerText());
+    assert.ok(await next.isEnabled(),'Next stop must never wait for a branch choice');
+    if(id!=='stone:杭州') await page.waitForFunction(()=>{
+      const p=document.querySelector('#journeyMarker').getBoundingClientRect(),v=document.querySelector('#mapScroll').getBoundingClientRect();
+      return Math.abs(p.x+p.width/2-v.x-v.width/2)<3 && Math.abs(p.y+p.height/2-v.y-v.height/2)<3;
+    },null,{timeout:3000});
+    const nav=await next.boundingBox();
+    assert.ok(nav.y+nav.height<=page.viewportSize().height,'Next button must stay on screen');
+    await shot('step-'+String(step+1).padStart(2,'0'));
+    if(await next.innerText()==='重新游览') break;
+    if(await title.innerText()==='费巩明灯') {
+      await page.locator('#journeyDetails').click();
+      assert.equal(await page.locator('#dlgTitle').innerText(),'灯火');
+      await shot('lamp-details');
+      await page.locator('.dialog__close').click();
+      assert.equal(await title.innerText(),'费巩明灯');
     }
-    assert.ok(visited.length<60);
-    if (route===0) {
-      assert.ok(titles.includes('保护四库全书') && titles.includes('费巩明灯') && titles.includes('百鸟归林') && titles.includes('求是巢') && titles.includes('120 周年纪念雕塑'));
-      assert.ok(!titles.includes('抢运校产'));
-    }
-    if (route===1) {
-      assert.ok(titles.includes('抢运校产') && titles.includes('手摇发电亮灯') && titles.includes('求是巢') && titles.includes('西迁纪念碑亭'));
-      assert.ok(!titles.includes('保护四库全书'));
-    }
-    await page.locator('#view-finale.is-active').waitFor({state:'visible'});
-    await shot('route-'+(route+1)+'-finale');
+    await next.click();
   }
-  // Return to the fork and select the other direction without retaining the old branch.
-  await page.goto(url);
-    await page.reload();
-  while (await page.locator('#journeyTitle').innerText()!=='樟树') await page.locator('#journeyNext').click();
-  await page.locator('[data-edge="ridge"]').click();
-  await page.locator('#journeyPrev').click();
-  assert.equal(await page.locator('#journeyTitle').innerText(),'樟树');
-  await page.locator('[data-edge="east"]').click();
-  assert.notEqual(await page.locator('#journeyTitle').getAttribute('data-stop'),'stone:永丰');
-  await shot('changed-branch');
+  assert.equal(visited.length,27);
+  assert.ok(titles.indexOf('宜山')<titles.indexOf('费巩明灯') && titles.indexOf('费巩明灯')<titles.indexOf('青岩'));
+  for(const branch of ['衡阳','衡山','攸县','耒阳','茶陵','永丰','桂林','荔浦','西侧岔路','滨水岔路']) assert.ok(!titles.includes(branch),'Branch entered: '+branch);
+  assert.equal(titles.at(-1),'永兴');
+  await prev.click();
+  await page.waitForTimeout(1500);
+  assert.ok(await page.locator('#view-map.is-active').isVisible(),'Previous cancels the pending finale');
+  await next.click();
+  await page.locator('#view-finale.is-active').waitFor({state:'visible'});
+  await shot('finale');
+  await page.getByRole('link',{name:'返回地图',exact:true}).click();
+  await next.click();
+  assert.equal(await title.innerText(),'杭州');
+  assert.ok(await prev.isDisabled());
+  // Branches remain freely readable, without entering the Next-stop sequence.
+  await page.locator('#zoomFit').click();
+  await page.getByRole('button',{name:/地名石刻.*衡阳/}).focus();
+  assert.equal(await page.locator('#poiPreviewTitle').innerText(),'衡阳');
+  assert.equal(await title.innerText(),'杭州');
+  await shot('free-branch-preview');
 }).catch(e=>{console.error(e);process.exitCode=1;});

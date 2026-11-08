@@ -93,7 +93,7 @@ h1,h2,h3,h4{letter-spacing:0}button,a{touch-action:manipulation}
 .poi--chapter .poi__dot{width:14px;height:14px;margin:8px;background:var(--green);outline:0;border:2px solid var(--paper-2)}
 .poi--chapter{width:14px;height:14px}.poi--chapter .poi__dot{margin:0}
 
-.journey__choices{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.journey__choices[hidden]{display:none}.journey__choices button{font-size:14px;padding:7px 12px}.journey__details{font-size:14px;border:0;border-bottom:1px solid var(--line);padding:0;background:none;color:var(--green);cursor:pointer;margin-top:6px}.journey__details[hidden]{display:none}
+.journey__details{font-size:14px;border:0;border-bottom:1px solid var(--line);padding:0;background:none;color:var(--green);cursor:pointer;margin-top:6px}.journey__details[hidden]{display:none}
 
 .poi[aria-current="step"] .poi__label{display:none}
 .poi--site{width:10px;height:10px}.poi--site .poi__dot{margin:0}.poi--stone{width:8px;height:8px}.poi--stone .poi__dot{margin:1px}

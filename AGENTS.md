@@ -12,17 +12,17 @@
 - 景观配准与底图绘制：`tools/build-atlas.py`。
 - 石刻顺序与道路弧长均布：`tools/stone_layout.py`；樟树、衡阳、宜山、湄潭固定在参考交叉口。
 - 简介读取入口：`js/poi-content.js`；资料分别在 `js/stone-content.js`、`js/place-content.js`，来源链接在 `js/content-sources.js`。
-- 分支步行图与景点沿路投影：`tools/tour_layout.py`，每条前进路线不得重复经过同一节点。
+- 主线停靠顺序与景点沿路投影：`tools/tour_layout.py`；明灯在宜山之后纳入主线，支路不进入下一站流程。
 - 逐站状态与终章时机：`js/journey.js`；详情渲染与弹窗状态：`js/cards.js`。
 
 运行 `D:/Anaconda/python.exe tools/build-map.py` 同步 SVG 和坐标，不手改 `assets/map/` 或 `js/geometry.js`。
-序章仅首次进入确认后记忆，资料从页脚进入，时间轴默认折叠；主导览使用道路分支，石刻和景观按沿路顺序停靠。
+序章仅首次进入确认后记忆，资料从页脚进入，时间轴默认折叠；主导览只走西迁之路主线，连续下一站到永兴；支路保留自由点看。
 
 | 规则 | 由什么拦住 |
 | --- | --- |
 | 树冠、树干、描边与阴影距路外沿至少 24 个参考像素；渲染与避树共用路网 | `tools/verify-map.py`，含旧版贴路树反例 |
 | 石刻在路上、四交叉口准确、其余按区间弧长均布 | `tools/verify-stones.py`，含旧版路外点反例 |
-| 照片正确，悬停/触控可用，28 站移动、前后导航、自动终章正常 | `node tools/verify-all.cjs` 的真实 Chrome 场景，含错误照片/跳站反例 |
+| 照片正确，悬停/触控可用，主线含明灯且无需分岔选择，前后导航与终章正常 | `node tools/verify-all.cjs` 的真实 Chrome 场景，含错误照片/跳站反例 |
 | 可见改动附桌面和手机截图，点位改动附原图叠线 | `qa/2026-11-08/` 截图和各项 `REVIEW.md` |
 | 地点介绍逐条有来源、区分史实与地理背景，禁止通用句兜底；原图地名不得录错 | `node tools/verify-content.cjs`，含缺资料/通用句/错地名检查；来源审阅见 `docs/content-audit.md` |
 | 字号与文案遵循 `DESIGN.md` | 真实可见 DOM 记录 + `tools/audit-small-text.mjs` |

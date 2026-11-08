@@ -12,7 +12,7 @@ function check(bin, args) {
   const lines = (result.stdout + result.stderr).trim().split(/\r?\n/);
   console.log('PASS', args.join(' '), lines.at(-1) || '');
 }
-process.env.QA_ROOT ||= 'qa/2026-11-08/revision';
+process.env.QA_ROOT ||= 'qa/2026-11-08/mainline';
 const python = process.env.PYTHON || (existsSync('D:/Anaconda/python.exe') ? 'D:/Anaconda/python.exe' : 'python');
 for (const file of readdirSync(path.join(root, 'js')).filter(f => f.endsWith('.js'))) check(process.execPath, ['--check','js/' + file]);
 check(python, ['tools/verify-map.py']);
@@ -21,5 +21,5 @@ check(python, ['tools/verify-tour.py']);
 check(process.execPath, ['tools/verify-content.cjs']);
 check(process.execPath, ['tools/verify-size-hook.cjs']);
 for (const name of ['photos','map-view','stones','preview','journey','tidy','unified','content-ui']) check(process.execPath, ['tools/verify-' + name + '.cjs']);
-for (const name of ['map-view','stones','preview','branch-journey','tidy','unified','content']) check(process.execPath, ['tools/audit-small-text.mjs','--report',`${process.env.QA_ROOT}/${name}/font-audit.json`]);
+for (const name of ['map-view','stones','preview','mainline-journey','tidy','unified','content']) check(process.execPath, ['tools/audit-small-text.mjs','--report',`${process.env.QA_ROOT}/${name}/font-audit.json`]);
 console.log('All checks passed: geometry 15; browser suites 8 at desktop and mobile widths; all 39 place introductions sourced; hook checks 2; syntax and fonts clean.');
