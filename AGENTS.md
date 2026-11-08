@@ -18,3 +18,5 @@
 序章首次进入并确认后记忆于本机；不得加回常驻序章导航。项目说明只放在页脚。
 
 照片替换验证：`node tools/verify-photos.cjs`（需可解析本机 Playwright，使用 Chrome）；检查照片内容哈希、卡片图注、桌面与手机截图和控制台错误。
+
+石刻的唯一顺序与布点规则在 `tools/stone_layout.py`；修改后生成地图并运行 `D:/Anaconda/python.exe tools/verify-stones.py`。四处交叉口按参考图，其余点位按道路弧长均布。

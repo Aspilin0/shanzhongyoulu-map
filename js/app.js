@@ -195,7 +195,7 @@
       host.appendChild(btn);
     });
 
-    /* 地名石刻：只画点，不贴名（名称与顺序待 D 组坐标表确认） */
+    /* Stone order and positions are generated from the shared trail geometry. */
     (D.stones || []).forEach(function (s, i) {
       var b = el('button', 'poi poi--stone');
       b.type = 'button';
@@ -205,7 +205,7 @@
       b.setAttribute('aria-label', '西迁之路地名石刻第 ' + (i + 1) + ' 站：' + s.n);
       b.title = s.n;
       b.appendChild(el('span', 'poi__dot'));
-      b.appendChild(el('span', 'poi__label', s.n + '（待复核）'));
+      b.appendChild(el('span', 'poi__label', s.n));
       b.addEventListener('click', function () { openStone(i); });
       host.appendChild(b);
     });
@@ -566,8 +566,7 @@
     [
       ['所在', '北山游步道沿线（西迁之路文化园）'],
       ['形制', '地面石刻 / 二维码铜牌'],
-      ['资料来源', 'S5、S12'],
-      ['核对状态', '点位与石刻名待 D 组坐标表复核']
+      ['资料来源', 'S5、S12']
     ].forEach(function (pair) {
       var li = document.createElement('li');
       li.appendChild(el('b', null, pair[0]));

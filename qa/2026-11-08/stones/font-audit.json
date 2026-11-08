@@ -1,0 +1,564 @@
+{
+  "cases": [
+    {
+      "name": "1440-after",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "1440-hengyang-card",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "西迁之路 · 地名石刻　第 17 / 28 站",
+          "size": 12,
+          "selector": "#dlgNo"
+        },
+        {
+          "text": "衡阳",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "北山游步道 · 地面石刻",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "所在",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道沿线（西迁之路文化园）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "形制",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "地面石刻 / 二维码铜牌",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S12",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "这是什么",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "「衡阳」是浙江大学 1937—1946 年西迁途中经过的一个地方。北山游步道把这些地名刻在地面上，沿路走一遍，等于把那条路线按顺序走过一遍。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "为什么不多写",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这一页只交代「地名」本身，不替它编排到达时间与事件经过——单个地名的到达年月属于资料组尚未核定的事项（见「项目说明 · 已知的资料缺口」）。要读具体发生了什么，请打开对应的章节卡片。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S12",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《去“北山”校友林看西迁文化图片展》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "上一站 桂林",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "下一站 衡山",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-after",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        }
+      ]
+    },
+    {
+      "name": "390-hengyang-card",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "园区地图",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "西迁时间轴",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "终章",
+          "size": 14,
+          "selector": "A."
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "景点",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "故事",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "雕塑",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "石刻",
+          "size": 14,
+          "selector": "BUTTON."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "已探索 0 / 5",
+          "size": 12,
+          "selector": "#progressText"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "西迁之路 · 地名石刻　第 17 / 28 站",
+          "size": 12,
+          "selector": "#dlgNo"
+        },
+        {
+          "text": "衡阳",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "北山游步道 · 地面石刻",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "所在",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道沿线（西迁之路文化园）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "形制",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "地面石刻 / 二维码铜牌",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S12",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "这是什么",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "「衡阳」是浙江大学 1937—1946 年西迁途中经过的一个地方。北山游步道把这些地名刻在地面上，沿路走一遍，等于把那条路线按顺序走过一遍。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "为什么不多写",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这一页只交代「地名」本身，不替它编排到达时间与事件经过——单个地名的到达年月属于资料组尚未核定的事项（见「项目说明 · 已知的资料缺口」）。要读具体发生了什么，请打开对应的章节卡片。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S12",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《去“北山”校友林看西迁文化图片展》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "上一站 桂林",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "下一站 衡山",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    }
+  ]
+}

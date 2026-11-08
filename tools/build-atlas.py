@@ -6,6 +6,7 @@ The dense stone-name correspondences remain provisional; this is a visitor map.
 from pathlib import Path
 import json, random, math
 from html import escape
+from stone_layout import STONES
 from atlas_layout import ROUTES, PLAZA, TREE_GAP, WATER_PATH, STREAM, FOREST, EXTENT, REFERENCE_SIZE, in_polygon, conflicts, assert_layout, tree_bounds
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -16,15 +17,6 @@ ANNOTATED_PINS = {
     'F04': (601, 859), 'F05': (417, 1190),
 }
 ALIASES = {'S01':'N01','S02':'N03','S03':'N02','S04':'N05','S05':'N04'}
-ANNOTATED_STONES = [
-    ('杭州',1213,395),('西天目',1185,393),('建德',1163,394),('兰溪',1137,392),
-    ('金华',1113,395),('玉山',1090,397),('南昌',1064,402),('樟树',1039,407),
-    ('吉安',1022,438),('赣州',1058,476),('大庾',976,494),('南雄',932,487),
-    ('西江',876,484),('三水',814,497),('荔浦',716,480),('桂林',699,422),
-    ('衡山',864,348),('攸县',774,349),('泰和',914,375),('崇陵',966,367),
-    ('茶陵',1013,381),('宜山',736,615),('青岩',710,695),('贵阳',663,741),
-    ('遵义',627,799),('湄潭',622,836),('永兴',604,923),
-]
 # Registration preserves the old annotated landmark/stone relationships while
 # taking road geometry from the new map. Only the wood structure and pavilion
 # are directly named in the new screenshots; other positions remain estimates.
@@ -45,7 +37,6 @@ def register_position(x,y):
 PINS={k:register_position(*v) for k,v in ANNOTATED_PINS.items()}
 PINS['F04']=(480,1057)
 PINS['P01']=(613,1216)
-STONES=[(n,*register_position(x,y)) for n,x,y in ANNOTATED_STONES]
 
 def path(d,fill='none',stroke='none',sw=1,extra=''):
     return f'<path d="{d}" fill="{fill}" stroke="{stroke}" stroke-width="{sw}" stroke-linecap="round" stroke-linejoin="round" {extra}/>'
