@@ -45,9 +45,6 @@
     var subIds = c.primary ? [c.primary].concat(c.extra || []) : (c.sculptures || []);
     var subs = D.sculptures.filter(function (s) { return subIds.indexOf(s.id) !== -1; });
 
-    $('#dlgNo').textContent = isPrologue
-      ? '序章'
-      : '第 ' + String(c.no).padStart(2, '0') + ' 章';
     $('#dlgTitle').textContent = c.key;
     $('#dlgSub').textContent = c.sub;
 
@@ -158,7 +155,7 @@
     var prev = pos > 0 ? navOrder[pos - 1] : null;
     var next = pos >= 0 && pos < navOrder.length - 1 ? navOrder[pos + 1] : null;
     if (prev) {
-      var b1 = el('button', 'ghost-btn', (prev.no ? '第 ' + prev.no + ' 章 ' : '序章 ') + prev.key);
+      var b1 = el('button', 'ghost-btn', prev.key);
       b1.type = 'button';
       b1.addEventListener('click', function () { openChapter(prev.id); });
       nav.appendChild(b1);
@@ -166,7 +163,7 @@
     var spacer = el('span', 'spacer');
     nav.appendChild(spacer);
     if (next) {
-      var b2 = el('button', 'btn btn--primary', (next.no ? '第 ' + next.no + ' 章 ' : '') + next.key);
+      var b2 = el('button', 'btn btn--primary', next.key);
       b2.type = 'button';
       b2.style.padding = '10px 20px';
       b2.style.fontSize = '14px';
@@ -196,15 +193,13 @@
     if (owner) markVisited(owner);
     currentCardChapter = owner || null;
 
-    $('#dlgNo').textContent = '雕塑 / SCULPTURE　' + s.id + '　（资料底本 ' + s.ref + '）';
     $('#dlgTitle').textContent = s.name;
     $('#dlgSub').textContent = s.year + '　·　' + s.site;
 
     var facts = $('#dlgFacts');
     facts.innerHTML = '';
     [
-      ['所属章节', owner ? '第 ' + owner.no + ' 章 · ' + owner.key : '—'],
-      ['落成时间', '2017 年 5 月（六座同期完成）'],
+            ['落成时间', '2017 年 5 月（六座同期完成）'],
       ['园区位置', s.site],
       ['资料来源', s.src.join('、')]
     ].forEach(function (pair) {
@@ -261,7 +256,7 @@
     var nav = $('#dlgNav');
     nav.innerHTML = '';
     if (owner) {
-      var b = el('button', 'btn btn--primary', '读完整章节：第 ' + owner.no + ' 章 ' + owner.key);
+      var b = el('button', 'btn btn--primary', '查看故事：' + owner.key);
       b.type = 'button';
       b.style.padding = '10px 20px';
       b.style.fontSize = '14px';
@@ -285,7 +280,6 @@
     currentCardChapter = null;
 
     var content = window.PARK_CONTENT.stone(s);
-    $('#dlgNo').textContent = '西迁之路 · 地名石刻';
     $('#dlgTitle').textContent = s.n;
     $('#dlgSub').textContent = content.category;
     $('#dlgFacts').innerHTML = '';
@@ -312,7 +306,6 @@
 
   function openSite(p) {
     currentCardChapter = null;
-    $('#dlgNo').textContent = '北山漫游';
     $('#dlgTitle').textContent = p.label;
     $('#dlgSub').textContent = '今日北山 · 园区纪念景观';
     $('#dlgFacts').innerHTML = '';

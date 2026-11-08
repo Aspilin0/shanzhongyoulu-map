@@ -267,11 +267,11 @@
       mt.innerHTML = '';
       D.chapters.forEach(function (c) {
         var li = document.createElement('li');
-        li.appendChild(el('b', null, '第 ' + c.no + ' 章'));
+        li.appendChild(el('b', null, c.key));
         var subs = D.sculptures.filter(function (s) {
           return c.primary === s.id || (c.extra || []).indexOf(s.id) !== -1;
         }).map(function (s) { return s.name + '（' + s.ref + '）'; });
-        li.appendChild(el('span', null, c.key + ' · ' + c.sub + '　←　' + subs.join('、')));
+        li.appendChild(el('span', null, subs.join('、')));
         mt.appendChild(li);
       });
     }

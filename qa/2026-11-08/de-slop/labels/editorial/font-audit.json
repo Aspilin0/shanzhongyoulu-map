@@ -1,0 +1,7819 @@
+{
+  "cases": [
+    {
+      "name": "1440-N01-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "启程",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "选择与出发",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1937 年 11 月",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "杭州 · 江干码头 → 浙江建德",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "西迁之路游步道北段 · 地面年份石刻",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "抢运校产",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "西迁之路游步道北段，《抢运校产》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据抢运校产的史料记载与雕塑主题绘制；画面中的船只、码头与书箱为示意，不作为历史影像使用。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S6、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "1937 年 11 月，杭州江干码头。一千多名师生、七百多箱图书仪器，被分批装上乌篷船，溯江而上。一所大学的流亡，就这样开始了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1937 年 11 月 5 日，日军在金山卫登陆，那里距杭州只有一百二十公里。11 月 11 日起，浙江大学的教授、家属和学生一千多人，分三批从杭州江干码头乘乌篷船，沿钱塘江、富春江撤往建德。随行的有七百多箱、二百余吨图书仪器——那是这所学",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "同一批船上，还搭着浙江图书馆文澜阁的一百三十九箱《四库全书》。一所大学搬家，顺手替一个省背走了它最要紧的那批书。11 月 15 日，杭州本部的师生全部到达建德；天目山的二百五十多名新生，五天之后才赶到。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "12 月 1 日，《浙大日报》在建德创刊。学校设了情报委员会收录广播消息，在壁报的基础上办报，工读学生每天上街头叫卖。走了千里路，报纸没有停。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "参与体验",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "先看两张图：一张是今日游步道旁的《抢运校产》雕塑，一张是 1937 年浙赣线上抢运校产的示意画面。看完再点开下方「深入历史」，那里有同一个月里更具体的一件事。",
+          "size": 14,
+          "selector": "DIV.callout"
+        },
+        {
+          "text": "抢运校产",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1937 年 12 月　·　北山游步道北段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "冰天雪地的浙赣线上，师生拦下兵车、货车、煤车，把七百多箱图书仪器一箱箱抢运出来。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "今天你脚下的游步道，每隔几步就是一块刻着年份和地名的地砖。它们不是装饰，是这场迁徙被摊平在脚下的样子。读一块地砖，等于翻开一页年表。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S6",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之抢运校产》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S12",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《去“北山”校友林看西迁文化图片展》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "入山",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "1440-N02-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "守护",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "风雨与守护",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1937 年 12 月 — 1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "浙江龙泉 → 贵阳 · 地母洞",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道东北段 ·《保护四库全书》雕塑（南麓另有西迁办学纪念碑亭）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "保护四库全书",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道东北段的《保护四库全书》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据保护《四库全书》的史料记载绘制；山洞、书箱形制与上山路线为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S8、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "一所大学在流亡，却把一座图书馆最要紧的一百三十九箱书，扛过了五个省、二千五百多公里。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《四库全书》文澜阁本原藏杭州。1937 年 12 月杭州告急之前，竺可桢派校车先把书运到浙江龙泉，之后又派教师一路协助搬迁，途经五省、行程二千五百余公里，安全运抵贵阳附近的地母洞。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "山洞潮湿。为防止霉变，这批书每逢晴天就要搬出来晾晒一次；晒完重新用纸捻捆扎，再放回洞里。全晒一次就得停下手上的事，这样的间歇前后持续了六年。1946 年抗战胜利，书才回到杭州。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "北山南坡那座 2013 年 5 月落成的西迁办学纪念碑亭，亭中石碑高约 2.5 米、宽 1.3 米、厚 0.23 米，正面「浙江大学西迁办学纪念碑」十一个字由老校长路甬祥题写，背面碑文出自人文学院诸师之手。亭子是台州校友会筹资五十万元建成的",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "参与体验",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "对照两张图：一张是今日北山南坡的纪念碑亭，一张是运书途中翻山越岭的示意画面。读完「回到今日」，再抬头看看眼前这座亭子为什么建在这里。",
+          "size": 14,
+          "selector": "DIV.callout"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1937 年 12 月起　·　北山游步道东北段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "一所大学在流亡，却把文澜阁《四库全书》一百三十九箱，扛了五省、二千五百多公里。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "文化园是纪念性的表达，不是西迁事件的原址。这块碑立在这里，是因为这所学校想在自己每天走过的地方，留一句关于「守住了什么」的话。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S3",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙大西迁办学纪念碑亭落成》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2013-05-21",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S4",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁办学纪念碑奠基》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2009-05-21",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S8",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之保护四库全书》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S40",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙大西迁碑亭》（碑亭形制与紫金港十大景观）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "新浪博客「终南冷娃」 · 2018-08-13",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "启程",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "1440-N03-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "灯火",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "战时课堂",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西段 ·《费巩明灯》《桐油灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "费巩明灯、桐油灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西段，《费巩明灯》灯具与桌椅雕塑实拍。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1940 年学校迁到遵义。训导长费巩自掏腰包，请人把废弃的铁皮香烟罐戳上小孔、罩上玻璃、嵌一片导热的铁片，做成油灯，前后订做了八百多盏，发给每一位学生。老师在这盏灯下备课，学生在这盏灯下夜读。后来人们就叫它「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "更早在贵州湄潭，师生点的是当地的桐油灯。桐油比煤油便宜，烟却更重；一晚上读写下来，鼻孔都是黑的。在黔北的乡间，这样的灯就是师生备课、实验、夜读的全部光源。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "今天的浙大新生开学典礼上，仍要传递一盏费巩灯。灯是从老师手上传到学生手上的，七十多年没有断过。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "铁皮香烟罐戳上小孔，加上玻璃罩，嵌一片导热铁片——这就是让八百多名学生在夜里继续读书的「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "桐油灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年代　·　北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "湄潭的夜里，师生点的是当地的桐油灯。烟比煤油重，一晚上读写下来，鼻孔都是黑的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "北山的两座雕塑把「照明」这件小事立成了铜像。它们纪念的不是灯本身，而是灯亮着的时候，还有人在读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S7",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之费巩明灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《铭记西迁历史，打造浙大人精神家园》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 · 2021-03-26",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "1440-N04-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "创造",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "科学实践",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1945 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段 ·《手摇发电亮灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段的《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进了大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "同一时期，湄潭的条件更差。物理系的王淦昌一家七口养羊挤奶补充营养，牵着羊去双修寺的实验室；数学系的苏步青开荒种菜，地瓜干蘸盐巴吃了几个月；生物系的谈家桢在唐家祠堂建实验室，用竹管作导管、瓦盆做蒸发皿、挖地窖代替冰箱，发现了瓢虫色斑的「嵌镶显",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "「求是」两个字，1938 年 11 月 19 日由校务会议正式定为校训。它不是写在墙上的话，是先被这些人在没有电、没有设备的地方做出来之后，才被写下来的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "从会读书到会创造，中间隔着的往往不是天赋，而是「设备不够就自己想办法」的那股劲。北山的这座雕塑，把那股劲铸成了一圈摇柄。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "1440-N04-body",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "创造",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "科学实践",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1945 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段 ·《手摇发电亮灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段的《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进了大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "同一时期，湄潭的条件更差。物理系的王淦昌一家七口养羊挤奶补充营养，牵着羊去双修寺的实验室；数学系的苏步青开荒种菜，地瓜干蘸盐巴吃了几个月；生物系的谈家桢在唐家祠堂建实验室，用竹管作导管、瓦盆做蒸发皿、挖地窖代替冰箱，发现了瓢虫色斑的「嵌镶显",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "「求是」两个字，1938 年 11 月 19 日由校务会议正式定为校训。它不是写在墙上的话，是先被这些人在没有电、没有设备的地方做出来之后，才被写下来的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "从会读书到会创造，中间隔着的往往不是天赋，而是「设备不够就自己想办法」的那股劲。北山的这座雕塑，把那股劲铸成了一圈摇柄。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "1440-N05-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "归林",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭 → 浙江杭州",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道中段 ·《百鸟归林》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "百鸟归林",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道中段，《百鸟归林》屋脊鸟群实拍。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据《江城子》与百鸟归林雕塑主题绘制；飞鸟、江岸与树线构成为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S9、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "「骊歌一曲别情长……随百鸟，到湄江。」1946 年，他们回来了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《国立浙江大学附属中学毕业歌》的歌词《江城子》，写的是离别，也是归途。作者周本湘，是随浙大西迁到湄潭的生物系学生，词写在上世纪四十年代：「骊歌一曲别情长，藕丝香，燕飞忙。回首春风，桃李又成行。天下兴亡俱有责，愿此去，莫彷徨。」末句是「随百鸟",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "1946 年，浙大复员回杭州。这场从 1937 年 11 月开始的迁徙，落脚建德、吉安、泰和、宜山、遵义、湄潭，走了整整九年。后人称它为「文军长征」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "北山上的六座雕塑，2017 年 5 月落成，把抢运校产、费巩明灯、保护四库全书、百鸟归林、手摇发电、桐油灯六个瞬间铸成了铜。山本身是 2002 年堆起来的人工山体，2015 年才被开辟为西迁文化园——所以这里从来不是西迁的发生地，它是这所学",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "参与体验",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "沿着游步道走完这一圈，六座雕塑会依次出现。扫一扫雕塑铭牌上的二维码，可以听到那一段故事；在这张地图上，点亮节点也可以。",
+          "size": 14,
+          "selector": "DIV.callout"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年代　·　北山游步道中段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "「骊歌一曲别情长……随百鸟，到湄江。」写下这句词的人，是随校西迁到湄潭的生物系学生周本湘。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "山中有路，山外亦有路。读完这一章，往下走到「终章」，那里不总结历史，只问一个今天的问题。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S9",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之百鸟归林》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S34",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《穿林而过，到春天来！》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官微（澎湃新闻转载） · 2023-03-12",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S37",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "浙大校园植物资源平台 · 区域检索（北山 / 诺贝尔林 / 校友林在册记录）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学校园植物资源平台 · 2015",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "读终章 · 山外有路",
+          "size": 14,
+          "selector": "A.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "1440-S01-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "抢运校产",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1937 年 12 月　·　北山游步道北段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道北段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S6",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道北段，《抢运校产》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据抢运校产的史料记载与雕塑主题绘制；画面中的船只、码头与书箱为示意，不作为历史影像使用。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S6、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "冰天雪地的浙赣线上，师生拦下兵车、货车、煤车，把七百多箱图书仪器一箱箱抢运出来。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1937 年 12 月 26 日，部分师生和七百多箱图书仪器途经浙江金华时遭遇空袭被困。三十多艘民船装满图书仪器和《四库全书》，船主却弃船逃走。师生在风天雪地里拦截兵车、货车、煤车，每车塞一箱、再搭上几个人，一点一点把校产抢运出来。1938",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S6",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之抢运校产》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：启程",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "1440-S02-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年　·　北山游步道西段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S7、S28、S27",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "《费巩明灯》灯具与桌椅雕塑（现场实拍）。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "铁皮香烟罐戳上小孔，加上玻璃罩，嵌一片导热铁片——这就是让八百多名学生在夜里继续读书的「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1940 年学校迁到遵义后，训导长费巩用自己的津贴订做油灯，前后八百多盏，发给每一位学生。铁皮香烟罐做的灯身，戳上小孔、罩上玻璃、嵌一片导热铁片，可以挡风、可以调光。老师在这盏灯下备课，学生在这盏灯下夜读。如今浙大新生开学典礼上，仍要传递一",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S7",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之费巩明灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《铭记西迁历史，打造浙大人精神家园》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 · 2021-03-26",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：灯火",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "1440-S03-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1937 年 12 月起　·　北山游步道东北段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道东北段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S8、S11",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道东北段，《保护四库全书》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据保护《四库全书》的史料记载绘制；山洞、书箱形制与上山路线为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S8、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "一所大学在流亡，却把文澜阁《四库全书》一百三十九箱，扛了五省、二千五百多公里。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《四库全书》文澜阁本原藏杭州。1937 年 12 月杭州告急前，竺可桢派校车先把书运至浙江龙泉，又派教师一路协助搬迁，途经五省、行程二千五百余公里，安全运抵贵阳附近的地母洞。山洞潮湿，为防止霉变，每逢晴天要把书搬出来晾晒，晒完重新用纸捻捆扎",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S8",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之保护四库全书》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：守护",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "1440-S04-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年代　·　北山游步道中段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道中段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S9、S11",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "《百鸟归林》屋脊鸟群（现场实拍）。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据《江城子》与百鸟归林雕塑主题绘制；飞鸟、江岸与树线构成为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S9、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "「骊歌一曲别情长……随百鸟，到湄江。」写下这句词的人，是随校西迁到湄潭的生物系学生周本湘。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《国立浙江大学附属中学毕业歌》的歌词《江城子》由随浙大西迁至湄潭的生物系学生周本湘创作于上世纪四十年代：「骊歌一曲别情长，藕丝香，燕飞忙。回首春风，桃李又成行。天下兴亡俱有责，愿此去，莫彷徨。」末句是「随百鸟，到湄江」。这首歌 2007 年",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S9",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之百鸟归林》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：归林",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "1440-S05-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S10",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段，《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "1440-S05-body",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S10",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段，《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "1440-S06-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "抢运校产",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "纪念碑亭",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "桐油灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年代　·　北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "借用《费巩明灯》灯具与桌椅雕塑实拍，非《桐油灯》独立照片。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "湄潭的夜里，师生点的是当地的桐油灯。烟比煤油重，一晚上读写下来，鼻孔都是黑的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "桐油灯是浙大西迁湄潭办学时期的照明工具，由桐油作燃料，简陋但易得。在黔北的乡间，它就是师生备课、实验、夜读的光源。物理系的王淦昌、数学系的苏步青、生物系的谈家桢，都曾在这样的灯下做事。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：灯火",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-N01-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "启程",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "选择与出发",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1937 年 11 月",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "杭州 · 江干码头 → 浙江建德",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "西迁之路游步道北段 · 地面年份石刻",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "抢运校产",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "西迁之路游步道北段，《抢运校产》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据抢运校产的史料记载与雕塑主题绘制；画面中的船只、码头与书箱为示意，不作为历史影像使用。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S6、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "1937 年 11 月，杭州江干码头。一千多名师生、七百多箱图书仪器，被分批装上乌篷船，溯江而上。一所大学的流亡，就这样开始了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1937 年 11 月 5 日，日军在金山卫登陆，那里距杭州只有一百二十公里。11 月 11 日起，浙江大学的教授、家属和学生一千多人，分三批从杭州江干码头乘乌篷船，沿钱塘江、富春江撤往建德。随行的有七百多箱、二百余吨图书仪器——那是这所学",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "同一批船上，还搭着浙江图书馆文澜阁的一百三十九箱《四库全书》。一所大学搬家，顺手替一个省背走了它最要紧的那批书。11 月 15 日，杭州本部的师生全部到达建德；天目山的二百五十多名新生，五天之后才赶到。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "12 月 1 日，《浙大日报》在建德创刊。学校设了情报委员会收录广播消息，在壁报的基础上办报，工读学生每天上街头叫卖。走了千里路，报纸没有停。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "参与体验",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "先看两张图：一张是今日游步道旁的《抢运校产》雕塑，一张是 1937 年浙赣线上抢运校产的示意画面。看完再点开下方「深入历史」，那里有同一个月里更具体的一件事。",
+          "size": 14,
+          "selector": "DIV.callout"
+        },
+        {
+          "text": "抢运校产",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1937 年 12 月　·　北山游步道北段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "冰天雪地的浙赣线上，师生拦下兵车、货车、煤车，把七百多箱图书仪器一箱箱抢运出来。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "今天你脚下的游步道，每隔几步就是一块刻着年份和地名的地砖。它们不是装饰，是这场迁徙被摊平在脚下的样子。读一块地砖，等于翻开一页年表。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S6",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之抢运校产》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S12",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《去“北山”校友林看西迁文化图片展》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 / 求是新闻网 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "入山",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "390-N02-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "守护",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "风雨与守护",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1937 年 12 月 — 1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "浙江龙泉 → 贵阳 · 地母洞",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道东北段 ·《保护四库全书》雕塑（南麓另有西迁办学纪念碑亭）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "保护四库全书",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道东北段的《保护四库全书》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据保护《四库全书》的史料记载绘制；山洞、书箱形制与上山路线为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S8、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "一所大学在流亡，却把一座图书馆最要紧的一百三十九箱书，扛过了五个省、二千五百多公里。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《四库全书》文澜阁本原藏杭州。1937 年 12 月杭州告急之前，竺可桢派校车先把书运到浙江龙泉，之后又派教师一路协助搬迁，途经五省、行程二千五百余公里，安全运抵贵阳附近的地母洞。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "山洞潮湿。为防止霉变，这批书每逢晴天就要搬出来晾晒一次；晒完重新用纸捻捆扎，再放回洞里。全晒一次就得停下手上的事，这样的间歇前后持续了六年。1946 年抗战胜利，书才回到杭州。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "北山南坡那座 2013 年 5 月落成的西迁办学纪念碑亭，亭中石碑高约 2.5 米、宽 1.3 米、厚 0.23 米，正面「浙江大学西迁办学纪念碑」十一个字由老校长路甬祥题写，背面碑文出自人文学院诸师之手。亭子是台州校友会筹资五十万元建成的",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "参与体验",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "对照两张图：一张是今日北山南坡的纪念碑亭，一张是运书途中翻山越岭的示意画面。读完「回到今日」，再抬头看看眼前这座亭子为什么建在这里。",
+          "size": 14,
+          "selector": "DIV.callout"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1937 年 12 月起　·　北山游步道东北段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "一所大学在流亡，却把文澜阁《四库全书》一百三十九箱，扛了五省、二千五百多公里。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "文化园是纪念性的表达，不是西迁事件的原址。这块碑立在这里，是因为这所学校想在自己每天走过的地方，留一句关于「守住了什么」的话。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S3",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙大西迁办学纪念碑亭落成》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2013-05-21",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S4",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁办学纪念碑奠基》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2009-05-21",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S8",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之保护四库全书》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S40",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙大西迁碑亭》（碑亭形制与紫金港十大景观）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "新浪博客「终南冷娃」 · 2018-08-13",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "启程",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "390-N03-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "灯火",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "战时课堂",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西段 ·《费巩明灯》《桐油灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "费巩明灯、桐油灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西段，《费巩明灯》灯具与桌椅雕塑实拍。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "没有电的夜里，一盏铁皮香烟罐做的灯，让八百多个学生继续读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1940 年学校迁到遵义。训导长费巩自掏腰包，请人把废弃的铁皮香烟罐戳上小孔、罩上玻璃、嵌一片导热的铁片，做成油灯，前后订做了八百多盏，发给每一位学生。老师在这盏灯下备课，学生在这盏灯下夜读。后来人们就叫它「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "更早在贵州湄潭，师生点的是当地的桐油灯。桐油比煤油便宜，烟却更重；一晚上读写下来，鼻孔都是黑的。在黔北的乡间，这样的灯就是师生备课、实验、夜读的全部光源。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "今天的浙大新生开学典礼上，仍要传递一盏费巩灯。灯是从老师手上传到学生手上的，七十多年没有断过。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "铁皮香烟罐戳上小孔，加上玻璃罩，嵌一片导热铁片——这就是让八百多名学生在夜里继续读书的「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "桐油灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年代　·　北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "湄潭的夜里，师生点的是当地的桐油灯。烟比煤油重，一晚上读写下来，鼻孔都是黑的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "北山的两座雕塑把「照明」这件小事立成了铜像。它们纪念的不是灯本身，而是灯亮着的时候，还有人在读书。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S7",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之费巩明灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《铭记西迁历史，打造浙大人精神家园》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 · 2021-03-26",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "守护",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "390-N04-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "创造",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "科学实践",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1945 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段 ·《手摇发电亮灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段的《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进了大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "同一时期，湄潭的条件更差。物理系的王淦昌一家七口养羊挤奶补充营养，牵着羊去双修寺的实验室；数学系的苏步青开荒种菜，地瓜干蘸盐巴吃了几个月；生物系的谈家桢在唐家祠堂建实验室，用竹管作导管、瓦盆做蒸发皿、挖地窖代替冰箱，发现了瓢虫色斑的「嵌镶显",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "「求是」两个字，1938 年 11 月 19 日由校务会议正式定为校训。它不是写在墙上的话，是先被这些人在没有电、没有设备的地方做出来之后，才被写下来的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "从会读书到会创造，中间隔着的往往不是天赋，而是「设备不够就自己想办法」的那股劲。北山的这座雕塑，把那股劲铸成了一圈摇柄。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "390-N04-body",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "创造",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "科学实践",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1940 年 — 1945 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段 ·《手摇发电亮灯》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段的《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进了大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "同一时期，湄潭的条件更差。物理系的王淦昌一家七口养羊挤奶补充营养，牵着羊去双修寺的实验室；数学系的苏步青开荒种菜，地瓜干蘸盐巴吃了几个月；生物系的谈家桢在唐家祠堂建实验室，用竹管作导管、瓦盆做蒸发皿、挖地窖代替冰箱，发现了瓢虫色斑的「嵌镶显",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "「求是」两个字，1938 年 11 月 19 日由校务会议正式定为校训。它不是写在墙上的话，是先被这些人在没有电、没有设备的地方做出来之后，才被写下来的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "相关雕塑",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "从会读书到会创造，中间隔着的往往不是天赋，而是「设备不够就自己想办法」的那股劲。北山的这座雕塑，把那股劲铸成了一圈摇柄。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "灯火",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "归林",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "390-N05-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "归林",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "历史时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "1946 年",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史地点",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "贵州遵义 · 湄潭 → 浙江杭州",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区景观",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道中段 ·《百鸟归林》雕塑",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "对应雕塑",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "百鸟归林",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道中段，《百鸟归林》屋脊鸟群实拍。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "依据《江城子》与百鸟归林雕塑主题绘制；飞鸟、江岸与树线构成为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S9、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "「骊歌一曲别情长……随百鸟，到湄江。」1946 年，他们回来了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《国立浙江大学附属中学毕业歌》的歌词《江城子》，写的是离别，也是归途。作者周本湘，是随浙大西迁到湄潭的生物系学生，词写在上世纪四十年代：「骊歌一曲别情长，藕丝香，燕飞忙。回首春风，桃李又成行。天下兴亡俱有责，愿此去，莫彷徨。」末句是「随百鸟",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "1946 年，浙大复员回杭州。这场从 1937 年 11 月开始的迁徙，落脚建德、吉安、泰和、宜山、遵义、湄潭，走了整整九年。后人称它为「文军长征」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "北山上的六座雕塑，2017 年 5 月落成，把抢运校产、费巩明灯、保护四库全书、百鸟归林、手摇发电、桐油灯六个瞬间铸成了铜。山本身是 2002 年堆起来的人工山体，2015 年才被开辟为西迁文化园——所以这里从来不是西迁的发生地，它是这所学",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "参与体验",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "沿着游步道走完这一圈，六座雕塑会依次出现。扫一扫雕塑铭牌上的二维码，可以听到那一段故事；在这张地图上，点亮节点也可以。",
+          "size": 14,
+          "selector": "DIV.callout"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 20,
+          "selector": "SPAN.sub-item__name"
+        },
+        {
+          "text": "1940 年代　·　北山游步道中段",
+          "size": 12,
+          "selector": "SPAN.sub-item__meta"
+        },
+        {
+          "text": "「骊歌一曲别情长……随百鸟，到湄江。」写下这句词的人，是随校西迁到湄潭的生物系学生周本湘。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "山中有路，山外亦有路。读完这一章，往下走到「终章」，那里不总结历史，只问一个今天的问题。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "SUMMARY."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S9",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之百鸟归林》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S34",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《穿林而过，到春天来！》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官微（澎湃新闻转载） · 2023-03-12",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "S37",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "浙大校园植物资源平台 · 区域检索（北山 / 诺贝尔林 / 校友林在册记录）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学校园植物资源平台 · 2015",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "创造",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        },
+        {
+          "text": "读终章 · 山外有路",
+          "size": 14,
+          "selector": "A.btn btn--primary"
+        }
+      ]
+    },
+    {
+      "name": "390-S01-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "抢运校产",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1937 年 12 月　·　北山游步道北段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道北段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S6",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道北段，《抢运校产》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据抢运校产的史料记载与雕塑主题绘制；画面中的船只、码头与书箱为示意，不作为历史影像使用。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S6、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "冰天雪地的浙赣线上，师生拦下兵车、货车、煤车，把七百多箱图书仪器一箱箱抢运出来。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1937 年 12 月 26 日，部分师生和七百多箱图书仪器途经浙江金华时遭遇空袭被困。三十多艘民船装满图书仪器和《四库全书》，船主却弃船逃走。师生在风天雪地里拦截兵车、货车、煤车，每车塞一箱、再搭上几个人，一点一点把校产抢运出来。1938",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S6",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之抢运校产》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：启程",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-S02-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "费巩明灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年　·　北山游步道西段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S7、S28、S27",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "《费巩明灯》灯具与桌椅雕塑（现场实拍）。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "铁皮香烟罐戳上小孔，加上玻璃罩，嵌一片导热铁片——这就是让八百多名学生在夜里继续读书的「费巩灯」。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "1940 年学校迁到遵义后，训导长费巩用自己的津贴订做油灯，前后八百多盏，发给每一位学生。铁皮香烟罐做的灯身，戳上小孔、罩上玻璃、嵌一片导热铁片，可以挡风、可以调光。老师在这盏灯下备课，学生在这盏灯下夜读。如今浙大新生开学典礼上，仍要传递一",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S7",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之费巩明灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S28",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《费巩灯》（陈锡臣教授手绘示意图）",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2015-01-30",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S27",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《铭记西迁历史，打造浙大人精神家园》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学官网 · 2021-03-26",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：灯火",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-S03-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "保护四库全书",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1937 年 12 月起　·　北山游步道东北段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道东北段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S8、S11",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道东北段，《保护四库全书》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据保护《四库全书》的史料记载绘制；山洞、书箱形制与上山路线为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S8、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "一所大学在流亡，却把文澜阁《四库全书》一百三十九箱，扛了五省、二千五百多公里。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《四库全书》文澜阁本原藏杭州。1937 年 12 月杭州告急前，竺可桢派校车先把书运至浙江龙泉，又派教师一路协助搬迁，途经五省、行程二千五百余公里，安全运抵贵阳附近的地母洞。山洞潮湿，为防止霉变，每逢晴天要把书搬出来晾晒，晒完重新用纸捻捆扎",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S8",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之保护四库全书》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：守护",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-S04-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "百鸟归林",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年代　·　北山游步道中段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道中段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S9、S11",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "《百鸟归林》屋脊鸟群（现场实拍）。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据《江城子》与百鸟归林雕塑主题绘制；飞鸟、江岸与树线构成为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S9、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "「骊歌一曲别情长……随百鸟，到湄江。」写下这句词的人，是随校西迁到湄潭的生物系学生周本湘。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "《国立浙江大学附属中学毕业歌》的歌词《江城子》由随浙大西迁至湄潭的生物系学生周本湘创作于上世纪四十年代：「骊歌一曲别情长，藕丝香，燕飞忙。回首春风，桃李又成行。天下兴亡俱有责，愿此去，莫彷徨。」末句是「随百鸟，到湄江」。这首歌 2007 年",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S9",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之百鸟归林》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S11",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁之路文化园》十五个西迁故事雕塑设计方案",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "《浙江大学报》第 598 期第三版 · 2016-05-21",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：归林",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-S05-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S10",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段，《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-S05-body",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "手摇发电亮灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年　·　北山游步道西南段",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道西南段",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5、S10",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "北山游步道西南段，《手摇发电亮灯》雕塑现状。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据手摇发电与何家巷发电机的史料记载绘制；机械结构、传动方式与灯泡形制为示意。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S10、S11",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "一台小功率柴油机、一台发电机，和一群傍晚跑过来帮着拉皮带的同学。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "在遵义何家巷，王国松把一台小功率柴油机和一台发电机搬进大院，每天晚上发电三小时，供学生自修。柴油机启动时皮带打滑，每到傍晚，一群学生就涌上去帮着拉皮带；机器一响，灯就亮了。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "S10",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《西迁文化园雕塑介绍之手摇发电亮灯》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-04-20",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：创造",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    },
+    {
+      "name": "390-S06-top",
+      "texts": [
+        {
+          "text": "跳到主要内容",
+          "size": 14,
+          "selector": "A.skip-link"
+        },
+        {
+          "text": "山中有路",
+          "size": 20,
+          "selector": "A.brand"
+        },
+        {
+          "text": "北山 · 西迁文化园",
+          "size": 20,
+          "selector": "#mapTitle"
+        },
+        {
+          "text": "建德 · 西迁文化园石碑",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "金华 · 西迁之路铜牌",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "宜山 · 费巩明灯",
+          "size": 14,
+          "selector": "SPAN.poi__label"
+        },
+        {
+          "text": "杭州",
+          "size": 14,
+          "selector": "SPAN."
+        },
+        {
+          "text": "＋",
+          "size": 20,
+          "selector": "#zoomIn"
+        },
+        {
+          "text": "−",
+          "size": 20,
+          "selector": "#zoomOut"
+        },
+        {
+          "text": "全图",
+          "size": 12,
+          "selector": "#zoomFit"
+        },
+        {
+          "text": "杭州",
+          "size": 20,
+          "selector": "#journeyTitle"
+        },
+        {
+          "text": "1 / 26 站",
+          "size": 12,
+          "selector": "#journeyCount"
+        },
+        {
+          "text": "1937 年 11 月 11 日起，浙大本部师生分批从杭州出发，携图书仪器迁往建德。于同隐所在的四年级一批于 11 月 13 日夜离杭。",
+          "size": 14,
+          "selector": "#journeyEvent"
+        },
+        {
+          "text": "查看详情",
+          "size": 14,
+          "selector": "#journeyDetails"
+        },
+        {
+          "text": "上一站",
+          "size": 14,
+          "selector": "#journeyPrev"
+        },
+        {
+          "text": "下一站",
+          "size": 14,
+          "selector": "#journeyNext"
+        },
+        {
+          "text": "资料与说明",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "✕",
+          "size": 20,
+          "selector": "BUTTON.dialog__close"
+        },
+        {
+          "text": "桐油灯",
+          "size": 32,
+          "selector": "#dlgTitle"
+        },
+        {
+          "text": "1940 年代　·　北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 20,
+          "selector": "#dlgSub"
+        },
+        {
+          "text": "落成时间",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "2017 年 5 月（六座同期完成）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "园区位置",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "北山游步道南段（现场标注图未标出，位置待补）",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "资料来源",
+          "size": 12,
+          "selector": "B."
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "现代实拍",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--now"
+        },
+        {
+          "text": "借用《费巩明灯》灯具与桌椅雕塑实拍，非《桐油灯》独立照片。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "历史示意图 · 原创插画",
+          "size": 12,
+          "selector": "SPAN.figure__badge figure__badge--then"
+        },
+        {
+          "text": "与本章同一张历史示意图：依据费巩灯的形制记载绘制；灯身、灯芯与光晕为示意，画面不含人物。",
+          "size": 12,
+          "selector": "SPAN."
+        },
+        {
+          "text": "依据：S7、S28",
+          "size": 12,
+          "selector": "DIV."
+        },
+        {
+          "text": "快速了解",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "湄潭的夜里，师生点的是当地的桐油灯。烟比煤油重，一晚上读写下来，鼻孔都是黑的。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "深入历史",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "桐油灯是浙大西迁湄潭办学时期的照明工具，由桐油作燃料，简陋但易得。在黔北的乡间，它就是师生备课、实验、夜读的光源。物理系的王淦昌、数学系的苏步青、生物系的谈家桢，都曾在这样的灯下做事。",
+          "size": 14,
+          "selector": "P."
+        },
+        {
+          "text": "回到今日",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "这六座雕塑的铭牌上都装有二维码，扫描可以了解该场景的完整故事。园区里「线下扫牌」与这张地图上的「线上定位」指向的是同一段史实。",
+          "size": 14,
+          "selector": "DIV.callout callout--gold"
+        },
+        {
+          "text": "资料来源",
+          "size": 14,
+          "selector": "DIV.layer__label"
+        },
+        {
+          "text": "S5",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "《浙江大学西迁文化园迎来首批客人》",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学求是新闻网 · 2017-05-22",
+          "size": 12,
+          "selector": "SPAN.src-row__meta"
+        },
+        {
+          "text": "R01",
+          "size": 12,
+          "selector": "SPAN.src-row__id"
+        },
+        {
+          "text": "为心仪的西迁故事雕塑方案点赞",
+          "size": 14,
+          "selector": "SPAN.src-row__title"
+        },
+        {
+          "text": "浙江大学 · 核对于 2026-11-08",
+          "size": 12,
+          "selector": "A."
+        },
+        {
+          "text": "查看故事：灯火",
+          "size": 14,
+          "selector": "BUTTON.btn btn--primary"
+        },
+        {
+          "text": "返回地图",
+          "size": 14,
+          "selector": "BUTTON.ghost-btn"
+        }
+      ]
+    }
+  ]
+}

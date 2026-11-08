@@ -26,6 +26,7 @@
 | 可见改动附桌面和手机截图，点位改动附原图叠线 | `qa/2026-11-08/` 截图和各项 `REVIEW.md` |
 | 石刻写西迁事件或有依据的时间，不用城市概况兜底；未知到离日期标待考，区分师生批次与校产运输 | `node tools/verify-content.cjs` 拦截地理兜底、日期遗漏；史料与日期范围人工审阅见 `docs/content-audit.md` |
 | 字号与文案遵循 `DESIGN.md` | 真实可见 DOM 记录 + `tools/audit-small-text.mjs` |
+| 景点详情和故事导航不显示章节编号、英文类型与资料底本眉标 | `node tools/verify-editorial.cjs` 真实打开全部故事/雕塑详情；旧版编号已证明会失败 |
 | 暂存源码单文件不超过约 5,000 token | `.githooks/pre-commit` → `tools/check-file-size.cjs`；真实提交拦截与放行由 `tools/verify-size-hook.cjs` 验证 |
 
 提交被钩子拒绝时，按报错按功能拆分文件，再提交；不要绕过钩子。
