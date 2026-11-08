@@ -16,14 +16,12 @@ run('preview', async ({ page, width, shot, assert }) => {
   assert.equal(await page.locator('#dlgTitle').innerText(), '灯火');
   await shot('details');
   await page.locator('.dialog__close').click();
-  await page.locator('[data-layer="sculpture"]').click();
-  const sculpture = page.locator('.poi--sculpture[data-id="S04"]');
+  const sculpture = page.locator('.poi--chapter[data-id="N05"]');
   await sculpture.focus();
   assert.equal(await page.locator('#poiPreviewTitle').innerText(), '百鸟归林');
   await shot('keyboard');
   await page.keyboard.press('Escape');
   assert.equal(await page.locator('#poiPreview').isVisible(), false);
-  await page.locator('[data-layer="stone"]').click();
   await page.getByRole('button', { name: /地名石刻.*樟树/ }).focus();
   assert.equal(await page.locator('#poiPreviewTitle').innerText(), '樟树');
   await shot('stone');

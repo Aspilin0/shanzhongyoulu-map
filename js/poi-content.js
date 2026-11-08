@@ -17,7 +17,7 @@
     if (p.kind === 'stone') return stone(p);
     if (p.kind === 'chapter') {
       var c = D.chapters.find(function (c) { return c.id === p.id; });
-      return { title: p.label, event: c.intro };
+      return { title: D.sculptureIndex[c.primary].name, event: c.intro };
     }
     if (p.kind === 'sculpture') {
       var s = D.sculptureIndex[p.id];

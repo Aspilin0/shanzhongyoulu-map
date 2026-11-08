@@ -1,6 +1,5 @@
 const { run } = require('./browser-qa.cjs');
 run('stones', async ({ page, width, shot, assert }) => {
-  await page.locator('[data-layer="stone"]').click();
   await page.locator('#zoomFit').click();
   await shot(process.env.QA_BEFORE ? 'before' : 'after');
   if (process.env.QA_BEFORE) return;

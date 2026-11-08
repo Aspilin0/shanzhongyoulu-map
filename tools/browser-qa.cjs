@@ -4,7 +4,7 @@ const { mkdirSync, writeFileSync } = require('node:fs');
 const path = require('node:path');
 
 exports.run = async function (name, check) {
-  const out = path.resolve('qa/2026-11-08', name);
+  const out = path.resolve(process.env.QA_ROOT || 'qa/2026-11-08', name);
   mkdirSync(out, { recursive: true });
   const browser = await chromium.launch({ channel: 'chrome', headless: true });
   let passed = 0;
