@@ -15,7 +15,7 @@ Python 默认优先使用 `D:/Anaconda/python.exe`，可用 `PYTHON` 环境变�
 完整验收执行 15 个地图/石刻/主线几何测试、10 套桌面/手机浏览器流程、2 个真实提交钩子检查、JS 语法和四级字号检查。
 浏览器场景包含全部 28 个石刻的点击与主线从杭州到湄潭的连续前后导航，包含费巩明灯，且不出现分支选择；遇到控制台错误、图片内容不符、横向溢出或按钮不可用即失败。
 
-最新证据存于 `qa/2026-11-08/de-slop/final/`，去修饰前后对照与逐项审核见 `qa/2026-11-08/de-slop/REVIEW.md`。
+最新证据存于 `qa/2026-11-08/arrival-preview/final/`，终章和到站预览审核见 `qa/2026-11-08/arrival-preview/REVIEW.md`。文案去修饰的前后对照见 `qa/2026-11-08/de-slop/REVIEW.md`。
 `mainline-journey/` 按站保存镜头截图；`qa/2026-11-08/revision/sources/road-and-stops-overlay.png` 对照参考图中的道路和四个交叉口。
 照片错误、旧版路外点、导览跳站和超标文件提交均有失败反例。
 

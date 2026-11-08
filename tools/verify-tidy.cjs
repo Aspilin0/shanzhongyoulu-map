@@ -1,6 +1,7 @@
 const { run } = require('./browser-qa.cjs');
 run('tidy', async ({ page, width, shot, assert }) => {
   await shot(process.env.QA_BEFORE ? 'before' : 'after');
+  if (await page.locator('#poiPreview').isVisible()) await page.locator('#previewClose').click();
   await page.getByRole('button', { name: /地名石刻.*宜山/ }).click();
   if (width === 390) await page.locator('#previewDetails').click();
   if (!process.env.QA_BEFORE) {

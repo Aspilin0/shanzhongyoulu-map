@@ -6,6 +6,7 @@ run('unified', async ({ page, width, shot, assert }) => {
   for(const id of ['N01','N02','N03','N04','N05']) assert.ok(represented.includes(id));
   assert.equal(await page.locator('.poi--stone:visible').count(), 28);
   await shot('map');
+  if (await page.locator('#poiPreview').isVisible()) await page.locator('#previewClose').click();
   const lamp = page.getByRole('button', { name:/地名石刻.*宜山/ });
   if (width === 390) await lamp.click(); else await lamp.hover();
   await page.locator('#poiPreview').waitFor({ state: 'visible' });

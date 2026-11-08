@@ -3,9 +3,8 @@
   var stops = window.PARK_MAP.tour.stops;
   var index = 0;
   var free = false;
-  var hooks, timer;
+  var hooks, timer, previewFrame;
   var title = document.getElementById('journeyTitle');
-  var event = document.getElementById('journeyEvent');
   var count = document.getElementById('journeyCount');
   var prev = document.getElementById('journeyPrev');
   var next = document.getElementById('journeyNext');
@@ -15,7 +14,15 @@
   var exploreControls = document.getElementById('exploreControls');
   function currentId() { return stops[index].id; }
   function current() { return stops[index]; }
-  function cancel() { clearTimeout(timer); }
+  function cancel() { clearTimeout(timer); cancelAnimationFrame(previewFrame); }
+  function previewArrival() {
+    cancelAnimationFrame(previewFrame);
+    previewFrame = requestAnimationFrame(function () {
+      if (free || document.body.dataset.view !== 'map' || !document.getElementById('nodeDialog').hidden) return;
+      var stop = current();
+      window.PARK_PREVIEW.arrive(marker, content(stop), function () { hooks.open(stop); });
+    });
+  }
   function content(stop) {
     if (stop.kind === 'stone') return window.PARK_CONTENT.stone(window.SITE.stones[stop.stoneIndex]);
     if (stop.kind === 'place') return window.PARK_CONTENT.describe(window.SITE.poi.find(function (p) { return p.id === stop.poiId; }));
@@ -27,7 +34,6 @@
     exploreControls.hidden = !free;
     title.textContent = summary.title;
     title.dataset.stop = currentId();
-    event.textContent = summary.event;
     count.textContent = (index + 1) + ' / ' + stops.length + ' 站';
     prev.disabled = index === 0;
     prev.textContent = '上一站';
@@ -48,6 +54,7 @@
   function show(automatic) {
     cancel(); paint(); window.PARK_PREVIEW.hide();
     if (index === 0) hooks.overview(); else hooks.focus(current());
+    previewArrival();
     if (!free && automatic && index === stops.length - 1) timer = setTimeout(hooks.finish, 1400);
   }
   function move(to, automatic) {
@@ -60,9 +67,10 @@
       if (document.body.dataset.view !== 'map') return;
       if (free) { hooks.overview(); return; }
       if (index === 0) hooks.overview(); else hooks.focus(current(), true);
+      previewArrival();
     });
   }
-  function explore() { cancel(); free = true; paint(); hooks.overview(); }
+  function explore() { cancel(); window.PARK_PREVIEW.hide(); free = true; paint(); hooks.overview(); }
   function restart() { free = false; index = 0; show(false); }
   function init(options) {
     hooks = options;

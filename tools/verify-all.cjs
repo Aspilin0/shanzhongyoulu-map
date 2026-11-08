@@ -12,7 +12,7 @@ function check(bin, args) {
   const lines = (result.stdout + result.stderr).trim().split(/\r?\n/);
   console.log('PASS', args.join(' '), lines.at(-1) || '');
 }
-process.env.QA_ROOT ||= 'qa/2026-11-08/de-slop/final';
+process.env.QA_ROOT ||= 'qa/2026-11-08/arrival-preview/final';
 const python = process.env.PYTHON || (existsSync('D:/Anaconda/python.exe') ? 'D:/Anaconda/python.exe' : 'python');
 for (const file of readdirSync(path.join(root, 'js')).filter(f => f.endsWith('.js'))) check(process.execPath, ['--check','js/' + file]);
 check(python, ['tools/verify-map.py']);

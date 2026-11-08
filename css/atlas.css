@@ -106,3 +106,4 @@ h1,h2,h3,h4{letter-spacing:0}button,a{touch-action:manipulation}
 .about-head{position:sticky;top:0;z-index:21;display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--paper);padding:12px 0 16px;border-bottom:1px solid var(--line);margin-bottom:18px}.about-head #abTitle{margin:0}.about-head a{white-space:nowrap}
 
 .card__sub:empty,.card__facts:empty{display:none}
+.poi-preview p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
