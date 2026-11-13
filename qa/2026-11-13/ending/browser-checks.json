@@ -1,0 +1,43 @@
+{
+  "checks": [
+    "终章桌面: title visible below brand, no horizontal overflow",
+    "终章手机: title visible below brand, no horizontal overflow",
+    "地图手机: title visible below brand, no horizontal overflow",
+    "资料手机: title visible below brand, no horizontal overflow",
+    "地图手机: title visible below brand, no horizontal overflow",
+    "资料手机: title visible below brand, no horizontal overflow",
+    "手机连续26站到湄潭自动进入新版终章，导航始终可见",
+    "地图手机: title visible below brand, no horizontal overflow",
+    "资料手机: title visible below brand, no horizontal overflow",
+    "地图桌面: title visible below brand, no horizontal overflow"
+  ],
+  "stops": [
+    "杭州",
+    "西天目",
+    "西迁文化园石碑",
+    "建德",
+    "校友林石碑",
+    "兰溪",
+    "西迁之路铜牌",
+    "金华",
+    "玉山",
+    "南昌",
+    "樟树",
+    "吉安",
+    "抢运校产",
+    "赣州",
+    "大庾",
+    "南雄",
+    "曲江",
+    "三水",
+    "宜山",
+    "费巩明灯",
+    "青岩",
+    "贵阳",
+    "遵义",
+    "手摇发电亮灯",
+    "求是巢",
+    "湄潭"
+  ],
+  "errors": []
+}

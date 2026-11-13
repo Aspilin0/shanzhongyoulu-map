@@ -218,10 +218,15 @@
     var host = $('#finaleBody');
     if (!host) return;
     host.innerHTML = '';
-    host.appendChild(el('h2', 'finale__title', D.finale.title));
+    var title = el('h2', 'finale__title');
+    title.id = 'fnTitle';
+    // The two lines keep the requested sentence intact at narrow widths.
+    var lines = D.finale.title.split('，');
+    title.appendChild(el('span', null, lines.shift() + '，'));
+    title.appendChild(el('span', null, lines.join('，')));
+    host.appendChild(title);
     D.finale.paras.forEach(function (text) { host.appendChild(el('p', null, text)); });
-    var actions = el('div');
-    actions.style.cssText = 'display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:40px';
+    var actions = el('div', 'finale__actions');
     var a1 = el('a', 'btn btn--primary', '自由探索');
     a1.href = '#/explore';
     var a2 = el('a', 'btn btn--ghost', '看资料来源');

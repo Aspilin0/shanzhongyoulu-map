@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" fill="none">
+  <!-- A path continues through the hills; a small reading lamp remains beside it. -->
+  <path d="M526 303C572 278 607 232 643 225C683 215 702 246 736 231C781 211 803 155 841 160C882 166 911 221 945 207C985 190 1003 139 1038 149C1080 161 1112 238 1200 228V470H526Z" fill="#e6eddd"/>
+  <path d="M0 389C91 370 135 393 206 360C264 334 292 320 343 340C402 364 445 360 493 327C555 284 586 319 647 300C705 281 731 260 779 275C835 295 868 331 925 299C1007 253 1068 308 1200 271V470H0Z" fill="#efeee3"/>
+  <g stroke="#bdc8ad" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M526 303C572 278 607 232 643 225C683 215 702 246 736 231C781 211 803 155 841 160C882 166 911 221 945 207C985 190 1003 139 1038 149C1080 161 1112 238 1200 228"/>
+    <path d="M0 389C91 370 135 393 206 360C264 334 292 320 343 340C402 364 445 360 493 327C555 284 586 319 647 300C705 281 731 260 779 275C835 295 868 331 925 299C1007 253 1068 308 1200 271"/>
+    <path d="M841 160L823 210L845 203M1038 149L1023 195L1045 189"/>
+  </g>
+  <path d="M616 510C514 456 557 407 662 391C771 374 774 342 743 324C711 303 737 280 798 262" stroke="#fffdf6" stroke-width="25"/>
+  <g stroke="#bdc8ad" stroke-width="1.5" stroke-linecap="round">
+    <path d="M595 510C494 452 553 398 659 382C759 368 760 345 735 331C696 307 726 276 798 262"/>
+    <path d="M638 510C537 462 561 416 665 400C783 382 788 340 751 317C726 302 749 284 798 262"/>
+  </g>
+  <!-- Local woodland shapes, kept away from the road. -->
+  <g stroke="#8eaa7d" stroke-width="1.5" stroke-linecap="round">
+    <path d="M934 360V302M923 334L934 324L946 330M927 314L934 305L941 311"/>
+    <path d="M979 373V325M970 348L979 338L990 344"/>
+    <path d="M190 413V377M184 397L190 389L197 395"/>
+  </g>
+  <g fill="#c8d7b8">
+    <path d="M934 272C914 291 909 310 916 321C922 330 944 332 953 318C961 306 947 281 934 272Z"/>
+    <path d="M979 301C965 316 959 333 965 343C971 353 988 354 995 342C1001 332 990 309 979 301Z"/>
+    <path d="M190 359C176 373 174 386 180 393C186 401 199 397 202 389C205 381 196 364 190 359Z"/>
+  </g>
+  <g stroke="#557452" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M456 396V345Q456 334 467 334H478"/>
+    <path d="M475 334L468 352H491L484 334Z" fill="#e6eddd"/>
+    <path d="M452 396H466M448 402H470"/>
+    <path d="M474 352V369H486V352" fill="#f1e8d9"/>
+    <path d="M471 371H489M478 358L481 355L483 361" stroke="#9b5e47"/>
+    <path d="M404 405L427 399L447 404V416L426 411L404 417Z" fill="#fffdf6"/>
+    <path d="M427 399L426 411M405 412L423 407M432 407L442 409" stroke="#bdc8ad"/>
+  </g>
+  <g stroke="#8eaa7d" stroke-width="1.5" stroke-linecap="round">
+    <path d="M346 419L340 409M349 420L354 408M831 426L824 416M835 426L841 412"/>
+  </g>
+</svg>
