@@ -1,0 +1,126 @@
+{
+  "results": [
+    {
+      "stage": "before",
+      "width": 1440,
+      "scene": "intro"
+    },
+    {
+      "stage": "before",
+      "width": 1440,
+      "scene": "map"
+    },
+    {
+      "stage": "before",
+      "width": 1440,
+      "scene": "about"
+    },
+    {
+      "stage": "before",
+      "width": 1440,
+      "scene": "N03"
+    },
+    {
+      "stage": "before",
+      "width": 1440,
+      "scene": "N04"
+    },
+    {
+      "stage": "before",
+      "width": 1440,
+      "scene": "finale"
+    },
+    {
+      "stage": "after",
+      "width": 1440,
+      "scene": "intro"
+    },
+    {
+      "stage": "after",
+      "width": 1440,
+      "scene": "map"
+    },
+    {
+      "stage": "after",
+      "width": 1440,
+      "scene": "about"
+    },
+    {
+      "stage": "after",
+      "width": 1440,
+      "scene": "N03"
+    },
+    {
+      "stage": "after",
+      "width": 1440,
+      "scene": "N04"
+    },
+    {
+      "stage": "after",
+      "width": 1440,
+      "scene": "finale"
+    },
+    {
+      "stage": "before",
+      "width": 390,
+      "scene": "intro"
+    },
+    {
+      "stage": "before",
+      "width": 390,
+      "scene": "map"
+    },
+    {
+      "stage": "before",
+      "width": 390,
+      "scene": "about"
+    },
+    {
+      "stage": "before",
+      "width": 390,
+      "scene": "N03"
+    },
+    {
+      "stage": "before",
+      "width": 390,
+      "scene": "N04"
+    },
+    {
+      "stage": "before",
+      "width": 390,
+      "scene": "finale"
+    },
+    {
+      "stage": "after",
+      "width": 390,
+      "scene": "intro"
+    },
+    {
+      "stage": "after",
+      "width": 390,
+      "scene": "map"
+    },
+    {
+      "stage": "after",
+      "width": 390,
+      "scene": "about"
+    },
+    {
+      "stage": "after",
+      "width": 390,
+      "scene": "N03"
+    },
+    {
+      "stage": "after",
+      "width": 390,
+      "scene": "N04"
+    },
+    {
+      "stage": "after",
+      "width": 390,
+      "scene": "finale"
+    }
+  ],
+  "structureMatches": 2,
+  "errors": []
+}

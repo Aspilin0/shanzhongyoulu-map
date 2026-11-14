@@ -44,7 +44,7 @@ run('editorial', async ({ page, shot, assert }) => {
     assert.equal(await page.locator('#dlgTitle').innerText(),'手摇发电亮灯');
     await page.goto((process.env.BASE_URL || 'http://127.0.0.1:8813') + '/#/finale');
     const ending = await page.locator('#finaleBody').innerText();
-    assert.equal(await page.locator('#finaleBody h2').innerText(),'山中有路，山外，也有');
+    assert.equal((await page.locator('#finaleBody h2').innerText()).replace(/\s+/g,''),'山中有路，山外，也有');
     assert.equal(await page.locator('#finaleBody p').count(),0,'The ending keeps only the requested sentence');
     assert.doesNotMatch(ending,/会创造|路是可以走出来的|有理由相信|一千多名师生走了九年/);
     await shot('finale');

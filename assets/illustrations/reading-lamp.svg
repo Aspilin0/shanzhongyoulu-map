@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="397 325 104 100" fill="none">
+  <!-- Reused book and lamp from ending-path.svg. -->
+  <g stroke="#557452" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M456 396V345Q456 334 467 334H478"/>
+    <path d="M475 334L468 352H491L484 334Z" fill="#e6eddd"/>
+    <path d="M452 396H466M448 402H470"/>
+    <path d="M474 352V369H486V352" fill="#f1e8d9"/>
+    <path d="M471 371H489M478 358L481 355L483 361" stroke="#9b5e47"/>
+    <path d="M404 405L427 399L447 404V416L426 411L404 417Z" fill="#fffdf6"/>
+    <path d="M427 399L426 411M405 412L423 407M432 407L442 409" stroke="#bdc8ad"/>
+  </g>
+</svg>
